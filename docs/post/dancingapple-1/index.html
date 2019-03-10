@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="author" content="学 R：零基础学习 R 语言">
+  <meta name="description" content="赵鹏 李怡 著">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/xuer/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/xuer/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/xuer/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/xuer/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/xuer/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://pzhaonet.github.io/xuer/index.xml" type="application/rss+xml" title="学 R ">
+  <link rel="feed" href="https://pzhaonet.github.io/xuer/index.xml" type="application/rss+xml" title="学 R ">
+
+  <link rel="icon" type="image/png" href="/xuer/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/xuer/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://pzhaonet.github.io/xuer/post/dancingapple-1/">
+
+  
+
+  <title>dancingapple：学 R 笔记 1 | 学 R </title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/xuer/">学 R </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/xuer/#about">
+            
+            <span>简介</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/xuer/#posts">
+            
+            <span>书友之窗</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/xuer/#help">
+            
+            <span>辅助资料</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/xuer/#authors">
+            
+            <span>作者简介</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">dancingapple：学 R 笔记 1</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2018-06-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sat, Jun 9, 2018
+    </time>
+  </span>
+
+  
+  
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fpzhaonet.github.io%2fxuer%2fpost%2fdancingapple-1%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=dancingapple%ef%bc%9a%e5%ad%a6%20R%20%e7%ac%94%e8%ae%b0%201&amp;url=https%3a%2f%2fpzhaonet.github.io%2fxuer%2fpost%2fdancingapple-1%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fpzhaonet.github.io%2fxuer%2fpost%2fdancingapple-1%2f&amp;title=dancingapple%ef%bc%9a%e5%ad%a6%20R%20%e7%ac%94%e8%ae%b0%201"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fpzhaonet.github.io%2fxuer%2fpost%2fdancingapple-1%2f&amp;title=dancingapple%ef%bc%9a%e5%ad%a6%20R%20%e7%ac%94%e8%ae%b0%201"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=dancingapple%ef%bc%9a%e5%ad%a6%20R%20%e7%ac%94%e8%ae%b0%201&amp;body=https%3a%2f%2fpzhaonet.github.io%2fxuer%2fpost%2fdancingapple-1%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>本文经作者 @dancingapple 授权转载（<a href="https://steemit.com/cn/@dancingapple/r-1" target="_blank">原文链接</a>）。</p>
+
+<p><img src="https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmRgMXY85E88ZtJonVZTPukv3Z5RcsW5GRmwzoKRL8TdDW/688FBB08-8AC1-4447-8655-C52AB261A8AF.jpeg" alt="img" /></p>
+
+<p>关于技术类书籍，我最讨厌的是“尽管看，看懂算我输”的套路。试想在玩游戏的时候，如果要求你把游戏规则从头到尾阅读一遍考试合格才给你小米加步枪上阵撒野，那还有啥乐趣可言？</p>
+
+<p>虽然每个人从小多少都有一颗向往艺术的心，但无奈美术课总会被中英数霸占。你以为被占用的只是一节节美术课，但蓦然回首，才发现它还蒙蔽了发现美的眼睛。</p>
+
+<p>长大以后，想着去逛逛美术馆博物馆吧，但一钻进馆里就像置身未知的外太空。求知欲还算强大的你不甘心睁着眼睛却一无所知，于是去找各种艺术解说——</p>
+
+<blockquote>
+<p>……现代性也已成为日常社会不可或缺的文化语境。任何背弃现代性探索的程式化图式表达，都无法与现实真正发生对应，也就无法获得创作的真实动力。现实精神本体与传统语言本体的割裂，从本质上造成了水墨艺术家的选择困境。……重构水墨的当代精神框架，这需要既保持水墨的文化特质。又凸显人与当下的关系与意义…… ……</p>
+</blockquote>
+
+<p>什么仇什么怨啊……我只是想看懂一幅画而已……</p>
+
+<p>幸好 @dapeng 的这本书不走套路，压根没有一翻开就能把人给唬住的各种定义&amp;理论。开门见山，简单明了，序言&amp;前言过后就直接新手上路好happy。</p>
+
+<p>情怀&amp;幽默部分我就不再强调了，因为一点点学下来我能感觉到他最大的诚意是放在最实在而并非花哨的地方。完全没有出版包袱，话都是大白话，一看就懂，而且实例多。所以从安装到写出第一行代码再到绘出第一幅图，并没有觉得太晦涩难懂。</p>
+
+<p>呃……话虽平淡，但天知道我写出第一行代码以及图片绘出来时有多激动……</p>
+
+<p><img src="https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmdVguVzAyMrjksKUgkp5ZSty2JXyeVgJRhA42PF3c9wQ4/3FF0CF4D-CDCF-4E7C-89A2-5AA6B971F217.jpeg" alt="img" /></p>
+
+<p>我是非常典型的文科生逻辑，以前学数学都是靠背的，好在这本书没有东西给我背。</p>
+
+<p>感觉学起来像学一门新的语言。</p>
+
+<p>嗯……最难的地方就在于逻辑在打架。</p>
+
+<p>龟速学习，才啃了第一章，我不知道这感觉对不对，但也分享出来吧：</p>
+
+<ol>
+<li>运算结果显示出我输入的代码时，我觉得这是来自另一个空间的回应，对象是一个陌生且未知的朋友。也感触到了那一句“hello world”的浪漫……</li>
+<li>数学不好似乎影响不大，只需掌握怎么运用就行，其他的交给它；</li>
+<li>它自带了一些数据，比如第一章提到的二氧化碳浓度；</li>
+<li>同样的结果，操作起来较Excel便捷；</li>
+<li>我好喜欢按了Run以后有结果刷出来滴感觉……</li>
+</ol>
+
+<p>好，下面是表白时间。</p>
+
+<p>意识流比较强的我居然觉得这书有点齐白石风格。</p>
+
+<p>齐老啥风格？</p>
+
+<p>从。来。不。装。</p>
+
+<p>真。实。</p>
+
+<p>幽。默。</p>
+
+<p><del>呃……高考这样写估计会负分滚粗吧。</del></p>
+
+<p>好，感受一下他的大白话——</p>
+
+<p><img src="https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmUCBtheRvW3eJmCn9X4wjXdQwW97GtHZH7HGjeMcZ16ge/9B8C63C1-F5A9-41BC-8E8F-164659B41A60.jpeg" alt="img" /></p>
+
+<blockquote>
+<p>卖画不论交情，君子有耻，请照润格出钱。</p>
+</blockquote>
+
+<p>买我画的时候不要跟我谈感情，谈感情伤钱，圈重点自己看。</p>
+
+<p><img src="https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmVAQzcvA7hAmk9qKZVs7UhWew6wjDrAorTGsy2ku5Y8BG/7533B4A1-8E1C-44F6-8965-30A12D69A7E0.jpeg" alt="img" /></p>
+
+<blockquote>
+<p>凡我门客，喜寻师母请安问好者，请莫再来。</p>
+</blockquote>
+
+<p>来我家就来我家，没事憋找我媳妇！不然就不准来了！</p>
+
+<p><del>文章最后，我想说，其实 @dapeng 还是有套路的。毕竟学渣克星这金字招牌不是浪得虚名。</del></p>
+
+<p><del>套路就是：先给你充值100%的信心&amp;骄傲，然后就逼你乖乖学习天天向上了。</del></p>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://pzhaonet.github.io/xuer/post/oflyhigh-3/"><span
+      aria-hidden="true">&larr;</span> oflyhigh： 在 Linux 下源码方式装 R</a></li>
+    
+
+    
+    <li class="next"><a href="https://pzhaonet.github.io/xuer/post/feedback-1/">《学 R》读者反馈第 1 弹 <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 赵鹏 李怡 &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/xuer/js/jquery-1.12.3.min.js"></script>
+    <script src="/xuer/js/bootstrap.min.js"></script>
+    <script src="/xuer/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/xuer/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
