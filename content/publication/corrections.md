@@ -41,6 +41,7 @@ caption = "My caption :smile:"
 | 105  |  图7.2 与 markdown 源码不吻合  | 将图中 “作图”移至“plot(fdeaths)”一行之上  | 汪琦, kelffon |
 | 107  | 考来考去 | 拷来拷去 | 戴瀚程 |
 | 160  |  字符查找函数 `regexpre()`  | 字符查找函数 `regexpr()`   | kelffon  |
+| 160  |  `nchar(location))[title.o]`  | `nchar(location))`   | 孙苏紫  |
 | 160  |  `regexpr(" Added on ", location) - 5)[order(title.o)]`  | `regexpr(" Added on ", location) - 3)`   | 孙苏紫  |
 | 189  |  也包含在文件头里  |  也包含在文件名里  | kelffon  |
 | 197  | 第一种是用一个循环条指令   |  第一种是用一条循环指令  | kelffon  |
