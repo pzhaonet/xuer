@@ -43,8 +43,9 @@ caption = "My caption :smile:"
 | 160  |  字符查找函数 `regexpre()`  | 字符查找函数 `regexpr()`   | kelffon  |
 | 160  |  `nchar(location))[title.o]`  | `nchar(location))`   | 孙苏紫  |
 | 160  |  `regexpr(" Added on ", location) - 5)[order(title.o)]`  | `regexpr(" Added on ", location) - 3)`   | 孙苏紫  |
-| 185 | 第 13.2 节的示例代码在 Windows 操作系统运行时无法下载图片 | 需要先安装 curl，并添加到环境变量。详见 <<https://d.cosx.org/d/420552>> | junfei |
+| 185 | 第 13.2 节的示例代码在 Windows 操作系统运行时无法下载图片 | 详见 <<https://d.cosx.org/d/420552>> | junfei |
 | 189  |  也包含在文件头里  |  也包含在文件名里  | kelffon  |
+| 189  |  筛选出所有编号以 50 开头的观测站  |  筛选出所有编号以 5 开头的观测站  | junfei  |
 | 197  | 第一种是用一个循环条指令   |  第一种是用一条循环指令  | kelffon  |
 | 198  |  bookdownlus  | bookdownplus | Heaven |
 | 225  |  带了障碍  |  带来了障碍  | kelffon  |
