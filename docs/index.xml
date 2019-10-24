@@ -916,7 +916,7 @@ print(&amp;quot;Hello World!&amp;quot;)
 &lt;tr&gt;
 &lt;td&gt;185&lt;/td&gt;
 &lt;td&gt;第 13.2 节的示例代码在 Windows 操作系统运行时无法下载图片&lt;/td&gt;
-&lt;td&gt;需要先安装 curl，并添加到环境变量。详见 &amp;lt;&lt;a href=&#34;https://d.cosx.org/d/420552&#34; target=&#34;_blank&#34;&gt;https://d.cosx.org/d/420552&lt;/a&gt;&amp;gt;&lt;/td&gt;
+&lt;td&gt;详见 &amp;lt;&lt;a href=&#34;https://d.cosx.org/d/420552&#34; target=&#34;_blank&#34;&gt;https://d.cosx.org/d/420552&lt;/a&gt;&amp;gt;&lt;/td&gt;
 &lt;td&gt;junfei&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -925,6 +925,13 @@ print(&amp;quot;Hello World!&amp;quot;)
 &lt;td&gt;也包含在文件头里&lt;/td&gt;
 &lt;td&gt;也包含在文件名里&lt;/td&gt;
 &lt;td&gt;kelffon&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;189&lt;/td&gt;
+&lt;td&gt;筛选出所有编号以 50 开头的观测站&lt;/td&gt;
+&lt;td&gt;筛选出所有编号以 5 开头的观测站&lt;/td&gt;
+&lt;td&gt;junfei&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;

@@ -15,7 +15,7 @@ weight = 1
 
 点击[这里](http://xuer.dapengde.com/pdf/xuer-sample.pdf)下载试读（2.8 M）。
 
-购买方式：[天猫](https://detail.tmall.com/item.htm?id=570932940969)，[当当](http://product.dangdang.com/25278950.html)，[京东](https://item.jd.com/29022661684.html)，[微店](https://weidian.com/item.html?itemID=2533345349)。如果链接失效，请在这些平台直接搜索“学 R 零基础学习 R 语言”即可。
+购买方式：[天猫](https://detail.tmall.com/item.htm?id=570932940969)，[当当](http://product.dangdang.com/25278950.html)，[京东](https://item.jd.com/29022661684.html)，[微店1](https://weidian.com/?userid=1622844240&ifr=pbj_shop_3025&wfr=pbj_shop_3025)，[微店2](https://weidian.com/item.html?itemID=2533345349)。如果链接失效，请在这些平台直接搜索“学 R 零基础学习 R 语言”即可。
 
 欢迎跟我们联系，为本书纠错、吐槽、写读后感、学习笔记……我们会发布在本站的“[书友之窗](http://xuer.dapengde.com/#posts)”栏目，再版时有可能收进正文、封底、腰封……
 
