@@ -26,4 +26,4 @@ caption = "My caption :smile:"
 # 6 = Book chapter
 +++
 
-点击[这里](http://xuer.dapengde.com/pdf/xuer-sample.pdf)可以下载本书的试读章节。
+点击[这里](pdf/xuer-sample.pdf)可以下载本书的试读章节。
