@@ -1,6 +1,7 @@
 # baseurl = "http://xuer.dapengde.com"
-# relativeurls = true
-baseurl = "https://pzhaonet.github.io/xuer"
+relativeurls = true
+# baseurl = "https://pzhaonet.github.io/xuer"
+baseurl = "https://xuer.pzhao.org"
 title = "学 R "
 copyright = "&copy; 赵鹏 李怡"
 theme = "hugo-academic"

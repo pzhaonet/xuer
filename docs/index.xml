@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学 R  on 学 R </title>
-    <link>https://pzhaonet.github.io/xuer/</link>
+    <link>https://xuer.pzhao.org/</link>
     <description>Recent content in 学 R  on 学 R </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 赵鹏 李怡</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/xuer/" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>下载试读</title>
-      <link>https://pzhaonet.github.io/xuer/publication/sample/</link>
+      <link>https://xuer.pzhao.org/publication/sample/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/sample/</guid>
+      <guid>https://xuer.pzhao.org/publication/sample/</guid>
       <description>&lt;p&gt;点击&lt;a href=&#34;../../pdf/xuer-sample.pdf&#34;&gt;这里&lt;/a&gt;可以下载本书的试读章节。&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>drunkevil：读 @dapeng 的《学 R》</title>
-      <link>https://pzhaonet.github.io/xuer/post/drunkevil/</link>
+      <link>https://xuer.pzhao.org/post/drunkevil/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/drunkevil/</guid>
+      <guid>https://xuer.pzhao.org/post/drunkevil/</guid>
       <description>&lt;p&gt;本文经作者 @drunkevil 授权转载（&lt;a href=&#34;https://steemit.com/cn-reader/@drunkevil/reading-of-learning-r&#34; target=&#34;_blank&#34;&gt;原文链接1&lt;/a&gt;，&lt;a href=&#34;https://steemit.com/cn/@drunkevil/r&#34; target=&#34;_blank&#34;&gt;原文链接2&lt;/a&gt;）。略有改动。&lt;/p&gt;
 
 &lt;p&gt;有两个 1.5 G 的 &lt;code&gt;csv&lt;/code&gt; 文件需要处理，具体的要求是删去不必要的字段和某些字段中不符合要求的行，减小数据量，以便进一步的分析，但是 Excel 很难直接进行处理。&lt;/p&gt;
@@ -114,10 +114,10 @@
     
     <item>
       <title>《学 R》读者反馈第 1 弹</title>
-      <link>https://pzhaonet.github.io/xuer/post/feedback-1/</link>
+      <link>https://xuer.pzhao.org/post/feedback-1/</link>
       <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/feedback-1/</guid>
+      <guid>https://xuer.pzhao.org/post/feedback-1/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://xuer.pzhao.net&#34; target=&#34;_blank&#34;&gt;《学 R》&lt;/a&gt; 前言里提到，本书的前身是我博客的“R 菜鸟入门”系列文章。自发布后，就收到很多读者好评。事实上，也正是这些好评，才让出版社看到了本书的潜在市场，才促成了书的出版。&lt;/p&gt;
 
 &lt;p&gt;没写不知道，写了一本才发现，写书太累了。要不是这么多读者给我糖吃，我就写不出这本书了。&lt;/p&gt;
@@ -154,10 +154,10 @@
     
     <item>
       <title>dancingapple：学 R 笔记 1</title>
-      <link>https://pzhaonet.github.io/xuer/post/dancingapple-1/</link>
+      <link>https://xuer.pzhao.org/post/dancingapple-1/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/dancingapple-1/</guid>
+      <guid>https://xuer.pzhao.org/post/dancingapple-1/</guid>
       <description>&lt;p&gt;本文经作者 @dancingapple 授权转载（&lt;a href=&#34;https://steemit.com/cn/@dancingapple/r-1&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;）。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmRgMXY85E88ZtJonVZTPukv3Z5RcsW5GRmwzoKRL8TdDW/688FBB08-8AC1-4447-8655-C52AB261A8AF.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
@@ -238,10 +238,10 @@
     
     <item>
       <title>oflyhigh： 在 Linux 下源码方式装 R</title>
-      <link>https://pzhaonet.github.io/xuer/post/oflyhigh-3/</link>
+      <link>https://xuer.pzhao.org/post/oflyhigh-3/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/oflyhigh-3/</guid>
+      <guid>https://xuer.pzhao.org/post/oflyhigh-3/</guid>
       <description>
 
 &lt;p&gt;本文经作者 @oflyhigh 授权转载（&lt;a href=&#34;https://steemit.com/r/@oflyhigh/r-linux-r-installing-r-from-source&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;），略有改动。&lt;/p&gt;
@@ -400,10 +400,10 @@ sudo ln -s /opt/R/bin/Rscript Rscript
     
     <item>
       <title>dapeng：R 语言女子学习小组</title>
-      <link>https://pzhaonet.github.io/xuer/post/xuer-girls/</link>
+      <link>https://xuer.pzhao.org/post/xuer-girls/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/xuer-girls/</guid>
+      <guid>https://xuer.pzhao.org/post/xuer-girls/</guid>
       <description>&lt;p&gt;文科女生 @dancingapple 买了《学 R》这本书，&lt;a href=&#34;http://xuer.dapengde.com/post/dancingapple/&#34; target=&#34;_blank&#34;&gt;郑重宣告&lt;/a&gt;开始学习 R 语言。这个圈子里，据我所知，买了这书的还有：&lt;/p&gt;
 
 &lt;p&gt;@tvb, @nostalgic1212, @veronicazhu, @hqy&amp;hellip;&lt;/p&gt;
@@ -462,10 +462,10 @@ sudo ln -s /opt/R/bin/Rscript Rscript
     
     <item>
       <title>oflyhigh： 另一款在线 R 环境</title>
-      <link>https://pzhaonet.github.io/xuer/post/oflyhigh-2/</link>
+      <link>https://xuer.pzhao.org/post/oflyhigh-2/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/oflyhigh-2/</guid>
+      <guid>https://xuer.pzhao.org/post/oflyhigh-2/</guid>
       <description>
 
 &lt;p&gt;本文经作者 @oflyhigh授权转载（&lt;a href=&#34;https://steemit.com/r/@oflyhigh/r-r&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;），略有改动。&lt;/p&gt;
@@ -506,10 +506,10 @@ sudo ln -s /opt/R/bin/Rscript Rscript
     
     <item>
       <title>dapeng：答《学 R》读者</title>
-      <link>https://pzhaonet.github.io/xuer/post/xuer-faq/</link>
+      <link>https://xuer.pzhao.org/post/xuer-faq/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/xuer-faq/</guid>
+      <guid>https://xuer.pzhao.org/post/xuer-faq/</guid>
       <description>
 
 &lt;p&gt;我主笔的《&lt;a href=&#34;http://xuer.pzhao.net/&#34; target=&#34;_blank&#34;&gt;学 R&lt;/a&gt;》一书正在热销。有些朋友问了一些问题，我在此一并作答。&lt;/p&gt;
@@ -563,10 +563,10 @@ sudo ln -s /opt/R/bin/Rscript Rscript
     
     <item>
       <title>oflyhigh： Linux 下安装 R 扩展包</title>
-      <link>https://pzhaonet.github.io/xuer/post/oflyhigh-1/</link>
+      <link>https://xuer.pzhao.org/post/oflyhigh-1/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/oflyhigh-1/</guid>
+      <guid>https://xuer.pzhao.org/post/oflyhigh-1/</guid>
       <description>
 
 &lt;p&gt;本文经作者 @oflyhigh授权转载（&lt;a href=&#34;https://steemit.com/r/@oflyhigh/5m2s1h-r&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;），略有改动。&lt;/p&gt;
@@ -653,10 +653,10 @@ write.gif(X, &amp;quot;Mandelbrot.gif&amp;quot;, col = jet.colors, delay = 25)
     
     <item>
       <title>oflyhigh： Linux 下安装和使用 R</title>
-      <link>https://pzhaonet.github.io/xuer/post/oflyhigh/</link>
+      <link>https://xuer.pzhao.org/post/oflyhigh/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/oflyhigh/</guid>
+      <guid>https://xuer.pzhao.org/post/oflyhigh/</guid>
       <description>
 
 &lt;p&gt;本文经作者 @oflyhigh 授权转载（&lt;a href=&#34;https://steemit.com/r/@oflyhigh/r&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;），略有改动。&lt;/p&gt;
@@ -745,10 +745,10 @@ print(&amp;quot;Hello World!&amp;quot;)
     
     <item>
       <title>dancingapple： 写在学 R 前际</title>
-      <link>https://pzhaonet.github.io/xuer/post/dancingapple/</link>
+      <link>https://xuer.pzhao.org/post/dancingapple/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/dancingapple/</guid>
+      <guid>https://xuer.pzhao.org/post/dancingapple/</guid>
       <description>&lt;p&gt;本文经作者 @dancingapple 授权转载（&lt;a href=&#34;https://steemit.com/cn/@dancingapple/r&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;）。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmYc4EbkR5BxwLApUgXBE8bmN7pvtr3uB7Tad1o5bGHQky/B42332E7-834E-48A8-BEAC-88B93B59A13A.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
@@ -812,10 +812,10 @@ print(&amp;quot;Hello World!&amp;quot;)
     
     <item>
       <title>勘误表</title>
-      <link>https://pzhaonet.github.io/xuer/publication/corrections/</link>
+      <link>https://xuer.pzhao.org/publication/corrections/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/corrections/</guid>
+      <guid>https://xuer.pzhao.org/publication/corrections/</guid>
       <description>&lt;p&gt;书里的错误给读者带来了不便，我们为此非常抱歉。欢迎将书中的错误反馈给我们（邮箱：&lt;a href=&#34;mailto:xuer@pzhao.net&#34; target=&#34;_blank&#34;&gt;xuer@pzhao.net&lt;/a&gt;），以便在新版里改进。谢谢。&lt;/p&gt;
 
 &lt;table&gt;
@@ -963,10 +963,10 @@ print(&amp;quot;Hello World!&amp;quot;)
     
     <item>
       <title>购买</title>
-      <link>https://pzhaonet.github.io/xuer/_talk/2017/</link>
+      <link>https://xuer.pzhao.org/_talk/2017/</link>
       <pubDate>Sat, 12 May 2018 20:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/_talk/2017/</guid>
+      <guid>https://xuer.pzhao.org/_talk/2017/</guid>
       <description>&lt;p&gt;本书的购买渠道：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -979,10 +979,10 @@ print(&amp;quot;Hello World!&amp;quot;)
     
     <item>
       <title>索引</title>
-      <link>https://pzhaonet.github.io/xuer/publication/bookindex/</link>
+      <link>https://xuer.pzhao.org/publication/bookindex/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/bookindex/</guid>
+      <guid>https://xuer.pzhao.org/publication/bookindex/</guid>
       <description>&lt;p&gt;这是本书的索引页，展示了 R 常用指令在书中出现的页码，方便读者从书中找到示例和详细说明。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://github.com/pzhaonet/keller/raw/master/figdapeng/xuer-index-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -995,10 +995,10 @@ print(&amp;quot;Hello World!&amp;quot;)
     
     <item>
       <title>目录</title>
-      <link>https://pzhaonet.github.io/xuer/publication/toc/</link>
+      <link>https://xuer.pzhao.org/publication/toc/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/toc/</guid>
+      <guid>https://xuer.pzhao.org/publication/toc/</guid>
       <description>&lt;p&gt;下图为本书目录的思维导图，用 R mindr 扩展包生成。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/pzhaonet/mindr/master/showcase/mindr_xuer.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;

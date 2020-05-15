@@ -2,61 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on 学 R </title>
-    <link>https://pzhaonet.github.io/xuer/home/</link>
+    <link>https://xuer.pzhao.org/home/</link>
     <description>Recent content in Homes on 学 R </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 赵鹏 李怡</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://pzhaonet.github.io/xuer/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title></title>
-      <link>https://pzhaonet.github.io/xuer/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/home/about/</guid>
-      <description>简介 点击这里下载试读（2.8 M）。
-购买方式：天猫，当当，京东，微店1，微店2。如果链接失效，请在这些平台直接搜索“学 R 零基础学习 R 语言”即可。
-欢迎跟我们联系，为本书纠错、吐槽、写读后感、学习笔记……我们会发布在本站的“书友之窗”栏目，再版时有可能收进正文、封底、腰封……
-联系方式：
- 公开话题请前往“统计之都”的 R 语言论坛，直接发帖子就可以。一般情况下，本书作者会在 24 小时内回应。
- 私密话题请发邮件至xuer@pzhao.net。一般情况下，回复会比较迟。
-  R 语言是什么，这个不重要，重要的是 R 语言能用来做什么。你现在看到的这个《学 R》网站，就是用 R 语言花几分钟作出来的。读完本书，你可以轻松制作这样一个主页。
-除了科研必需的数据分析、统计计算及作图外，我现在用 R 来撰写学术论文、做备忘录、制作幻灯片、整理读书笔记、整理照片、写书、记录吉他谱、写博客、做网站。
-R 不仅像人们说的那样，是一门强大的数据分析语言和一个极其人性化的编程环境，R 还是一件功能丰富的瑞士军刀和一种充满惊喜的生活方式。每个人都能从中构建自己独特的精神家园。
-《学 R：零基础学习 R 语言》，手把手带你进入 R 的精彩世界。
-来了你就不想走。</description>
-    </item>
-    
-    <item>
-      <title>书友之窗</title>
-      <link>https://pzhaonet.github.io/xuer/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>辅助资料</title>
-      <link>https://pzhaonet.github.io/xuer/home/help/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/home/help/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>作者简介</title>
-      <link>https://pzhaonet.github.io/xuer/home/authors/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/home/authors/</guid>
-      <description></description>
-    </item>
+    <atom:link href="/home/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

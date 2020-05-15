@@ -2,31 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types on 学 R </title>
-    <link>https://pzhaonet.github.io/xuer/publication_types/</link>
+    <link>https://xuer.pzhao.org/publication_types/</link>
     <description>Recent content in Publication_types on 学 R </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 赵鹏 李怡</copyright>
     <lastBuildDate>Fri, 18 May 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://pzhaonet.github.io/xuer/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/publication_types/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>4</title>
-      <link>https://pzhaonet.github.io/xuer/publication_types/4/</link>
+      <link>https://xuer.pzhao.org/publication_types/4/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication_types/4/</guid>
+      <guid>https://xuer.pzhao.org/publication_types/4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>6</title>
-      <link>https://pzhaonet.github.io/xuer/publication_types/6/</link>
+      <link>https://xuer.pzhao.org/publication_types/6/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication_types/6/</guid>
+      <guid>https://xuer.pzhao.org/publication_types/6/</guid>
       <description></description>
     </item>
     

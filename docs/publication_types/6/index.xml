@@ -2,194 +2,1239 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6 on 学 R </title>
-    <link>https://pzhaonet.github.io/xuer/publication_types/6/</link>
+    <link>https://xuer.pzhao.org/publication_types/6/</link>
     <description>Recent content in 6 on 学 R </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 赵鹏 李怡</copyright>
     <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://pzhaonet.github.io/xuer/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/publication_types/6/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>下载试读</title>
-      <link>https://pzhaonet.github.io/xuer/publication/sample/</link>
+      <link>https://xuer.pzhao.org/publication/sample/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/sample/</guid>
-      <description>点击这里可以下载本书的试读章节。</description>
+      <guid>https://xuer.pzhao.org/publication/sample/</guid>
+      <description>&lt;p&gt;点击&lt;a href=&#34;../../pdf/xuer-sample.pdf&#34;&gt;这里&lt;/a&gt;可以下载本书的试读章节。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>索引</title>
-      <link>https://pzhaonet.github.io/xuer/publication/bookindex/</link>
+      <link>https://xuer.pzhao.org/publication/bookindex/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/bookindex/</guid>
-      <description>这是本书的索引页，展示了 R 常用指令在书中出现的页码，方便读者从书中找到示例和详细说明。</description>
+      <guid>https://xuer.pzhao.org/publication/bookindex/</guid>
+      <description>&lt;p&gt;这是本书的索引页，展示了 R 常用指令在书中出现的页码，方便读者从书中找到示例和详细说明。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/pzhaonet/keller/raw/master/figdapeng/xuer-index-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/pzhaonet/keller/raw/master/figdapeng/xuer-index-2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://github.com/pzhaonet/keller/raw/master/figdapeng/xuer-index-3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>目录</title>
-      <link>https://pzhaonet.github.io/xuer/publication/toc/</link>
+      <link>https://xuer.pzhao.org/publication/toc/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/toc/</guid>
-      <description>下图为本书目录的思维导图，用 R mindr 扩展包生成。</description>
+      <guid>https://xuer.pzhao.org/publication/toc/</guid>
+      <description>&lt;p&gt;下图为本书目录的思维导图，用 R mindr 扩展包生成。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/pzhaonet/mindr/master/showcase/mindr_xuer.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第一章 初见）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch01/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch01/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch01/</guid>
-      <description> 第一章 初见 co2 summary(co2) 3 * (2 + 2) 9 ^ 0.5 # 开平方 sqrt(9) # 也是开平方 pi options(digits = 22) # 最大支持 22 位 pi options(digits = 7) pi exp(1) # 计算 e e = exp(1) e &amp;lt;- exp(1) exp(1) -&amp;gt; e e x &amp;lt;- round(e)^2 x x &amp;lt;- c(61, 45, 55, 46, 56, 79, 86, 57, 56, 56, 57, 71) x x[4] y &amp;lt;- co2 # 转存 y[10] # 看看第十个数据 x + 100 plot(y) # 作图 (x[1] + x[2] + x[3] + x[4] + x[5] + x[6] + x[7] + x[8] + x[9] + x[10] + x[11] + x[12]) / 12 # 计算平均值 sum(x) / length(x) mean(x) summary(x)  </description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch01/</guid>
+      <description>
+
+&lt;h2 id=&#34;第一章-初见&#34;&gt;第一章 初见&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;co2
+summary(co2)
+
+3 * (2 + 2)
+9 ^ 0.5 # 开平方
+sqrt(9)  # 也是开平方
+
+pi
+
+options(digits = 22)  # 最大支持 22 位
+pi
+
+options(digits = 7) 
+pi
+
+exp(1)  # 计算 e
+e = exp(1) 
+e &amp;lt;- exp(1)  
+exp(1) -&amp;gt; e
+e
+
+x &amp;lt;- round(e)^2
+x
+
+x &amp;lt;- c(61, 45, 55, 46, 56, 79, 86, 57, 56, 56, 57, 71)
+x
+
+x[4]
+
+y &amp;lt;- co2 # 转存
+y[10] # 看看第十个数据
+
+x + 100
+
+plot(y)  # 作图
+
+(x[1] + x[2] + x[3] + x[4] + x[5] + x[6] + x[7] + x[8] + 
+   x[9] + x[10] + x[11] + x[12]) / 12  # 计算平均值
+sum(x) / length(x)
+mean(x)
+summary(x)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第二章 数据）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch02/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch02/</link>
       <pubDate>Sat, 15 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch02/</guid>
-      <description> 第二章 数据 dir.create(&#39;c:/r4r&#39;) write.csv(as.data.frame(t(matrix( co2, 12, dimnames = list( month.abb, unique(floor(time(co2))))))), file = &#39;c:/r4r/co2.csv&#39;) mydata1 &amp;lt;- read.table(file = &amp;quot;clipboard&amp;quot;, header = TRUE) mydata1 myfile1 &amp;lt;- file.choose() myfile1 &amp;lt;- &amp;quot;c:/r4r/co2.csv&amp;quot; myfile1 myfile2 &amp;lt;- &amp;quot;c:/r4r/co2.csv&amp;quot; myfile2 file.show(myfile2) # 查看文件 mydata2 &amp;lt;- read.table(file = myfile2, header = TRUE, sep = &amp;quot;,&amp;quot;) mydata2 mydata2 &amp;lt;- read.csv(file = myfile2) mydata2 &amp;lt;- read.csv(file = &amp;quot;c:/r4r/co2.csv&amp;quot;) plot(mydata2) summary(mydata2) mydata2[37, 10] mydata2[c(2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38), 10] mydata2[seq(from = 2, to = 39, by = 2), 10] mydata2[2:39, 10] mydata2[, 10] # 第10列全部。 mydata2[37, ] # 第37行全部。 mydata2[, &#39;Sep&#39;] mydata2$Sep names(mydata2) # 或 colnames(mydata2) names(mydata2)[1] &amp;lt;- &#39;year&#39; names(mydata2) rownames(mydata2) rownames(mydata2) &amp;lt;- mydata2$year rownames(mydata2) mydata2[&#39;1995&#39;, &#39;Sep&#39;] sum(mydata2[&#39;1995&#39;, 2:13]) / 12 sum(mydata2[&#39;1996&#39;, 2:13]) / 12 - sum(mydata2[&#39;1995&#39;, 2:13]) / 12 mydata2[&#39;1996&#39;, ] - mydata2[&#39;1995&#39;, ] colMeans(mydata2[, 2:13]) # 排除掉第一列后，对整列求平均 mydata2$mean &amp;lt;- rowMeans(mydata2[, 2:13]) mydata2$median &amp;lt;- apply(X = mydata2[, 2:13], FUN = median, MARGIN = 1) diff(mydata2$Sep)  </description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch02/</guid>
+      <description>
+
+&lt;h2 id=&#34;第二章-数据&#34;&gt;第二章 数据&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;dir.create(&#39;c:/r4r&#39;)
+write.csv(as.data.frame(t(matrix(
+  co2, 12, dimnames = list(
+    month.abb, unique(floor(time(co2))))))),
+   file = &#39;c:/r4r/co2.csv&#39;)
+
+mydata1 &amp;lt;- read.table(file = &amp;quot;clipboard&amp;quot;, header = TRUE)
+mydata1
+
+myfile1 &amp;lt;- file.choose()
+
+myfile1 &amp;lt;- &amp;quot;c:/r4r/co2.csv&amp;quot;
+myfile1
+myfile2 &amp;lt;- &amp;quot;c:/r4r/co2.csv&amp;quot;
+myfile2
+
+file.show(myfile2) # 查看文件
+
+mydata2 &amp;lt;- read.table(file = myfile2, 
+                      header = TRUE, sep = &amp;quot;,&amp;quot;)
+mydata2
+
+mydata2 &amp;lt;- read.csv(file = myfile2)
+
+mydata2 &amp;lt;- read.csv(file = &amp;quot;c:/r4r/co2.csv&amp;quot;)
+
+plot(mydata2)
+
+summary(mydata2)
+
+mydata2[37, 10]
+
+mydata2[c(2, 4, 6, 8, 10, 12, 14, 16, 18, 20,
+          22, 24, 26, 28, 30, 32, 34, 36, 38), 10]
+
+mydata2[seq(from = 2, to = 39, by = 2), 10]
+
+mydata2[2:39, 10]
+
+mydata2[, 10]  # 第10列全部。
+
+mydata2[37, ]  # 第37行全部。
+
+mydata2[, &#39;Sep&#39;]
+
+mydata2$Sep
+
+names(mydata2) # 或 colnames(mydata2)
+names(mydata2)[1] &amp;lt;- &#39;year&#39;
+names(mydata2)
+
+rownames(mydata2)
+rownames(mydata2) &amp;lt;- mydata2$year
+rownames(mydata2)
+
+mydata2[&#39;1995&#39;, &#39;Sep&#39;]
+
+sum(mydata2[&#39;1995&#39;, 2:13]) / 12
+
+sum(mydata2[&#39;1996&#39;, 2:13]) / 12 - 
+  sum(mydata2[&#39;1995&#39;, 2:13]) / 12
+
+mydata2[&#39;1996&#39;, ] - mydata2[&#39;1995&#39;, ]
+
+colMeans(mydata2[, 2:13]) # 排除掉第一列后，对整列求平均
+
+mydata2$mean &amp;lt;- rowMeans(mydata2[, 2:13])
+
+mydata2$median &amp;lt;- apply(X = mydata2[, 2:13], 
+                        FUN = median, MARGIN = 1)
+
+diff(mydata2$Sep)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第三章 作图）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch03/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch03/</link>
       <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch03/</guid>
-      <description>第三章 作图 mydata2 &amp;lt;- as.data.frame(t(matrix( co2, 12, dimnames = list(month.abb, unique(floor(time(co2))))))) mydata2$year &amp;lt;- as.numeric(rownames(mydata2)) plot(mydata2$Sep) example(plot) plot(x = mydata2$year, y = mydata2$Sep) plot(mydata2) pairs(mydata2) demo(graphics) plot(x = mydata2$year, y = mydata2$Sep, xlab = &amp;quot;Year&amp;quot;, ylab = &amp;quot;CO2 in Sep&amp;quot;, ylim = c(300, 400), type = &amp;quot;l&amp;quot;) mydata2 &amp;lt;- read.table(file = myfile2, header = TRUE, sep = &amp;quot;,&amp;quot;) plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;) plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;, pch = 20) plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;, pch = &#39;z&#39;) plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;l&amp;quot;, lty = 2) plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;l&amp;quot;, lty = 2, col = &#39;blue&#39;) colors() colors()[26] plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;, pch = 20, col = colors()[27:(27 + 39 - 1)], cex = 3) demo(colors) demo() demo(persp) rainbow(n = 39) plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;, pch = 20, col = rainbow(n = 39), cex = 3) myco2 &amp;lt;- unlist(mydata2[, 1:12]) myco2 &amp;lt;- round(myco2) myyear &amp;lt;- rep(mydata2$year, 12) mymonth &amp;lt;- rep(1:12, each = nrow(mydata2)) n &amp;lt;- diff(range(myco2)) # 彩虹分割的颜色数量 mycolor &amp;lt;- rainbow(n)[myco2 - min(myco2) + 1] plot(x = mymonth, y = myyear, col = mycolor, cex = 10, pch = 15) image(t(as.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch03/</guid>
+      <description>
+
+&lt;h2 id=&#34;第三章-作图&#34;&gt;第三章 作图&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mydata2 &amp;lt;- as.data.frame(t(matrix(
+  co2, 12, 
+  dimnames = list(month.abb, unique(floor(time(co2)))))))  
+
+mydata2$year &amp;lt;- as.numeric(rownames(mydata2))
+
+plot(mydata2$Sep)
+
+example(plot)
+
+plot(x = mydata2$year, y = mydata2$Sep)
+
+plot(mydata2)
+
+pairs(mydata2)
+
+demo(graphics)
+
+plot(x = mydata2$year, y = mydata2$Sep, 
+     xlab = &amp;quot;Year&amp;quot;, ylab = &amp;quot;CO2 in Sep&amp;quot;, 
+     ylim = c(300, 400), type = &amp;quot;l&amp;quot;)
+     
+mydata2 &amp;lt;- read.table(file = myfile2,
+                      header = TRUE, sep = &amp;quot;,&amp;quot;)
+
+plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;)
+
+plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;, pch = 20)
+
+plot(x = mydata2$year, y = mydata2$Sep, 
+     type = &amp;quot;p&amp;quot;, pch = &#39;z&#39;)
+     
+plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;l&amp;quot;, lty = 2)
+
+plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;l&amp;quot;, lty = 2, 
+     col = &#39;blue&#39;)
+
+colors()
+
+colors()[26]
+
+plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;, pch = 20,
+     col = colors()[27:(27 + 39 - 1)], cex = 3)
+     
+demo(colors)
+demo()
+demo(persp)
+
+rainbow(n = 39)
+plot(x = mydata2$year, y = mydata2$Sep, type = &amp;quot;p&amp;quot;, pch = 20,
+     col = rainbow(n = 39), cex = 3)
+     
+myco2 &amp;lt;- unlist(mydata2[, 1:12])
+myco2 &amp;lt;- round(myco2)
+myyear &amp;lt;- rep(mydata2$year, 12)
+mymonth &amp;lt;- rep(1:12, each = nrow(mydata2))
+n &amp;lt;- diff(range(myco2)) # 彩虹分割的颜色数量
+mycolor &amp;lt;- rainbow(n)[myco2 - min(myco2) + 1]
+plot(x = mymonth, y = myyear, 
+     col = mycolor, cex = 10, pch = 15)
+     
+image(t(as.matrix(mydata2[1:12])), col = rainbow(n))
+
+plot(x = mydata2$year, y = mydata2$Sep)
+abline(h = 350)
+abline(h = 360, v = 1980, col = &#39;red&#39;)
+abline(h = seq(from = 320, to = 340, by = 5), 
+       v = seq(from = 1970, to = 1990, by = 5), col = &#39;grey&#39;)
+abline(a = -2240, b = 1.3)
+legend(x = 1970, y = 350, legend = &#39;Sep&#39;, pch = 1)
+legend(&amp;quot;topleft&amp;quot;, legend = &#39;Sep&#39;, pch = 1)
+
+plot(x = 1:12, y = mydata2[&#39;1959&#39;, 1:12], 
+     xlab = &#39;Month&#39;, ylab = expression(CO[2]),
+     ylim = c(310, 370), 
+     type = &amp;quot;l&amp;quot;, lty = 2, col = &#39;blue&#39;)
+lines(x = 1:12, y = mydata2[&#39;1997&#39;, 1:12], col = &#39;red&#39;)
+points(x = 1:12, y = mydata2[&#39;1997&#39;, 1:12], col = &#39;red&#39;, type = &#39;l&#39;)
+
+plot(x = 1:12, y = mydata2[&#39;1959&#39;, 1:12], 
+     xlab = &#39;Month&#39;, ylab = &#39;1959&#39;,
+     type = &amp;quot;l&amp;quot;, lty = 2, col = &#39;blue&#39;)
+par(new = TRUE)
+plot(x = 1:12, y = mydata2[&#39;1997&#39;, 1:12], ylab = &#39;1997&#39;, 
+     type = &amp;quot;l&amp;quot;, lty = 1, col = &#39;red&#39;)
+
+# 1. 告诉R在右侧为副坐标轴留出空间。
+par(mar = c(5,4,4,4))
+# 2. 画第一张图。
+plot(x = 1:12, y = mydata2[&#39;1959&#39;, 1:12], 
+     xlab = &#39;Month&#39;, ylab = &#39;1959&#39;,
+     type = &amp;quot;l&amp;quot;, lty = 2, col = &#39;blue&#39;)
+# 3. 告诉R，下一张图跟第一张图叠加。
+par(new = TRUE)
+# 4. 画第二张图，但暂时不画坐标轴，也不标标签。
+plot(x = 1:12, y = mydata2[&#39;1997&#39;, 1:12], 
+     type = &amp;quot;l&amp;quot;, lty = 1, col = &#39;red&#39;, axes = FALSE, 
+     ylab = &#39;&#39;, xlab = &#39;&#39;)
+# 5. 在右侧画出副坐标轴。
+axis(side = 4, col = &#39;red&#39;)
+# 6. 为副坐标轴添加名称。
+mtext(side = 4, text = &#39;1997&#39;, line = 3, col = &#39;red&#39;)
+
+par(mfrow = c(1, 2))
+plot(x = 1:12, y = mydata2[&#39;1959&#39;, 1:12],
+     xlab = &#39;Month&#39;, ylab = &#39;1959&#39;,
+     type = &amp;quot;l&amp;quot;, lty = 2, col = &#39;blue&#39;)
+plot(x = 1:12, y = mydata2[&#39;1997&#39;, 1:12],
+     xlab = &#39;Month&#39;, ylab = &#39;1997&#39;, 
+     type = &amp;quot;l&amp;quot;, lty = 1, col = &#39;red&#39;)
+
+# 打开一张宽度为8，高度为4的白纸:
+pdf(&#39;c:/r4r/fig2_13.pdf&#39;, width = 8, height = 4)
+# 在白纸上画图:
+plot(x = mydata2$year, y = mydata2$Jan)
+# 画完了，把纸张收起来:
+dev.off()
+
+install.packages(c(&#39;ggplot2&#39;, &#39;lattice&#39;, &#39;plotrix&#39;))
+
+library(ggplot2)
+example(qplot)
+
+library(lattice)
+demo(lattice)
+
+library(plotrix)
+demo(plotrix)
+
+mydatasub &amp;lt;- t(mydata2[as.character(
+  seq(1960, by = 5, length.out = 8)), 1:12])
+x &amp;lt;- rep(1:12, 8)
+y &amp;lt;- as.vector(mydatasub)
+group &amp;lt;- rep(colnames(mydatasub), each = 12)
+library(lattice)
+xyplot(y ~ x|group, type = c(&#39;p&#39;, &#39;l&#39;), 
+       xlab = &#39;Month&#39;, ylab = expression(CO[2]))
+
+library(ggplot2)
+qplot(x, y, col = group, geom = c(&amp;quot;point&amp;quot;, &amp;quot;line&amp;quot;), 
+      xlab = &#39;Month&#39;, ylab = expression(CO[2]))
+
+vignette(&#39;ggplot2-specs&#39;)
+vignette(all = TRUE)
+     
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第四章 拟合）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch04/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch04/</link>
       <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch04/</guid>
-      <description>第四章 拟合 wp &amp;lt;- as.data.frame(WorldPhones) wp$year &amp;lt;- as.numeric(rownames(wp)) m &amp;lt;- lm(wp$Asia ~ wp$Europe) m0 &amp;lt;- lm(wp$Asia ~ wp$Europe + 0) m # 查看模型，显示斜率和截距。 msum &amp;lt;- summary(m) msum # 模型的详细总结报告。 msum$r.squared msum$coefficients example(lm) par(mfrow = c(2, 2), mar = c(4, 4.2, 2, 1)) plot(m) plot(x = wp$Europe, y = wp$Asia, pch = 19) abline(m, col = &amp;quot;blue&amp;quot;) legend(&amp;quot;bottomright&amp;quot;, pch = c(19, NA), lty = c(NA, 1), legend = c(&amp;quot;Data&amp;quot;, &amp;quot;Linear fit&amp;quot;), col = c(&amp;quot;black&amp;quot;, &amp;quot;blue&amp;quot;), bty = &#39;n&#39;) text(x = 23000, y = 8500, labels = &#39;(a)&#39;, col = &#39;red&#39;) eqlm1 &amp;lt;- &#39;y = 0.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch04/</guid>
+      <description>
+
+&lt;h2 id=&#34;第四章-拟合&#34;&gt;第四章 拟合&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;wp &amp;lt;- as.data.frame(WorldPhones)
+wp$year &amp;lt;- as.numeric(rownames(wp))
+m &amp;lt;- lm(wp$Asia ~ wp$Europe) 
+
+m0 &amp;lt;- lm(wp$Asia ~ wp$Europe + 0) 
+
+m  # 查看模型，显示斜率和截距。
+msum &amp;lt;- summary(m)
+msum  # 模型的详细总结报告。
+
+msum$r.squared
+msum$coefficients
+
+example(lm)
+
+par(mfrow = c(2, 2), mar = c(4, 4.2, 2, 1)) 
+plot(m)
+
+plot(x = wp$Europe, y = wp$Asia, pch = 19)
+abline(m, col = &amp;quot;blue&amp;quot;)
+legend(&amp;quot;bottomright&amp;quot;, pch = c(19, NA), lty = c(NA, 1),
+       legend = c(&amp;quot;Data&amp;quot;, &amp;quot;Linear fit&amp;quot;),
+       col = c(&amp;quot;black&amp;quot;, &amp;quot;blue&amp;quot;), bty = &#39;n&#39;)
+       
+text(x = 23000, y = 8500, labels = &#39;(a)&#39;, col = &#39;red&#39;)
+
+eqlm1 &amp;lt;- &#39;y = 0.2915x + 3783&#39;
+text(x = 23000, y = 7000, labels = eqlm1, adj = 0)
+
+eqlm2 &amp;lt;- expression(y == 0.2915 * x + 3783)
+text(x = 23000, y = 6000, labels = eqlm2, adj = 0)
+
+eqlm3 &amp;lt;- expression(italic(y) == 0.2915 * italic(x) + 3783)
+text(x = 23000, y = 5000, labels = eqlm3, adj = 0)
+
+eqr2 &amp;lt;- expression(italic(R) ^ 2 == 0.9752)
+text(x = 23000, y = 4000, labels = eqr2, adj = 0)
+
+txt1 &amp;lt;- expression(sqrt(x))
+legend(&#39;topright&#39;, legend = txt1)
+legend(&#39;right&#39;, legend = txt1, lty = 1, col = &#39;blue&#39;, 
+       bty = &#39;n&#39;)
+       
+txt2 &amp;lt;- expression(integral(f(x) * dx, a, b))
+legend(&#39;topleft&#39;, legend = txt2, col = &#39;blue&#39;, bty = &#39;n&#39;)
+
+set.seed(123)
+x &amp;lt;- seq(0, 50, 1)
+y &amp;lt;- runif(1, 5, 15) * exp(-runif(1, 0.01, 0.05) * x) + 
+  rnorm(51, 0, 0.5)
+  
+plot(x,y)
+
+a_start &amp;lt;- 8
+b_start &amp;lt;- - log(1/a_start) / 50
+m &amp;lt;- nls(y ~ a * exp(-b * x), 
+         start = list(a = a_start, b = b_start))
+m
+
+cor(y,predict(m))
+
+summary(m)
+
+example(lm)
+demo(plotmath)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第五章 循环）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch05/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch05/</link>
       <pubDate>Wed, 12 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch05/</guid>
-      <description>第五章 循环 mydata2 &amp;lt;- as.data.frame(t(matrix(co2, 12, dimnames = list(month.abb, unique(floor(time(co2))))))) mydata2$year &amp;lt;- as.numeric(rownames(mydata2)) x &amp;lt;- mydata2$year y &amp;lt;- mydata2$Sep par(mfrow = c(3,3), cex = 1.2, mar = c(3, 2, 0.5, 1)) plot(x = x, y = y, type = &#39;p&#39;) legend(&#39;topleft&#39;, legend = &#39;p&#39;, cex = 0.8, bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;) plot(x = x, y = y, type = &#39;l&#39;) legend(&#39;topleft&#39;, legend = &#39;l&#39;, cex = 0.8, bty = &amp;quot;n&amp;quot;, text.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch05/</guid>
+      <description>
+
+&lt;h2 id=&#34;第五章-循环&#34;&gt;第五章 循环&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mydata2 &amp;lt;- as.data.frame(t(matrix(co2, 12,
+    dimnames = list(month.abb, unique(floor(time(co2)))))))
+mydata2$year &amp;lt;- as.numeric(rownames(mydata2))
+x &amp;lt;- mydata2$year
+y &amp;lt;- mydata2$Sep
+par(mfrow = c(3,3), cex = 1.2, mar = c(3, 2, 0.5, 1))
+plot(x = x, y = y, type = &#39;p&#39;)
+legend(&#39;topleft&#39;, legend = &#39;p&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+plot(x = x, y = y, type = &#39;l&#39;)
+legend(&#39;topleft&#39;, legend = &#39;l&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+plot(x = x, y = y, type = &#39;b&#39;)
+legend(&#39;topleft&#39;, legend = &#39;b&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+plot(x = x, y = y, type = &#39;c&#39;)
+legend(&#39;topleft&#39;, legend = &#39;c&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+plot(x = x, y = y, type = &#39;o&#39;)
+legend(&#39;topleft&#39;, legend = &#39;o&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+plot(x = x, y = y, type = &#39;h&#39;)
+legend(&#39;topleft&#39;, legend = &#39;h&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+plot(x = x, y = y, type = &#39;s&#39;)
+legend(&#39;topleft&#39;, legend = &#39;s&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+plot(x = x, y = y, type = &#39;S&#39;)
+legend(&#39;topleft&#39;, legend = &#39;S&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+plot(x = x, y = y, type = &#39;n&#39;)
+legend(&#39;topleft&#39;, legend = &#39;n&#39;, cex = 0.8,
+       bty = &amp;quot;n&amp;quot;, text.col = &#39;blue&#39;)
+       
+par(mfrow = c(3, 3), cex = 1.2, mar = c(3, 2, 0.5, 1))
+for(i in c(&#39;p&#39;, &#39;l&#39;, &#39;b&#39;, &#39;c&#39;, &#39;o&#39;, &#39;h&#39;, &#39;s&#39;, &#39;S&#39;, &#39;n&#39;)) {
+  plot(x = mydata2$year, y = mydata2$Sep, type = i)
+  legend(&#39;topleft&#39;, legend = i, cex = 0.8,
+         bty = &#39;n&#39;, text.col = &#39;blue&#39;)
+}
+
+
+for(i in 1:20) print(i)
+
+r &amp;lt;- 0.011
+N1 &amp;lt;- 66.8
+N2 &amp;lt;- N1 + r * N1
+N3 &amp;lt;- N2 + r * N2
+# ...... 如此写99行，就可以写到 N100。
+N100 &amp;lt;- N99 + r * N99
+
+r &amp;lt;- 0.011
+N &amp;lt;- numeric(100)
+N[1] &amp;lt;- 66.8
+N[2] &amp;lt;- N[1] + r * N[1]
+N[3] &amp;lt;- N[2] + r * N[2]
+# ...... 如此写99行，一直写到 N[100]。
+N[100] &amp;lt;- N[99] + r * N[99]
+
+r &amp;lt;- 0.011
+N &amp;lt;- numeric(100)
+N[1] &amp;lt;- 66.8
+for(t in 1:99) N[t + 1] &amp;lt;- N[t] + r * N[t] 
+
+Y &amp;lt;- seq(2008, length.out = 100)
+plot(Y, N)
+
+abline(h = 100)
+locator(1)
+
+for(i in 1:360) {
+    plot(1, ann = F, type = &amp;quot;n&amp;quot;, axes = F)
+    text(1, 1, &amp;quot;Ninja, go!&amp;quot;, srt = i, col =
+        rainbow(360)[i], cex = 7 * i/360)
+
+}
+
+example(image)
+
+install.packages(&#39;simecol&#39;)
+require(simecol)
+# 40 * 40的棋盘:
+m &amp;lt;- matrix(0, 40, 40)
+# 玩家放置细胞的初始条件。0 表示该位置没有细胞，1 表示有细胞：
+m[5:35, 19:21] &amp;lt;- 1
+# 白色表示没有细胞，绿色有细胞：
+image(m, col = c(&amp;quot;white&amp;quot;, &amp;quot;darkgreen&amp;quot;), axes = FALSE)
+for(i in 1:200) {
+  nn &amp;lt;- eightneighbours(m)
+  m.old &amp;lt;- m
+  # 当周围有三个细胞时该位置产生细胞：
+  m[m.old == 0 &amp;amp; nn == 3] &amp;lt;- 1
+  # 当周围细胞少于 2 个（太孤单）或大于 3 个（太拥挤）时，
+  # 该位置细胞死亡。
+  m[m.old == 1 &amp;amp; (nn &amp;lt; 2 | nn &amp;gt; 3)] &amp;lt;- 0
+  image(m, col = c(&amp;quot;white&amp;quot;, &amp;quot;darkgreen&amp;quot;), axes = FALSE)
+  Sys.sleep(0.1)
+}
+
+png(paste(&amp;quot;c:/R/data/conway_&amp;quot;,
+          formatC(i, width = 2, flag = &amp;quot;0&amp;quot;), &amp;quot;.png&amp;quot;,
+          sep = &amp;quot;&amp;quot;),
+    width = 300, height = 300)
+image(m, col=c(&amp;quot;white&amp;quot;, &amp;quot;darkgreen&amp;quot;), axes = FALSE)
+dev.off()
+
+install.packages(&#39;rgl&#39;)
+require(rgl)
+example(movie3d)
+
+x &amp;lt;- c(61, 45, 55, 46, 56, 79, 86, 57, 56, 56, 57, 71)
+x + 100
+for(i in 1:12) print(x[i] + 100)
+
+wp &amp;lt;- as.data.frame(WorldPhones) # 转化为数据框类型
+wp$year &amp;lt;- as.numeric(rownames(wp)) # 将行名称转化为数值类型
+mydata3 &amp;lt;- data.frame( # 生成一个新数据框
+  nphone = unlist(wp[, 1:7]), year = rep(wp$year, 7),
+  conti = rep(names(wp)[1:7], each = nrow(wp)))
+  
+summary(mydata3)
+
+str(mydata3)
+
+mydata3$year &amp;lt;- as.factor(mydata3$year)
+str(mydata3)
+
+nlevels(mydata3$year)
+levels(mydata3$year)
+
+nlevels(mydata3$conti)
+levels(mydata3$conti)
+
+
+for(i in levels(mydata3$year)) {
+  print(sum(mydata3$nphone[mydata3$year == i]))
+}
+
+tapply(mydata3$nphone, mydata3$year, sum)
+
+mydata2 &amp;lt;- read.csv(file = &amp;quot;c:/r4r/co2.csv&amp;quot;)
+smr1 &amp;lt;- summary(mydata2)
+smr1
+smr1[6, 2] - smr1[1, 2]
+
+smr2 &amp;lt;- lapply(mydata2, summary)
+smr2[[2]][6] - smr2[[2]][1]
+
+smr3 &amp;lt;- sapply(mydata2, summary)
+smr3[6, 2] - smr3[1, 2]
+
+plot(x = mydata3$year, y = mydata3$nphone)
+boxplot(mydata3$nphone ~ mydata3$year)
+
+N &amp;lt;- numeric(100)
+N[1] &amp;lt;- 66.8
+r &amp;lt;- 0.011
+for(t in 1:3)
+{
+  N[t+1] &amp;lt;- N[t] + r * N[t]
+  winDialog(type = c(&amp;quot;ok&amp;quot;),
+            message = paste(&#39;population in&#39;, t + 2007,
+                            &#39;will be&#39;, N[t + 1])) #信息提示框
+}
+
+n &amp;lt;- winDialogString(
+  message = &amp;quot;which year&#39;s population would you like to see&amp;quot;,
+  default = &#39;2050&#39;)
+winDialog(type = c(&amp;quot;ok&amp;quot;), message = paste(
+  &#39;population in&#39;, n, &#39;will be&#39;, N[as.numeric(n) - 2007]))
+
+winDialog(type = c(&amp;quot;ok&amp;quot;), message = paste(
+  &#39;population in&#39;, winDialogString(
+    message = &amp;quot;which year&#39;s population would you like to see&amp;quot;,
+    default = &#39;2050&#39;), &#39;will be&#39;, N[as.numeric(n) - 2007]))
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第六章 分支）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch06/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch06/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch06/</guid>
-      <description>第六章 分支  3 &amp;gt; 2 # 3比2大？是真（true）的。 1 &amp;gt; 2 # 1比2大？是假（false）的。 !(1 &amp;gt; 2) # 1不比2大？呃...... 3 &amp;gt; 2 &amp;amp; 1 &amp;gt; 2 # 3比2大，并且1比2大？假的。 3 &amp;gt; 2 | 1 &amp;gt; 2 # 3比2大，或者1比2大吗？真的。 3 &amp;gt; 2 &amp;amp; !(1 &amp;gt; 2) # 3比2大，并且1不比2大？好像是真的吧... x &amp;lt;- 1:3 x == 2 x == 2 | x == 3 y &amp;lt;- c(4, 1, 2) x &amp;gt; y x &amp;gt; y &amp;amp; y &amp;gt; 1 TRUE * FALSE TRUE + TRUE sum(x &amp;gt; y) x %in% y x[x %in% y] which(x %in% y) Y[N &amp;gt; 100][1] x &amp;lt;- 60 if(x &amp;lt; 75) print(&amp;quot;x is less than 75&amp;quot;) if(x &amp;lt; 75) { print(&amp;quot;x is less than 75&amp;quot;) y &amp;lt;- x + 10 print(y) } x &amp;lt;- 60 if(x &amp;lt; 75) { print(&amp;quot;x is less than 75&amp;quot;) } else { print(&amp;quot;x is larger than 75&amp;quot;) } # 如果()，那么{}，否则{}。 x &amp;lt;- 60 if(x &amp;lt; 75) { print(&amp;quot;small&amp;quot;) } else if(x &amp;gt; 90){ print(&amp;quot;large&amp;quot;) } else { print(&amp;quot;good&amp;quot;) } ifelse(x &amp;lt; 75, &amp;quot;small&amp;quot;, ifelse(x &amp;gt; 90, &amp;quot;large&amp;quot;, &amp;quot;good&amp;quot;)) N &amp;lt;- numeric(100) N[1] &amp;lt;- 66.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch06/</guid>
+      <description>
+
+&lt;h2 id=&#34;第六章-分支&#34;&gt;第六章 分支&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;
+3 &amp;gt; 2  # 3比2大？是真（true）的。
+1 &amp;gt; 2  # 1比2大？是假（false）的。
+!(1 &amp;gt; 2)  # 1不比2大？呃......
+3 &amp;gt; 2 &amp;amp; 1 &amp;gt; 2  # 3比2大，并且1比2大？假的。
+3 &amp;gt; 2 | 1 &amp;gt; 2  # 3比2大，或者1比2大吗？真的。
+3 &amp;gt; 2 &amp;amp; !(1 &amp;gt; 2)  # 3比2大，并且1不比2大？好像是真的吧...
+
+x &amp;lt;- 1:3
+x == 2
+
+x == 2 | x == 3
+
+y &amp;lt;- c(4, 1, 2)
+x &amp;gt; y
+
+x &amp;gt; y &amp;amp; y &amp;gt; 1
+
+TRUE * FALSE
+TRUE + TRUE
+
+sum(x &amp;gt; y)
+
+x %in% y
+x[x %in% y]
+which(x %in% y)
+Y[N &amp;gt; 100][1]
+
+x &amp;lt;- 60
+if(x &amp;lt; 75) print(&amp;quot;x is less than 75&amp;quot;)  
+
+if(x &amp;lt; 75) {
+    print(&amp;quot;x is less than 75&amp;quot;)
+    y &amp;lt;- x + 10
+    print(y)
+    }
+    
+x &amp;lt;- 60
+if(x &amp;lt; 75) {
+    print(&amp;quot;x is less than 75&amp;quot;)
+} else {
+    print(&amp;quot;x is larger than 75&amp;quot;)
+}  # 如果()，那么{}，否则{}。
+
+x &amp;lt;- 60
+if(x &amp;lt; 75) {
+    print(&amp;quot;small&amp;quot;)
+} else if(x &amp;gt; 90){
+    print(&amp;quot;large&amp;quot;)
+} else {
+    print(&amp;quot;good&amp;quot;)
+}
+
+ifelse(x &amp;lt; 75, &amp;quot;small&amp;quot;, ifelse(x &amp;gt; 90, &amp;quot;large&amp;quot;, &amp;quot;good&amp;quot;))
+
+
+N &amp;lt;- numeric(100)
+N[1] &amp;lt;- 66.8
+for(t in 1:99) N[t + 1] &amp;lt;- N[t] + r * N[t]
+Y &amp;lt;- seq(2008, length.out = 100)
+plot(x = Y + 2007, y = N, xlab = &amp;quot;Year&amp;quot;, ylab = &amp;quot;Population&amp;quot;, 
+     cex = ifelse(N &amp;gt;= 100, 2, 1), pch = 16, type = &amp;quot;b&amp;quot;, 
+     col = ifelse(N &amp;gt;= 100, &amp;quot;red&amp;quot;, &amp;quot;darkgreen&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第八章 习题）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch08/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch08/</link>
       <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch08/</guid>
-      <description>第八章 习题 x &amp;lt;- c(1, 1, 2, 2, 3) # 生成一个向量。 is.character(x) # x 是字符型吗？不是。 is.numeric(x) # x 是数值型吗？是的。 mode(x) # 确实是数值型。 y &amp;lt;- c(3, 4, 4, 5, 5) z &amp;lt;- c(x, y) # 多个向量并在一起。 z z[4] # 向量的下标。 # 生成一个矩阵，指定行数和列数： m &amp;lt;- matrix(c(2, 3, 1, 5), nrow = 2, ncol = 2) m # 生成一个矩阵，指定行数： m &amp;lt;- matrix(c(2, 3, 1, 5), nrow = 2) m # 生成一个矩阵，指定行数，并按行排列： m &amp;lt;- matrix(seq(1, 20, 1), nrow = 5, byrow = TRUE) m # 生成一个矩阵，指定行数，并按列排列： m &amp;lt;- matrix(seq(1, 20, 1), nrow = 5, byrow = FALSE) m[2, 2] # 矩阵的下标。 a &amp;lt;- c(1, 2, 3, 4) b &amp;lt;- seq(5, 8, by = 1) d &amp;lt;- data.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch08/</guid>
+      <description>
+
+&lt;h2 id=&#34;第八章-习题&#34;&gt;第八章 习题&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;x &amp;lt;- c(1, 1, 2, 2, 3)  # 生成一个向量。
+is.character(x)  # x 是字符型吗？不是。
+is.numeric(x)  # x 是数值型吗？是的。
+mode(x)  # 确实是数值型。
+
+y &amp;lt;- c(3, 4, 4, 5, 5)
+z &amp;lt;- c(x, y)  # 多个向量并在一起。
+z
+z[4]  # 向量的下标。
+
+# 生成一个矩阵，指定行数和列数：
+m &amp;lt;- matrix(c(2, 3, 1, 5), nrow = 2, ncol = 2)
+m
+# 生成一个矩阵，指定行数：
+m &amp;lt;- matrix(c(2, 3, 1, 5), nrow = 2)
+m
+# 生成一个矩阵，指定行数，并按行排列：
+m &amp;lt;- matrix(seq(1, 20, 1), nrow = 5, byrow = TRUE)
+m
+# 生成一个矩阵，指定行数，并按列排列：
+m &amp;lt;- matrix(seq(1, 20, 1), nrow = 5, byrow = FALSE)
+m[2, 2]  # 矩阵的下标。
+
+a &amp;lt;- c(1, 2, 3, 4)
+b &amp;lt;- seq(5, 8, by = 1)
+d &amp;lt;- data.frame(a, b)  # 生成一个数据框。
+d
+is.data.frame(d)  # 是数据框吗？
+str(d)  # 数据框的结构。
+class(d) 
+nrow(d) # 数据框的行数。
+ncol(d) # 数据框的列数。
+e &amp;lt;- c(9, 10)
+f &amp;lt;- rbind(d, e)  # 给数据框增加一行。
+f
+g &amp;lt;- c(&amp;quot;one&amp;quot;, &amp;quot;two&amp;quot;, &amp;quot;three&amp;quot;, &amp;quot;four&amp;quot;, &amp;quot;five&amp;quot;)
+class(g)
+h &amp;lt;- cbind(f, g)  # 给数据框增加一列。
+h
+class(h)
+ncol(h)
+colnames(h) &amp;lt;- c(&amp;quot;one&amp;quot;, &amp;quot;two&amp;quot;, &amp;quot;three&amp;quot;)  # 更改列名称。
+h
+
+is.numeric(d[, 1])
+is.data.frame(d[1, ])
+is.numeric(d[1, ])
+is.numeric(unlist(d[1, ]))
+mylist &amp;lt;- list(x = 1:4, y = letters[3:10])
+mylist
+mylist[[1]]
+mylist[[1]][1]
+mylist[[2]]
+mylist[[2]][5]
+mylist$x
+mylist$y[3]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第九章 函数）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch09/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch09/</link>
       <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch09/</guid>
-      <description>第九章 函数 y &amp;lt;- sd(x = 1:5) # sd 是函数名, x 是自变量。 y sd assign(&amp;quot;x&amp;quot;, 1:5) newscore &amp;lt;- function(x) { y &amp;lt;- sqrt(x) * 10 return(y) } newscore(x = 40) x &amp;lt;- 36 y &amp;lt;- 81 newscore(x = y) # 函数内部的 x 把 81 的值接过来，而不是36。 x # 函数外部的x仍然是36。 news &amp;lt;- function(x, n) { sqrt(x) * 10 + n } news(x = 36, n = 10) news(36, 10) news(n = 10, x = 36) newscore() newscore &amp;lt;- function(x = 36) # 将x默认值设为36。 { sqrt(x) * 10 } newscore() exponentialGrowth &amp;lt;- function(N0, r = 0.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch09/</guid>
+      <description>
+
+&lt;h2 id=&#34;第九章-函数&#34;&gt;第九章 函数&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;y &amp;lt;- sd(x = 1:5)  # sd 是函数名, x 是自变量。
+y
+sd
+assign(&amp;quot;x&amp;quot;, 1:5)
+
+newscore &amp;lt;- function(x) {
+  y &amp;lt;- sqrt(x) * 10
+  return(y)
+}
+newscore(x = 40)
+
+x &amp;lt;- 36
+y &amp;lt;- 81
+newscore(x = y)  # 函数内部的 x 把 81 的值接过来，而不是36。
+x # 函数外部的x仍然是36。
+
+news &amp;lt;- function(x, n) {
+  sqrt(x) * 10 + n
+}
+news(x = 36, n = 10)
+news(36, 10)
+news(n = 10, x = 36)
+
+newscore()
+newscore &amp;lt;- function(x = 36) # 将x默认值设为36。
+{
+  sqrt(x) * 10
+}
+newscore()
+
+exponentialGrowth &amp;lt;- function(N0, r = 0.01, tmax = 10) 
+  # 三个自变量：初始值，增长率（默认为0.01），时间（默认为10）。
+{
+  N &amp;lt;- N0
+  for(t in 1 : (tmax - 1)) {
+    N[t + 1] &amp;lt;- N[t] + r * N[t]
+  }
+  return(N) 
+}
+plot(exponentialGrowth(80, 0.02, 100))
+
+source(&#39;c:/r4r/myf.r&#39;)
+
+install.packages(&amp;quot;maptools&amp;quot;) # 第一次使用某个扩展包时要先安装。
+require(maptools)  # 调用包，让R把其中的函数读进R的脑子里。
+position &amp;lt;- c(116.39, 39.91)  # 天安门广场的经纬度。
+mydate &amp;lt;- &amp;quot;2017-10-01&amp;quot;  # 要计算的日期。
+# 日出时刻：
+sunriset(matrix(position, nrow = 1), 
+         as.POSIXct(mydate, tz = &amp;quot;Asia/Shanghai&amp;quot;), 
+         direction = c(&amp;quot;sunrise&amp;quot;), POSIXct.out = TRUE)$time
+# 日落时刻:
+sunriset(matrix(position, nrow = 1), 
+         as.POSIXct(mydate, tz = &amp;quot;Asia/Shanghai&amp;quot;), 
+         direction = c(&amp;quot;sunset&amp;quot;), POSIXct.out = TRUE)$time
+# 函数名为flag，默认是计算2017年情人节开始一周内升降国旗时刻。
+flag &amp;lt;- function(date.start = &amp;quot;2017-02-14&amp;quot;, date.length = 7) 
+{
+  mydate &amp;lt;- seq(as.POSIXct(date.start, tz=&amp;quot;Asia/Shanghai&amp;quot;), 
+                by = 3600 * 24, length.out = date.length)
+  data.frame(
+    sunrise = sunriset(
+      matrix(c(116.39, 39.91), nrow = 1), 
+      as.POSIXct(mydate, tz=&amp;quot;Asia/Shanghai&amp;quot;),
+      direction=c(&amp;quot;sunrise&amp;quot;), POSIXct.out = TRUE)$time,
+    sunset = sunriset(
+      matrix(c(116.39, 39.91), nrow = 1), 
+      as.POSIXct(mydate, tz=&amp;quot;Asia/Shanghai&amp;quot;), 
+      direction=c(&amp;quot;sunset&amp;quot;), POSIXct.out = TRUE)$time)
+}
+
+flag(&amp;quot;2017-10-01&amp;quot;) # 好了，以后调用这个函数就能很方便计算。
+
+
+install.packages(&amp;quot;beginr&amp;quot;)
+beginr::plotpch()
+beginr::plotlty()
+beginr::plottype()
+beginr::plotcolors()
+
+set.seed(123)
+x &amp;lt;- 1:10
+y &amp;lt;- 1:10 + rnorm(10)
+beginr::plotlm(x, y, refline = TRUE)
+
+x &amp;lt;- rnorm(10000)
+beginr::plothist(x)
+
+df &amp;lt;- data.frame(a = 1:10,
+                 b = 1:10 + rnorm(10),
+                 c = 1:10 + rnorm(10))
+beginr::plotpairs(df)
+beginr::plotpairs2(df)
+
+par(mfrow = c(1,2), mar = c(0.1, 0.1, 0.1, 0.1))
+x &amp;lt;- seq(0, 2 * pi, length.out = 100) 
+y &amp;lt;- data.frame(sin(x), cos(x))
+# 假定yerror是y的误差范围
+yerror &amp;lt;- data.frame(abs(rnorm(100, sd = 0.3)), 
+                     abs(rnorm(100, sd = 0.1)))
+beginr::dfplot(x, y, yerror = yerror)
+beginr::dfplot2(y, x, xerror = yerror, xlab = &#39;&#39;, ylab = &#39;&#39;)
+
+x &amp;lt;- seq(0, 2 * pi, length.out = 100)
+y &amp;lt;- sin(x)
+plot(x, y, type = &amp;quot;l&amp;quot;)
+beginr::errorbar(x, y, yupper = 0.1, ylower = 0.1)
+df &amp;lt;- data.frame(a = 1:10, 
+                 b = 1:10 + rnorm(10), 
+                 c = 1:10 + rnorm(10))
+beginr::lmdf(df)
+
+beginr::bib(pkg = c(&amp;quot;mindr&amp;quot;, &amp;quot;bookdownplus&amp;quot;, &amp;quot;pinyin&amp;quot;))
+
+install.packages(&amp;quot;fortunes&amp;quot;)
+require(fortunes)
+fortune(&#39;Actually, I see it as part of my job&#39;)
+citation(&amp;quot;bookdown&amp;quot;)
+
+length(unique(rownames(available.packages())))
+
+a &amp;lt;- available.packages() # 获取所有扩展包的信息
+b &amp;lt;- rownames(a) # 挑出扩展包的名称
+c &amp;lt;- unique(b) # 去掉重复的名称
+d &amp;lt;- length(c) # 数数有几个
+
+beginr::plotpkg(&#39;rmarkdown&#39;, from = &#39;2014-01-01&#39;)
+
+install.packages(c(&amp;quot;devtools&amp;quot;, &amp;quot;roxygen2&amp;quot;, &amp;quot;knitr&amp;quot;, &amp;quot;beginr&amp;quot;))
+beginr::rpkg()
+newscore &amp;lt;- function(x) {
+  y &amp;lt;- sqrt(x) * 10
+  return(y)
+}
+
+#&#39; Calculate new score
+#&#39;
+#&#39; @param x old score
+#&#39;
+#&#39; @return new score
+#&#39; @export
+#&#39;
+#&#39; @examples newscore(49)
+newscore &amp;lt;- function(x) {
+  y &amp;lt;- sqrt(x) * 10
+  return(y)
+}
+
+library(mypkg)
+newscore(36)
+
+example(newscore)
+
+devtools::install_github(&amp;quot;pzhaonet/beginr&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第十章 字符）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch10/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch10/</link>
       <pubDate>Sat, 08 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch10/</guid>
-      <description>第十章 字符 x &amp;lt;- &#39;The quick brown fox jumps over the lazy dog&#39; xlower &amp;lt;- tolower(x) class(xlower) length(x) nchar(x) myfile2 &amp;lt;- &amp;quot;c:/r4r/co2.csv&amp;quot; xsingle &amp;lt;- strsplit(xlower, &#39;&#39;)[[1]] nchar(xsingle) length(xsingle) grep(xsingle[1], xsingle) for(i in 1:length(xsingle)) print(grep(xsingle[i], xsingle)) for(i in 1:length(xsingle)) print(paste(xsingle[i], grep(xsingle[i], xsingle))) sapply(xsingle, function(x) grep(x, xsingle)) table(xsingle) duplicated(xsingle) xsingle[!duplicated(xsingle)] unique(xsingle) length(unique(xsingle)) download.file(url = &amp;quot;http://dapengde.com/r4rookies/qianziwen.txt&amp;quot;, destfile = &amp;quot;c:/r4r/qianziwen.txt&amp;quot;) qzw &amp;lt;- readLines(&#39;c:/r4r/qianziwen.txt&#39;, encoding = &#39;UTF-8&#39;) class(qzw) length(qzw) #向量长度 nchar(qzw) #向量里每个元素包含的字符数 qzwmerged &amp;lt;- paste(qzw, collapse = &#39;&#39;) qzwmerged &amp;lt;- gsub(&#39; &#39;, &#39;&#39;, qzwmerged) nchar(qzwmerged) qzwsingle &amp;lt;- strsplit(qzwmerged, &#39;&#39;)[[1]] chardup &amp;lt;- qzwsingle[duplicated(qzwsingle)] for(i in chardup) print(paste(i, grep(i, qzw, value = TRUE))) download.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch10/</guid>
+      <description>
+
+&lt;h2 id=&#34;第十章-字符&#34;&gt;第十章 字符&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;x &amp;lt;- &#39;The quick brown fox jumps over the lazy dog&#39;
+xlower &amp;lt;- tolower(x)
+class(xlower)
+length(x)
+nchar(x)
+
+myfile2 &amp;lt;- &amp;quot;c:/r4r/co2.csv&amp;quot;
+
+xsingle &amp;lt;- strsplit(xlower, &#39;&#39;)[[1]]
+nchar(xsingle)
+length(xsingle)
+
+grep(xsingle[1], xsingle)
+for(i in 1:length(xsingle)) print(grep(xsingle[i], xsingle))
+for(i in 1:length(xsingle))
+  print(paste(xsingle[i], grep(xsingle[i], xsingle)))
+sapply(xsingle, function(x) grep(x, xsingle))
+table(xsingle)
+duplicated(xsingle)
+xsingle[!duplicated(xsingle)]
+unique(xsingle)
+length(unique(xsingle))
+
+
+
+download.file(url =
+                &amp;quot;http://dapengde.com/r4rookies/qianziwen.txt&amp;quot;,
+              destfile = &amp;quot;c:/r4r/qianziwen.txt&amp;quot;)
+qzw &amp;lt;- readLines(&#39;c:/r4r/qianziwen.txt&#39;, encoding = &#39;UTF-8&#39;)
+class(qzw)
+length(qzw) #向量长度
+nchar(qzw) #向量里每个元素包含的字符数
+qzwmerged &amp;lt;- paste(qzw, collapse = &#39;&#39;)
+qzwmerged &amp;lt;- gsub(&#39; &#39;, &#39;&#39;, qzwmerged)
+nchar(qzwmerged)
+qzwsingle &amp;lt;- strsplit(qzwmerged, &#39;&#39;)[[1]]
+chardup &amp;lt;- qzwsingle[duplicated(qzwsingle)]
+for(i in chardup) print(paste(i, grep(i, qzw, value = TRUE)))
+
+
+download.file(url =
+                &amp;quot;http://dapengde.com/r4rookies/kdclip.txt&amp;quot;,
+              destfile = &amp;quot;c:/r4r/kdclip.txt&amp;quot;)
+aa &amp;lt;- readLines(&amp;quot;c:/r4r/kdclip.txt&amp;quot;, encoding = &amp;quot;UTF-8&amp;quot;)
+length.aa &amp;lt;- length(aa)
+title &amp;lt;- aa[c(seq(1, length.aa, by = 5))]
+title.o &amp;lt;- order(title)
+title &amp;lt;- title[title.o]
+highlight &amp;lt;- aa[c(seq(4, length.aa, by = 5))][title.o]
+kn &amp;lt;- data.frame(Title = title, Highlight = highlight)
+write.table(kn, &amp;quot;c:/r4r/kn.txt&amp;quot;,
+            sep = &amp;quot;\t&amp;quot;, row.names = FALSE)
+location &amp;lt;- aa[c(seq(2, length.aa, by = 5))][title.o]
+location[1]
+time.aa &amp;lt;- substr(location,
+                  (regexpr(&amp;quot; Added on &amp;quot;, location) + 10) ,
+                  nchar(location))[title.o]
+loc &amp;lt;- substr(
+  location, 13,
+  regexpr(&amp;quot; Added on &amp;quot;, location) - 5)[order(title.o)]
+kn &amp;lt;- data.frame(Title = title, Highlight = highlight,
+                 Loc = loc, Time = time.aa)
+write.table(kn, &amp;quot;c:/r4r/kn2.txt&amp;quot;,
+            sep = &amp;quot;\t&amp;quot;, row.names = FALSE)
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第十一章 地图）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch11/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch11/</link>
       <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch11/</guid>
-      <description>第十一章 地图 download.file(url = &amp;quot;http://dapengde.com/r4rookies/us.csv&amp;quot;, destfile = &amp;quot;c:/r4r/us.csv&amp;quot;) us &amp;lt;- read.csv(&amp;quot;c:/r4r/us.csv&amp;quot;) summary(us) nlevels(us$state) plot(us$lon, us$lat) plot(us$lon, us$lat) points(us$lon[us$state == &amp;quot;Texas&amp;quot;], us$lat[us$state == &amp;quot;Texas&amp;quot;], col=&amp;quot;blue&amp;quot;) cols &amp;lt;- rainbow(nlevels(us$state)) plot(us$lon, us$lat, col = cols[us$state], pch = 20) lon.median &amp;lt;- tapply(us$lon, us$state, median) lat.median &amp;lt;- tapply(us$lat, us$state, median) text(labels = levels(us$state), x = lon.median, y = lat.median, cex = 0.5, col = &#39;White&#39;) points(-74.02, 40.73, pch = 17, cex = 2) download.file(url = &amp;quot;http://dapengde.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch11/</guid>
+      <description>
+
+&lt;h2 id=&#34;第十一章-地图&#34;&gt;第十一章 地图&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;download.file(url = &amp;quot;http://dapengde.com/r4rookies/us.csv&amp;quot;,
+              destfile = &amp;quot;c:/r4r/us.csv&amp;quot;)
+us &amp;lt;- read.csv(&amp;quot;c:/r4r/us.csv&amp;quot;)
+summary(us)
+nlevels(us$state)
+plot(us$lon, us$lat)
+
+plot(us$lon, us$lat)
+points(us$lon[us$state == &amp;quot;Texas&amp;quot;],
+       us$lat[us$state == &amp;quot;Texas&amp;quot;], col=&amp;quot;blue&amp;quot;)
+
+cols &amp;lt;- rainbow(nlevels(us$state))
+plot(us$lon, us$lat, col = cols[us$state], pch = 20)
+
+lon.median &amp;lt;- tapply(us$lon, us$state, median)
+lat.median &amp;lt;- tapply(us$lat, us$state, median)
+text(labels = levels(us$state), x = lon.median, y = lat.median, 
+     cex = 0.5, col = &#39;White&#39;)
+points(-74.02, 40.73, pch = 17, cex = 2)
+
+
+download.file(url = &amp;quot;http://dapengde.com/r4rookies/cm.zip&amp;quot;,
+              destfile = &amp;quot;c:/r4r/cm.zip&amp;quot;)
+unzip(zipfile = &amp;quot;c:/r4r/cm.zip&amp;quot;, exdir = &amp;quot;c:/r4r&amp;quot;)
+install.packages(&#39;rgdal&#39;)
+require(rgdal) 
+cm &amp;lt;- readOGR(dsn = &amp;quot;c:/r4r/cm&amp;quot;, layer = &amp;quot;bou2_4p&amp;quot;) 
+plot(cm)
+
+summary(cm)
+is.factor(cm$NAME)
+levels(cm$NAME)  # 省市名称。
+
+download.file(url =
+                &amp;quot;http://dapengde.com/r4rookies/aqi.csv&amp;quot;,
+              destfile = &amp;quot;c:/r4r/aqi.csv&amp;quot;)
+aqi &amp;lt;- read.csv(&amp;quot;c:/r4r/aqi.csv&amp;quot;)
+aqi
+aqstandard &amp;lt;- c(0, 50, 100, 150, 200, 300, 500, Inf)
+aqilevel &amp;lt;- cut(aqi$aqi[match(levels(cm$NAME),aqi$province)], 
+                aqstandard)
+mycol &amp;lt;- grey(seq(1, 0, 
+                  length.out = nlevels(aqilevel)))[aqilevel]
+col &amp;lt;- cm$NAME
+levels(col) &amp;lt;- mycol
+plot(cm, col = as.character(factor(col)), axes = TRUE)
+
+install.packages(&#39;plotrix&#39;)
+library(plotrix)
+legendn &amp;lt;- character((length(aqstandard) - 2) * 2 + 1)
+legendn[seq(2, length(legendn), by = 2)] &amp;lt;- 
+  aqstandard[2:(length(aqstandard)-1) ]
+color.legend(
+  xl = 135, yb = 10, xr = 137, yt = 30,legend = legendn,
+  rect.col = grey(seq(1, 0, length.out = nlevels(aqilevel))),
+  align = &amp;quot;lb&amp;quot;, gradient = &amp;quot;y&amp;quot;)  # 添加图例。
+color.legend(
+  xl = 135, yb = 10, xr = 137, yt = 30,
+  legend = c(&#39;Excellent&#39;,&#39;Good&#39;,&#39;Lightly&#39;, &#39;Moderately&#39;, 
+             &#39;Heavily&#39;, &#39;Severely&#39;, &#39;OMG&#39;),
+  rect.col = grey(seq(1, 0, length.out = nlevels(aqilevel))),
+  align = &amp;quot;rb&amp;quot;, gradient = &amp;quot;y&amp;quot;)  # 添加图例。
+
+install.packages(&#39;leafletCN&#39;)
+require(leafletCN)
+aqi$aqi[aqi$aqi == -1] &amp;lt;- NA
+pvs &amp;lt;- regionNames(&amp;quot;china&amp;quot;)
+loc &amp;lt;- match(pvs, aqi$province)
+aqi2 &amp;lt;- data.frame(name = pvs, value = aqi$aqi[loc])
+geojsonMap(dat = aqi2, mapName = &amp;quot;china&amp;quot;,
+           popup =  paste(aqi2$name, aqi2$value),
+           legendTitle = &amp;quot;AQI&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第十二章 时间）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch12/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch12/</link>
       <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch12/</guid>
-      <description>第十二章 时间 bd &amp;lt;- &#39;1994-09-22 20:30:00&#39; bdtime &amp;lt;- strptime(x = bd, format = &#39;%Y-%m-%d %H:%M:%S&#39;, tz = &amp;quot;Asia/Shanghai&amp;quot;) bdtime class(bd) class(bdtime) t1 &amp;lt;- Sys.time() # 返回当前时刻 t2 &amp;lt;- date() # 返回当前时刻 t3 &amp;lt;- Sys.Date() # 返回当前日期 t1 t2 t3 class(t1) class(t2) class(t3) bdtime$wday unlist(unclass(bdtime)) format(bdtime, format = &#39;%d.%m.%Y&#39;) bdtime + 1 bdtime + 60 bdtime + 3600 t3 &amp;lt;- bdtime + 86400 t3 bdtime2 &amp;lt;- strptime( &#39;1995-09-01 7:30&#39;, format = &#39;%Y-%m-%d %H:%M&#39;, tz = &#39;Asia/Shanghai&#39;) bdtime2 - bdtime difftime(time1 = bdtime2, time2 = bdtime, units = &#39;secs&#39;) mean(c(bdtime, bdtime2)) (a &amp;lt;- strptime(&amp;quot;2018-03-25 03:00:00&amp;quot;, format = &amp;quot;%Y-%m-%d %H:%M:%S&amp;quot;, tz = &amp;quot;CET&amp;quot;)) a - 1 (a &amp;lt;- as.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch12/</guid>
+      <description>
+
+&lt;h2 id=&#34;第十二章-时间&#34;&gt;第十二章 时间&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;bd &amp;lt;- &#39;1994-09-22 20:30:00&#39;
+bdtime &amp;lt;- strptime(x = bd, format = &#39;%Y-%m-%d %H:%M:%S&#39;, 
+                   tz = &amp;quot;Asia/Shanghai&amp;quot;)
+bdtime
+
+class(bd)
+class(bdtime)
+t1 &amp;lt;- Sys.time() # 返回当前时刻
+t2 &amp;lt;- date() # 返回当前时刻
+t3 &amp;lt;- Sys.Date() # 返回当前日期
+t1
+t2
+t3
+class(t1)
+class(t2)
+class(t3)
+bdtime$wday
+
+unlist(unclass(bdtime))
+format(bdtime, format = &#39;%d.%m.%Y&#39;)
+
+bdtime + 1
+bdtime + 60
+bdtime + 3600
+
+t3 &amp;lt;- bdtime + 86400
+t3
+
+bdtime2 &amp;lt;- strptime(
+  &#39;1995-09-01 7:30&#39;, format = &#39;%Y-%m-%d %H:%M&#39;, 
+  tz = &#39;Asia/Shanghai&#39;)
+bdtime2 - bdtime
+
+difftime(time1 = bdtime2, time2 = bdtime, units = &#39;secs&#39;)
+
+mean(c(bdtime, bdtime2))
+
+(a &amp;lt;- strptime(&amp;quot;2018-03-25 03:00:00&amp;quot;, 
+              format = &amp;quot;%Y-%m-%d %H:%M:%S&amp;quot;, tz = &amp;quot;CET&amp;quot;))
+a - 1
+(a &amp;lt;- as.POSIXlt(&amp;quot;2018-03-25 03:00:00&amp;quot;, tz = &amp;quot;CET&amp;quot;))
+a - 1
+(a &amp;lt;- as.POSIXlt(&amp;quot;2018-03-25 02:00:00&amp;quot;, tz = &amp;quot;CET&amp;quot;))
+(a &amp;lt;- strptime(&amp;quot;2018-03-25 02:00:00&amp;quot;, 
+              format = &amp;quot;%Y-%m-%d %H:%M:%S&amp;quot;, tz = &amp;quot;CET&amp;quot;))
+a - 1
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>示例代码（第十三章 批量处理文件）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch13/</link>
+      <link>https://xuer.pzhao.org/publication/codes_ch13/</link>
       <pubDate>Wed, 05 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch13/</guid>
-      <description>第十三章 批量处理文件 download.file(url= &amp;quot;http://dapengde.com/r4rookies/figren.zip&amp;quot;, destfile = &amp;quot;c:/r4r/figren.zip&amp;quot;) unzip(zipfile = &amp;quot;c:/r4r/figren.zip&amp;quot;, exdir = &amp;quot;c:/r4r&amp;quot;) fotodir &amp;lt;- &#39;c:/r4r/figren&#39; fotofilefull &amp;lt;- dir(fotodir, full.names = TRUE) fotofile &amp;lt;- dir(fotodir) fotoinfo &amp;lt;- file.info(fotofilefull) fotoinfo fototime &amp;lt;- format(fotoinfo$mtime, &#39;%Y-%m-%d-%H%M%S&#39;) newname &amp;lt;- paste( fotodir, &#39;/&#39;, fototime, &#39;_&#39;, fotofile, sep = &#39;&#39;) file.rename(fotofilefull, newname) urlink &amp;lt;- &#39;http://www.biomet.co.at/pictures/&#39; aa &amp;lt;- readLines(urlink, encoding = &#39;UTF-8&#39;) # 读取网页 linkformat &amp;lt;- &#39;src=&amp;quot;http://www.biomet.co.at/wp/wp-content/gallery&#39; bb &amp;lt;- aa[grep(linkformat, aa)] for(i in 1:length(bb)) bb[i] &amp;lt;- substring( bb[i], regexpr(&amp;quot;http&amp;quot;, bb[i])[1], regexpr(&amp;quot;.</description>
-    </item>
-    
-    <item>
-      <title>示例代码（第十四章 论文书稿写作）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch14/</link>
-      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch14/</guid>
-      <description>第十四章 论文书稿写作 install.packages(&amp;quot;bookdownplus&amp;quot;) require(bookdownplus) for(i in template()[1:19]) bookdownplus(template = i, more_output = more_output()[1:3]) for(mf in mail_font()) { for(ms in mail_style()) { for(mt in mail_theme()) { outputname &amp;lt;- paste(&#39;mail&#39;, ms, mf, mt, sep = &#39;_&#39;) bookdownplus(template = &#39;mail&#39;, mail_style = ms, mail_font = mf, mail_theme = mt, output_name = outputname) } } } bookdownplus(template = &#39;article&#39;) bookdownplus(template = template()[1]) template() bookdownplus(template = &#39;article&#39;, author = &#39;John Smith&#39;, title = &#39;My article&#39;) more_output() bookdownplus(template = &#39;article&#39;, more_output = more_output()) bookdown::publish_book() bookdownplus(template = &#39;thesis_ubt&#39;) bookdownplus(template = &#39;thesis_mypku&#39;) install.</description>
-    </item>
-    
-    <item>
-      <title>示例代码（第十五章 搭建小型网站）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch15/</link>
-      <pubDate>Mon, 03 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch15/</guid>
-      <description> 第十五章 搭建小型网站 if(!require(devtools)) install.packages(&#39;devtools&#39;) devtools::install_github(&#39;rstudio/blogdown&#39;) blogdown::install_hugo() setwd(&#39;c:/blogdown_default&#39;) blogdown::new_site() blogdown::serve_site() blogdown::build_site() setwd(&#39;c:/blogdown_default&#39;) blogdown::new_site(theme=&#39;gcushen/hugo-academic&#39;)  </description>
-    </item>
-    
-    <item>
-      <title>示例代码（第十六章 在工作中应用）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch16/</link>
-      <pubDate>Sun, 02 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch16/</guid>
-      <description> 第十六章 在工作中应用 rdoc &amp;lt;- readLines(&#39;c:/r4r/rdoc.Rmd&#39;, encoding = &#39;UTF-8&#39;) for(k in 1:7) { newrmd &amp;lt;- paste(&#39;c:/r4r/&#39;, k, &#39;.Rmd&#39;, sep = &#39;&#39;) rdoc[13] &amp;lt;- paste(&#39;i &amp;lt;-&#39;, k) writeLines(rdoc, newrmd, useBytes = TRUE) rmarkdown::render(newrmd, encoding = &#39;UTF-8&#39;) }  </description>
-    </item>
-    
-    <item>
-      <title>示例代码（第十七章 用 R 进行基础统计（一）：概率分布检验）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch17/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch17/</guid>
-      <description>第十七章 用 R 进行基础统计（一）：概率分布检验 binom.test(x = 27, n = 60, p = 0.5, alternative = &amp;quot;less&amp;quot;) binom.test(x = 203, n = 558, p = 0.4, alternative = &amp;quot;less&amp;quot;) binom.test(x = 203, n = 558, p = 0.4, alternative =&amp;quot;greater&amp;quot;) poisson.test(13,15) poisson.test(13,24,alternative=&amp;quot;less&amp;quot;) qpois(0.95,lambda =24) qpois(0.05,lambda =24) x &amp;lt;- 0:6 y &amp;lt;- c(7, 10, 12, 8, 3, 2, 0) mean &amp;lt;- mean(rep(x, y)) q &amp;lt;- ppois(x, mean) n &amp;lt;- length(y) p &amp;lt;- q p[1] &amp;lt;- q[1] p[n] &amp;lt;- 1 - q[n - 1] for(i in 2:(n - 1)) p[i] &amp;lt;- 1 - q[i - 1] chisq.</description>
-    </item>
-    
-    <item>
-      <title>示例代码（第十八章 用 R 进行基础统计（二）：均值比较和方差分析）</title>
-      <link>https://pzhaonet.github.io/xuer/publication/codes_ch18/</link>
-      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://pzhaonet.github.io/xuer/publication/codes_ch18/</guid>
-      <description>第十八章 用 R 进行基础统计（二）：均值比较和方差分析 myco2&amp;lt;-co2[1:12] myco2 t.test(myco2,mu=316.45) myco2.t1 &amp;lt;- co2[1:12] # 1959年的观测数据 myco2.t2 &amp;lt;- co2[13:24] # 1960年的观测数据 t.test(myco2.t1,myco2.t2) myco2.t1 &amp;lt;- co2[1:12] # 1959年的观测数据 myco2.t3 &amp;lt;- co2[97:108] # 1965年的观测数据 t.test(myco2.t1,myco2.t3) require(graphics) # 学生的睡眠数据 with(sleep, t.test(extra[group == 1], extra[group == 2])) sleep t.test(extra ~ group, data = sleep) require(graphics)##学生的睡眠数据 with(sleep, t.test(extra[group == 1], extra[group == 2])) t.test(extra ~ group, data = sleep,paired=TRUE) attach(airquality) Month &amp;lt;- factor(Month, labels = month.abb[5:9]) pairwise.t.test(Ozone, Month) pairwise.</description>
+      <guid>https://xuer.pzhao.org/publication/codes_ch13/</guid>
+      <description>
+
+&lt;h2 id=&#34;第十三章-批量处理文件&#34;&gt;第十三章 批量处理文件&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;download.file(url= &amp;quot;http://dapengde.com/r4rookies/figren.zip&amp;quot;,
+              destfile = &amp;quot;c:/r4r/figren.zip&amp;quot;)
+unzip(zipfile = &amp;quot;c:/r4r/figren.zip&amp;quot;, exdir = &amp;quot;c:/r4r&amp;quot;)
+fotodir &amp;lt;- &#39;c:/r4r/figren&#39;
+fotofilefull &amp;lt;- dir(fotodir, full.names = TRUE)
+fotofile &amp;lt;- dir(fotodir)
+fotoinfo &amp;lt;- file.info(fotofilefull)
+fotoinfo
+fototime &amp;lt;- format(fotoinfo$mtime, &#39;%Y-%m-%d-%H%M%S&#39;)
+newname &amp;lt;- paste(
+  fotodir, &#39;/&#39;, fototime, &#39;_&#39;, fotofile, sep = &#39;&#39;)
+file.rename(fotofilefull, newname)
+
+urlink &amp;lt;- &#39;http://www.biomet.co.at/pictures/&#39;
+aa &amp;lt;- readLines(urlink, encoding = &#39;UTF-8&#39;) # 读取网页
+linkformat &amp;lt;-
+  &#39;src=&amp;quot;http://www.biomet.co.at/wp/wp-content/gallery&#39;
+bb &amp;lt;- aa[grep(linkformat, aa)]
+
+for(i in 1:length(bb))
+  bb[i] &amp;lt;- substring(
+    bb[i],
+    regexpr(&amp;quot;http&amp;quot;, bb[i])[1],
+    regexpr(&amp;quot;.jpg\&amp;quot;&amp;quot;, bb[i])[1]+3) # 获取链接
+bb &amp;lt;- unique(bb)
+length(bb)
+writeLines(bb, &#39;c:/r4r/links.txt&#39;)
+
+stname &amp;lt;- substring(bb, 47, 50)
+stname &amp;lt;- stname[-which(stname == &#39;&#39;)]
+for(i in unique(stname))
+  dir.create(paste(&#39;c:/r4r/&#39;, i, sep = &#39;&#39;))
+
+for(i in 1:length(bb)) {
+  download.file(
+    url = bb[i],
+    destfile = paste(
+      &#39;c:/r4r/&#39;, stname[i],&#39;/&#39;, stname[i], i, &#39;.jpg&#39;,
+      sep = &amp;quot;&amp;quot;),
+    method = &#39;curl&#39;, quiet = TRUE)
+  print(paste(i, &#39;of&#39;, length(bb), &#39;downloaded.&#39;))
+}
+winDialog(type = c(&amp;quot;ok&amp;quot;), message = &#39;下载完毕！&#39;)
+
+download.file(url = &amp;quot;http://dapengde.com/r4rookies/obs.zip&amp;quot;,
+              destfile = &amp;quot;c:/r4r/obs.zip&amp;quot;)
+unzip(zipfile = &amp;quot;c:/r4r/obs.zip&amp;quot;, exdir = &amp;quot;c:/r4r&amp;quot;)
+stn &amp;lt;- 54527
+obsdir &amp;lt;- &#39;c:/r4r/obs&#39;
+obsfilefull &amp;lt;- dir(obsdir, full.names = TRUE)
+obstime &amp;lt;- as.numeric(dir(obsdir))
+output &amp;lt;- NULL
+for(k in 1:length(obsfilefull))
+{
+  input &amp;lt;- read.table(obsfilefull[k], header = FALSE,
+                      skip = 2, sep=&amp;quot;&amp;quot;)
+  output_new &amp;lt;- input[which(input[, 1] == stn),]
+   if(nrow(output_new) != 0)
+     rownames(output_new) &amp;lt;- obstime[k]
+  output &amp;lt;- rbind(output, output_new)
+}
+output$time &amp;lt;- rownames(output)
+
+
+shell(&#39;notepad&#39;)
+shell(&#39;start iexplore http://xuer.pzhao.net&#39;)
+shell(&#39;cmd /c &amp;quot;D:/Program Files/Tencent/QQProtect.exe&amp;quot;&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

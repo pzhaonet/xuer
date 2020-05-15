@@ -2,325 +2,911 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 学 R </title>
-    <link>https://pzhaonet.github.io/xuer/post/</link>
+    <link>https://xuer.pzhao.org/post/</link>
     <description>Recent content in Posts on 学 R </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; 赵鹏 李怡</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://pzhaonet.github.io/xuer/post/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>drunkevil：读 @dapeng 的《学 R》</title>
-      <link>https://pzhaonet.github.io/xuer/post/drunkevil/</link>
+      <link>https://xuer.pzhao.org/post/drunkevil/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/drunkevil/</guid>
-      <description>本文经作者 @drunkevil 授权转载（原文链接1，原文链接2）。略有改动。
-有两个 1.5 G 的 csv 文件需要处理，具体的要求是删去不必要的字段和某些字段中不符合要求的行，减小数据量，以便进一步的分析，但是 Excel 很难直接进行处理。
-平时基本上不写代码，想到的笨方法是：
-  将大文件分割成小文件（大概 8 个）； 用 Excel 对每个小文件（200 M 左右）进行排序，筛选，删除等操作； 将处理后的小文件合并成一个文件。   虽然看起来只有三步，但其中的困难只有在真正做的时候才能体会。 分割完成后在处理第二个 200 M 的小文件时，电脑不争气的卡死了。
-意识到以这种方法估计要搞到下班也很难处理好，上半年的最后一个小长假甚至会因此而受到影响，脑子里突然想到了 @dapeng 推荐的不少人在学习的 R 语言。
-于是果断地在网上找了两篇教程，下载并安装了 R 的安装包和 Rstudio，试着写下了人生中的第一个 R 脚本，虽然只有大概 5 行代码，略显简陋，但很好地完成了人拉肩扛的纯体力劳动，大大解放了生产力。将精力主要放在了后续的分析上。
-唯一不太喜欢的地方在于，R 在读取 csv 文件时，没有进度提示，不知道要多久才能完成，好在最终执行整个过程只花了 20 分钟左右。
- 同事：你这是什么？
-我：R 语言。
-同事：R 语言是什么？
-我：统计分析语言。
-同事：你还会这个啊？
-我：刚刚学的一点皮毛。
- 真的只是一点皮毛，距离学会还有一定的路要走。不过我对于编程的理解是，关键不在于学没学会，而在于会不会用。
-下午五点半，愉快地按时下班了，开始了上半年的最后一个小长假。
-在体会到了 R 的锋利之后，在网上入手了 @dapeng 的热销书《学 R：零基础学习 R 语言》，近距离地感受下 R 的过人之处。</description>
+      <guid>https://xuer.pzhao.org/post/drunkevil/</guid>
+      <description>&lt;p&gt;本文经作者 @drunkevil 授权转载（&lt;a href=&#34;https://steemit.com/cn-reader/@drunkevil/reading-of-learning-r&#34; target=&#34;_blank&#34;&gt;原文链接1&lt;/a&gt;，&lt;a href=&#34;https://steemit.com/cn/@drunkevil/r&#34; target=&#34;_blank&#34;&gt;原文链接2&lt;/a&gt;）。略有改动。&lt;/p&gt;
+
+&lt;p&gt;有两个 1.5 G 的 &lt;code&gt;csv&lt;/code&gt; 文件需要处理，具体的要求是删去不必要的字段和某些字段中不符合要求的行，减小数据量，以便进一步的分析，但是 Excel 很难直接进行处理。&lt;/p&gt;
+
+&lt;p&gt;平时基本上不写代码，想到的笨方法是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;将大文件分割成小文件（大概 8 个）；&lt;/li&gt;
+&lt;li&gt;用 Excel 对每个小文件（200 M 左右）进行排序，筛选，删除等操作；&lt;/li&gt;
+&lt;li&gt;将处理后的小文件合并成一个文件。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;虽然看起来只有三步，但其中的困难只有在真正做的时候才能体会。 分割完成后在处理第二个 200 M 的小文件时，电脑不争气的卡死了。&lt;/p&gt;
+
+&lt;p&gt;意识到以这种方法估计要搞到下班也很难处理好，上半年的最后一个小长假甚至会因此而受到影响，脑子里突然想到了 @dapeng 推荐的不少人在学习的 R 语言。&lt;/p&gt;
+
+&lt;p&gt;于是果断地在网上找了两篇教程，下载并安装了 R 的安装包和 Rstudio，试着写下了人生中的第一个 R 脚本，虽然只有大概 5 行代码，略显简陋，但很好地完成了人拉肩扛的纯体力劳动，大大解放了生产力。将精力主要放在了后续的分析上。&lt;/p&gt;
+
+&lt;p&gt;唯一不太喜欢的地方在于，R 在读取 csv 文件时，没有进度提示，不知道要多久才能完成，好在最终执行整个过程只花了 20 分钟左右。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;同事：你这是什么？&lt;/p&gt;
+
+&lt;p&gt;我：R 语言。&lt;/p&gt;
+
+&lt;p&gt;同事：R 语言是什么？&lt;/p&gt;
+
+&lt;p&gt;我：统计分析语言。&lt;/p&gt;
+
+&lt;p&gt;同事：你还会这个啊？&lt;/p&gt;
+
+&lt;p&gt;我：刚刚学的一点皮毛。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;真的只是一点皮毛，距离学会还有一定的路要走。不过我对于编程的理解是，关键不在于学没学会，而在于会不会用。&lt;/p&gt;
+
+&lt;p&gt;下午五点半，愉快地按时下班了，开始了上半年的最后一个小长假。&lt;/p&gt;
+
+&lt;p&gt;在体会到了 R 的锋利之后，在网上入手了 @dapeng 的热销书《&lt;a href=&#34;http://xuer.dapengde.com/&#34; target=&#34;_blank&#34;&gt;学 R：零基础学习 R 语言&lt;/a&gt;》，近距离地感受下 R 的过人之处。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/DQmf4HYZ5Te9d4L6rKBC1j1EwZbKubppTqUFj8MMTCiJRB5/IMG_5611.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;昨天下午，花了两三个小时的时间将这本《学 R》读了一遍。@dapeng 辛辛苦苦 &lt;a href=&#34;https://steemit.com/cn/@dapeng/xuer-sale&#34; target=&#34;_blank&#34;&gt;16 个月怀胎&lt;/a&gt;，我却只花了两三个小时就读了一遍，原因是，我并不需要每章都去读，有些章节，比如第 17 和 18 两章关于用 R 进行基础统计的内容，我可能暂时用不到；另外，整本书各章相对独立，对编程稍有基础的话大可不必从头到尾通读。&lt;/p&gt;
+
+&lt;p&gt;老实说，《学 R》并不适合所有的想要学 R 的人，它更适合的是那些&lt;strong&gt;对R语言或者其他编程语言没有基础而又需要用到R语言的人&lt;/strong&gt;，像 O 哥这样的大神或者城市的出租车司机大概不会买来阅读，这点从书的副标题和序言都可以看出。&lt;/p&gt;
+
+&lt;p&gt;与其他的《零基础学习xx》的所谓教程和图书最大的不同之处在于，《学 R》十分真诚。它不是那种耳提面命似的辅导，没有多少术语和枯燥的公式，而是那种一对一的交流和探讨，是那种将自己七年的学习和使用经验的分享，如果你读过 @dapeng 的博客，大概会同意我的这种看法。&lt;/p&gt;
+
+&lt;p&gt;工作中，我很少用到统计学，数据分析倒是时常会接触，但基本上都是通过表格来处理，常用的需求一般是通过公司专门部门写的小工具，定制化十足而灵活性有限。有了 R 这一把利器，希望为自己的数据处理和分析提高一些效率，同时也增加一些乐趣。&lt;/p&gt;
+
+&lt;p&gt;当然，统计分析并不是 R 的唯一用武之地，如果这本《学 R》只是在讲 R 在统计学中的应用，@dapeng 大概会少了三块钱的版税收入（哈哈）。看一下目录，与统计学直接相关的内容很少，更多的是 R 在不同方面的应用。尤其吸引我的是 R 的&lt;code&gt;bookdown&lt;/code&gt;，&lt;code&gt;bolgdown&lt;/code&gt;，&lt;code&gt;bookdownplus&lt;/code&gt;等扩展包。&lt;/p&gt;
+
+&lt;p&gt;看完这本书，大概可以说自己真的是入门了，更多的功能需要去使用。毕竟 R 语言只是一种工具，有工具并且要会使用工具才能真正发挥它的价值。&lt;/p&gt;
+
+&lt;p&gt;那么，R 真正的过人之处在哪里呢？容我开始使用后慢慢体会。&lt;/p&gt;
+
+&lt;p&gt;关于书中内容，一个小小的勘误：&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;页码&lt;/th&gt;
+&lt;th&gt;错误&lt;/th&gt;
+&lt;th&gt;订正&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;td&gt;哈姆雷&lt;/td&gt;
+&lt;td&gt;哈姆雷特&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;顺便说一句，哈姆雷特这样的词语出现在编程语言的书中大概是我读到的第一次，当然，除了哈姆雷特之外，金庸，张无忌，四大名著的影子都会出现。虽然这些东西对书的内容并没有太大的提升，但对于书的可读性提升了好几个档次。与一本严肃的教科书相比，一本段子云集的…课外书自然更有吸引力。&lt;/p&gt;
+
+&lt;p&gt;最后小小八卦一下，包括这本书的作者介绍在内，看到过好几张 @dapeng 的照片（&lt;a href=&#34;http://www.pzhao.org/zh/&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt;,&lt;a href=&#34;https://steemit.com/introduceyourself/@dapeng/self-introduction-of-dapeng&#34; target=&#34;_blank&#34;&gt;2&lt;/a&gt;,&lt;a href=&#34;https://steemit.com/cn/@dapeng/2wot2j&#34; target=&#34;_blank&#34;&gt;3&lt;/a&gt;,&lt;a href=&#34;https://steemit.com/dlive/@dapeng/8db8cbc0-61a0-11e8-b143-ffce16c65548&#34; target=&#34;_blank&#34;&gt;4&lt;/a&gt;），但每次都感觉不像是同一个人，不知道有没有人也有这种感觉？&lt;/p&gt;
+
+&lt;p&gt;祝《学 R》大卖！&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>《学 R》读者反馈第 1 弹</title>
-      <link>https://pzhaonet.github.io/xuer/post/feedback-1/</link>
+      <link>https://xuer.pzhao.org/post/feedback-1/</link>
       <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/feedback-1/</guid>
-      <description>《学 R》 前言里提到，本书的前身是我博客的“R 菜鸟入门”系列文章。自发布后，就收到很多读者好评。事实上，也正是这些好评，才让出版社看到了本书的潜在市场，才促成了书的出版。
-没写不知道，写了一本才发现，写书太累了。要不是这么多读者给我糖吃，我就写不出这本书了。
-谢谢他们！
-  有种读小说的感觉，挺好的。(wangpeng692, 2013-03-29)
- 刚刚开始学习，这帖子真是太好了，太贴心了，真的人人都能R啊。(Didi, 2014-11-05)
- 写得很流畅，读起来一气呵成，不像有的书，中间参杂了其他的东西，容易断思路。赞一个。(卡卡, 2013-04-04)
- 很好狠好 通俗易懂 文字流畅 应该拉你当统计之都的写手。(ypchen, 2013-03-30)
- 一口气读完，通俗易懂，实例与小结对我这样的菜鸟快速上手很有帮助。(yufree, 2013-03-29)
- 大一，刚学R语言，看了这个感觉超级有趣，本来觉得一头雾水，现在觉得自己能学好。真的很有帮助，太感谢了！(任小婷, 2017-11-14)
- dapeng 的博文很生动哈，也比较由浅入深，每篇文章，我估计如果dapeng来讲课的话，恰好可以讲一节课，而且非常的有实操性。。。多谢dapeng 。(causu, 2013-04-08)
- 你的 R 系列博文写得真好，我才发觉以前我学不进去，是因为那些书讲得太不地道了，一上来就从头到尾，事无巨细的讲，直接没兴趣读下去，而你的博文，直接来个csv，file.choose，然后plot，summary，对于我这种种上计算机课老师只为了让考过一级、二级，而数学早忘光光的人，是无比期盼的，我才搞明白，R真是为不编程的人准备的利器。(acheng99, 2013-12-16)
- 学了 R 有一段时间了，学学放放，总是不得要领，然后还在纠结是不是再捡起 matlab，说实话，matlab 在统计方面还真没有 R 做的好，至于 SPSS 、 SAS 根本就不在我的考虑范围之内。前两天我翻我的收藏夹，发现了这么一个宝贝：R 菜鸟入门篇，是 dapeng 写的一个R的系统的学习教程，言简意赅，生动形象，非常适合 R 语言入门和丢下 R 很久的人再回来看。这个系列的教程还受到了谢益辉同学的推荐，很不错！(小武子, 2013-03-15)
- 顺便说一下，如果从来没有用过 R，最好去大鹏的blog 扫荡一下，他的讲解顺序非常有利于新人，通俗而不低俗，简短而又直击要害，第一篇讲安装，第二篇讲计算，第三篇讲读文件，第四篇讲数据，几分种就能读完一篇，我是被他提到的三四个函数震撼到了，分别是 file.choose，read.csv， summary，plot，然后就开始用R来折腾数据。以前读的书，都是长篇累赘的介绍软件功能，从扎马步到六脉神剑，全部介绍一遍，试图让读书的人全部看完，把所有的练习都做完以后再开工开始用他，看着就头疼，根本没在乎读者的感受，大鹏的博客把读文件这个事提前，而且是把最简单，最易用的方式拿出来，其他的方式各人自己想用了再想办法吧，数据那一篇博客里，无需多言，summary和 plot两个函数就那么一放，没用过R的人，谁不两眼放光啊？也许这个就是应试教育和素质教育的差异吧。(Oil Tang, 2014-01-06)
- 用了一天的时间进行了学习，感觉真的很好，推荐作为入门读物！不过不要把R作为学习的目标，而应该把R当成工具，而学习使用工具的最佳方法还是实践、思考和提问！祝所有的菜鸟都可以飞向高空！(smurf, 2013-03-31)</description>
+      <guid>https://xuer.pzhao.org/post/feedback-1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://xuer.pzhao.net&#34; target=&#34;_blank&#34;&gt;《学 R》&lt;/a&gt; 前言里提到，本书的前身是我博客的“R 菜鸟入门”系列文章。自发布后，就收到很多读者好评。事实上，也正是这些好评，才让出版社看到了本书的潜在市场，才促成了书的出版。&lt;/p&gt;
+
+&lt;p&gt;没写不知道，写了一本才发现，写书太累了。要不是这么多读者给我糖吃，我就写不出这本书了。&lt;/p&gt;
+
+&lt;p&gt;谢谢他们！&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;有种读小说的感觉，挺好的。(wangpeng692, 2013-03-29)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;刚刚开始学习，这帖子真是太好了，太贴心了，真的人人都能R啊。(Didi, 2014-11-05)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;写得很流畅，读起来一气呵成，不像有的书，中间参杂了其他的东西，容易断思路。赞一个。(卡卡, 2013-04-04)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;很好狠好 通俗易懂 文字流畅 应该拉你当统计之都的写手。(ypchen, 2013-03-30)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;一口气读完，通俗易懂，实例与小结对我这样的菜鸟快速上手很有帮助。(yufree, 2013-03-29)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;大一，刚学R语言，看了这个感觉超级有趣，本来觉得一头雾水，现在觉得自己能学好。真的很有帮助，太感谢了！(任小婷, 2017-11-14)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;dapeng 的博文很生动哈，也比较由浅入深，每篇文章，我估计如果dapeng来讲课的话，恰好可以讲一节课，而且非常的有实操性。。。多谢dapeng 。(causu, 2013-04-08)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;你的 R 系列博文写得真好，我才发觉以前我学不进去，是因为那些书讲得太不地道了，一上来就从头到尾，事无巨细的讲，直接没兴趣读下去，而你的博文，直接来个csv，file.choose，然后plot，summary，对于我这种种上计算机课老师只为了让考过一级、二级，而数学早忘光光的人，是无比期盼的，我才搞明白，R真是为不编程的人准备的利器。(acheng99, 2013-12-16)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;学了 R 有一段时间了，学学放放，总是不得要领，然后还在纠结是不是再捡起 matlab，说实话，matlab 在统计方面还真没有 R 做的好，至于 SPSS 、 SAS 根本就不在我的考虑范围之内。前两天我翻我的收藏夹，发现了这么一个宝贝：R 菜鸟入门篇，是 dapeng 写的一个R的系统的学习教程，言简意赅，生动形象，非常适合 R 语言入门和丢下 R 很久的人再回来看。这个系列的教程还受到了谢益辉同学的推荐，很不错！(&lt;a href=&#34;http://www.jianshu.com/p/44cc00bf7d12&#34; target=&#34;_blank&#34;&gt;小武子&lt;/a&gt;, 2013-03-15)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;顺便说一下，如果从来没有用过 R，最好去大鹏的blog 扫荡一下，他的讲解顺序非常有利于新人，通俗而不低俗，简短而又直击要害，第一篇讲安装，第二篇讲计算，第三篇讲读文件，第四篇讲数据，几分种就能读完一篇，我是被他提到的三四个函数震撼到了，分别是 &lt;code&gt;file.choose&lt;/code&gt;，&lt;code&gt;read.csv&lt;/code&gt;， &lt;code&gt;summary&lt;/code&gt;，&lt;code&gt;plot&lt;/code&gt;，然后就开始用R来折腾数据。以前读的书，都是长篇累赘的介绍软件功能，从扎马步到六脉神剑，全部介绍一遍，试图让读书的人全部看完，把所有的练习都做完以后再开工开始用他，看着就头疼，根本没在乎读者的感受，大鹏的博客把读文件这个事提前，而且是把最简单，最易用的方式拿出来，其他的方式各人自己想用了再想办法吧，数据那一篇博客里，无需多言，summary和 plot两个函数就那么一放，没用过R的人，谁不两眼放光啊？也许这个就是应试教育和素质教育的差异吧。(&lt;a href=&#34;http://oiltang.com/2014/01/06/25-recipes-for-getting-started-with-r/&#34; target=&#34;_blank&#34;&gt;Oil Tang&lt;/a&gt;, 2014-01-06)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;用了一天的时间进行了学习，感觉真的很好，推荐作为入门读物！不过不要把R作为学习的目标，而应该把R当成工具，而学习使用工具的最佳方法还是实践、思考和提问！祝所有的菜鸟都可以飞向高空！(smurf, 2013-03-31)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
       <title>dancingapple：学 R 笔记 1</title>
-      <link>https://pzhaonet.github.io/xuer/post/dancingapple-1/</link>
+      <link>https://xuer.pzhao.org/post/dancingapple-1/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/dancingapple-1/</guid>
-      <description>本文经作者 @dancingapple 授权转载（原文链接）。
-关于技术类书籍，我最讨厌的是“尽管看，看懂算我输”的套路。试想在玩游戏的时候，如果要求你把游戏规则从头到尾阅读一遍考试合格才给你小米加步枪上阵撒野，那还有啥乐趣可言？
-虽然每个人从小多少都有一颗向往艺术的心，但无奈美术课总会被中英数霸占。你以为被占用的只是一节节美术课，但蓦然回首，才发现它还蒙蔽了发现美的眼睛。
-长大以后，想着去逛逛美术馆博物馆吧，但一钻进馆里就像置身未知的外太空。求知欲还算强大的你不甘心睁着眼睛却一无所知，于是去找各种艺术解说——
- ……现代性也已成为日常社会不可或缺的文化语境。任何背弃现代性探索的程式化图式表达，都无法与现实真正发生对应，也就无法获得创作的真实动力。现实精神本体与传统语言本体的割裂，从本质上造成了水墨艺术家的选择困境。……重构水墨的当代精神框架，这需要既保持水墨的文化特质。又凸显人与当下的关系与意义…… ……
- 什么仇什么怨啊……我只是想看懂一幅画而已……
-幸好 @dapeng 的这本书不走套路，压根没有一翻开就能把人给唬住的各种定义&amp;amp;理论。开门见山，简单明了，序言&amp;amp;前言过后就直接新手上路好happy。
-情怀&amp;amp;幽默部分我就不再强调了，因为一点点学下来我能感觉到他最大的诚意是放在最实在而并非花哨的地方。完全没有出版包袱，话都是大白话，一看就懂，而且实例多。所以从安装到写出第一行代码再到绘出第一幅图，并没有觉得太晦涩难懂。
-呃……话虽平淡，但天知道我写出第一行代码以及图片绘出来时有多激动……
-我是非常典型的文科生逻辑，以前学数学都是靠背的，好在这本书没有东西给我背。
-感觉学起来像学一门新的语言。
-嗯……最难的地方就在于逻辑在打架。
-龟速学习，才啃了第一章，我不知道这感觉对不对，但也分享出来吧：
- 运算结果显示出我输入的代码时，我觉得这是来自另一个空间的回应，对象是一个陌生且未知的朋友。也感触到了那一句“hello world”的浪漫…… 数学不好似乎影响不大，只需掌握怎么运用就行，其他的交给它； 它自带了一些数据，比如第一章提到的二氧化碳浓度； 同样的结果，操作起来较Excel便捷； 我好喜欢按了Run以后有结果刷出来滴感觉……  好，下面是表白时间。
-意识流比较强的我居然觉得这书有点齐白石风格。
-齐老啥风格？
-从。来。不。装。
-真。实。
-幽。默。
-呃……高考这样写估计会负分滚粗吧。
-好，感受一下他的大白话——
- 卖画不论交情，君子有耻，请照润格出钱。
- 买我画的时候不要跟我谈感情，谈感情伤钱，圈重点自己看。
- 凡我门客，喜寻师母请安问好者，请莫再来。
- 来我家就来我家，没事憋找我媳妇！不然就不准来了！
-文章最后，我想说，其实 @dapeng 还是有套路的。毕竟学渣克星这金字招牌不是浪得虚名。
-套路就是：先给你充值100%的信心&amp;amp;骄傲，然后就逼你乖乖学习天天向上了。</description>
+      <guid>https://xuer.pzhao.org/post/dancingapple-1/</guid>
+      <description>&lt;p&gt;本文经作者 @dancingapple 授权转载（&lt;a href=&#34;https://steemit.com/cn/@dancingapple/r-1&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmRgMXY85E88ZtJonVZTPukv3Z5RcsW5GRmwzoKRL8TdDW/688FBB08-8AC1-4447-8655-C52AB261A8AF.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;关于技术类书籍，我最讨厌的是“尽管看，看懂算我输”的套路。试想在玩游戏的时候，如果要求你把游戏规则从头到尾阅读一遍考试合格才给你小米加步枪上阵撒野，那还有啥乐趣可言？&lt;/p&gt;
+
+&lt;p&gt;虽然每个人从小多少都有一颗向往艺术的心，但无奈美术课总会被中英数霸占。你以为被占用的只是一节节美术课，但蓦然回首，才发现它还蒙蔽了发现美的眼睛。&lt;/p&gt;
+
+&lt;p&gt;长大以后，想着去逛逛美术馆博物馆吧，但一钻进馆里就像置身未知的外太空。求知欲还算强大的你不甘心睁着眼睛却一无所知，于是去找各种艺术解说——&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;……现代性也已成为日常社会不可或缺的文化语境。任何背弃现代性探索的程式化图式表达，都无法与现实真正发生对应，也就无法获得创作的真实动力。现实精神本体与传统语言本体的割裂，从本质上造成了水墨艺术家的选择困境。……重构水墨的当代精神框架，这需要既保持水墨的文化特质。又凸显人与当下的关系与意义…… ……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;什么仇什么怨啊……我只是想看懂一幅画而已……&lt;/p&gt;
+
+&lt;p&gt;幸好 @dapeng 的这本书不走套路，压根没有一翻开就能把人给唬住的各种定义&amp;amp;理论。开门见山，简单明了，序言&amp;amp;前言过后就直接新手上路好happy。&lt;/p&gt;
+
+&lt;p&gt;情怀&amp;amp;幽默部分我就不再强调了，因为一点点学下来我能感觉到他最大的诚意是放在最实在而并非花哨的地方。完全没有出版包袱，话都是大白话，一看就懂，而且实例多。所以从安装到写出第一行代码再到绘出第一幅图，并没有觉得太晦涩难懂。&lt;/p&gt;
+
+&lt;p&gt;呃……话虽平淡，但天知道我写出第一行代码以及图片绘出来时有多激动……&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmdVguVzAyMrjksKUgkp5ZSty2JXyeVgJRhA42PF3c9wQ4/3FF0CF4D-CDCF-4E7C-89A2-5AA6B971F217.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我是非常典型的文科生逻辑，以前学数学都是靠背的，好在这本书没有东西给我背。&lt;/p&gt;
+
+&lt;p&gt;感觉学起来像学一门新的语言。&lt;/p&gt;
+
+&lt;p&gt;嗯……最难的地方就在于逻辑在打架。&lt;/p&gt;
+
+&lt;p&gt;龟速学习，才啃了第一章，我不知道这感觉对不对，但也分享出来吧：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;运算结果显示出我输入的代码时，我觉得这是来自另一个空间的回应，对象是一个陌生且未知的朋友。也感触到了那一句“hello world”的浪漫……&lt;/li&gt;
+&lt;li&gt;数学不好似乎影响不大，只需掌握怎么运用就行，其他的交给它；&lt;/li&gt;
+&lt;li&gt;它自带了一些数据，比如第一章提到的二氧化碳浓度；&lt;/li&gt;
+&lt;li&gt;同样的结果，操作起来较Excel便捷；&lt;/li&gt;
+&lt;li&gt;我好喜欢按了Run以后有结果刷出来滴感觉……&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;好，下面是表白时间。&lt;/p&gt;
+
+&lt;p&gt;意识流比较强的我居然觉得这书有点齐白石风格。&lt;/p&gt;
+
+&lt;p&gt;齐老啥风格？&lt;/p&gt;
+
+&lt;p&gt;从。来。不。装。&lt;/p&gt;
+
+&lt;p&gt;真。实。&lt;/p&gt;
+
+&lt;p&gt;幽。默。&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;呃……高考这样写估计会负分滚粗吧。&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;好，感受一下他的大白话——&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmUCBtheRvW3eJmCn9X4wjXdQwW97GtHZH7HGjeMcZ16ge/9B8C63C1-F5A9-41BC-8E8F-164659B41A60.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;卖画不论交情，君子有耻，请照润格出钱。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;买我画的时候不要跟我谈感情，谈感情伤钱，圈重点自己看。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://steemitimages.com/0x0/https://cdn.steemitimages.com/DQmVAQzcvA7hAmk9qKZVs7UhWew6wjDrAorTGsy2ku5Y8BG/7533B4A1-8E1C-44F6-8965-30A12D69A7E0.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;凡我门客，喜寻师母请安问好者，请莫再来。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;来我家就来我家，没事憋找我媳妇！不然就不准来了！&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;文章最后，我想说，其实 @dapeng 还是有套路的。毕竟学渣克星这金字招牌不是浪得虚名。&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;套路就是：先给你充值100%的信心&amp;amp;骄傲，然后就逼你乖乖学习天天向上了。&lt;/del&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>oflyhigh： 在 Linux 下源码方式装 R</title>
-      <link>https://pzhaonet.github.io/xuer/post/oflyhigh-3/</link>
+      <link>https://xuer.pzhao.org/post/oflyhigh-3/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/oflyhigh-3/</guid>
-      <description>本文经作者 @oflyhigh 授权转载（原文链接），略有改动。
-之前为了体验一下 R，随便用sudo apt-get install r-base r-base-dev装了个 R，合计反正就是体验一下，没必要像正规军一样搞得很复杂。然后今天发现一个真理，就是你以前偷的懒，都会在以后找回来的。
-话说昨天别人问我个小问题，用到quantmod这个东东，甭管它是啥，先装着试试呗。
-install.packages(&#39;quantmod&#39;)  结果想象中的一路 yes，顺利安装被没有出现，而是我给我个提示：
- package &#39;quantmod&#39; is not available (for R version 3.1.1)
- 原本以为我无往不利的搜索大法应该很快解决这个问题，结果这次找了 N 多网页却没有找到答案，满头雾水的我最后终于意识到，是我的R的版本太旧了。好吧，先不管这个quantmod，升级版本先，想用最新版本的最好方式当然是从源码安装了，说干就干，源码安装走起。
-准备工作 更新系统 首先更新一下系统
-sudo apt-get update sudo apt-get upgrade  无论干点啥，先更新一下，身体倍棒，吃嘛嘛香。
-创建目标目录 sudo mkdir /opt/R sudo chmod 777 /opt/R  我瞎建个目录安装，要是没啥问题的话，其实可以使用默认目录的。
-下载源码 去https://www.r-project.org/ 找一下最新的源码，我找到的最新的是这个：
- R version 3.5.0 (Joy in Playing) has been released on 2018-04-23.
- 点进去之后，找到下载链接：https://cran.r-project.org/src/base/R-3/R-3.5.0.tar.gz，在Linux系统下执行如下命令，将其下载到本地，解压，并进入目录
-wget https://cran.r-project.org/src/base/R-3/R-3.5.0.tar.gz tar xzvf R-3.</description>
+      <guid>https://xuer.pzhao.org/post/oflyhigh-3/</guid>
+      <description>
+
+&lt;p&gt;本文经作者 @oflyhigh 授权转载（&lt;a href=&#34;https://steemit.com/r/@oflyhigh/r-linux-r-installing-r-from-source&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;），略有改动。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;之前为了体验一下 R，随便用&lt;strong&gt;&lt;code&gt;sudo apt-get install r-base r-base-dev&lt;/code&gt;&lt;/strong&gt;装了个 R，合计反正就是体验一下，没必要像正规军一样搞得很复杂。然后今天发现一个真理，就是&lt;strong&gt;你以前偷的懒，都会在以后找回来的&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;话说昨天别人问我个小问题，用到&lt;strong&gt;&lt;code&gt;quantmod&lt;/code&gt;&lt;/strong&gt;这个东东，甭管它是啥，先装着试试呗。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&#39;quantmod&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;结果想象中的一路 yes，顺利安装被没有出现，而是我给我个提示：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;package &#39;quantmod&#39; is not available (for R version 3.1.1)&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;原本以为我无往不利的搜索大法应该很快解决这个问题，结果这次找了 N 多网页却没有找到答案，满头雾水的我最后终于意识到，是我的R的版本太旧了。好吧，先不管这个&lt;strong&gt;&lt;code&gt;quantmod&lt;/code&gt;&lt;/strong&gt;，升级版本先，想用最新版本的最好方式当然是从源码安装了，说干就干，源码安装走起。&lt;/p&gt;
+
+&lt;h3 id=&#34;准备工作&#34;&gt;准备工作&lt;/h3&gt;
+
+&lt;h4 id=&#34;更新系统&#34;&gt;更新系统&lt;/h4&gt;
+
+&lt;p&gt;首先更新一下系统&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get upgrade
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;无论干点啥，先更新一下，身体倍棒，吃嘛嘛香。&lt;/p&gt;
+
+&lt;h4 id=&#34;创建目标目录&#34;&gt;创建目标目录&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo mkdir /opt/R
+sudo chmod 777 /opt/R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;我瞎建个目录安装，要是没啥问题的话，其实可以使用默认目录的。&lt;/p&gt;
+
+&lt;h4 id=&#34;下载源码&#34;&gt;下载源码&lt;/h4&gt;
+
+&lt;p&gt;去&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;https://www.r-project.org/&lt;/a&gt; 找一下最新的源码，我找到的最新的是这个：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/src/base/R-3&#34; target=&#34;_blank&#34;&gt;R version 3.5.0 (Joy in Playing)&lt;/a&gt; has been released on 2018-04-23.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;点进去之后，找到下载链接：&lt;a href=&#34;https://cran.r-project.org/src/base/R-3/R-3.5.0.tar.gz&#34; target=&#34;_blank&#34;&gt;https://cran.r-project.org/src/base/R-3/R-3.5.0.tar.gz&lt;/a&gt;，在Linux系统下执行如下命令，将其下载到本地，解压，并进入目录&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget https://cran.r-project.org/src/base/R-3/R-3.5.0.tar.gz
+tar xzvf R-3.5.0.tar.gz
+cd R-3.5.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;安装必要编译工具&#34;&gt;安装必要编译工具&lt;/h4&gt;
+
+&lt;p&gt;其实我也不知道应该按啥，因为不知道系统都有啥，缺啥按啥吧。 因为我的系统上曾经按过不少东西，所以没提示缺啥。&lt;/p&gt;
+
+&lt;h3 id=&#34;配置-r&#34;&gt;配置 R&lt;/h3&gt;
+
+&lt;p&gt;配置我参考的 &lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/R-admin.html#Installing-R-under-Unix_002dalikes&#34; target=&#34;_blank&#34;&gt;Installing-R-under-Unix_002dalikes&lt;/a&gt;，可以使用如下命令查看详细帮助：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./configure --help
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;一切默认的话，执行如下命令即可&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./configure
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;我手欠，先是执行这个配置命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./configure  --enable-R-shlib  --prefix=/opt/R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;其中：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--enable-R-shlib&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;将R编译成动态库(libR.so)，然后R的执行程序与之链接。加这个纯属我手欠，因为我没有想在其它语言中集成R，并且&lt;strong&gt;设置这个选项会影响性能&lt;/strong&gt;，不过我如实记载我的操作，就放这了。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--prefix=/opt/R&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这个指定安装目录，否则会安到默认的目录中。&lt;/p&gt;
+
+&lt;p&gt;等半天后提示我系统没有 X11，我懒得装 X，直接禁用吧（这块有坑，以后再说）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./configure  --enable-R-shlib  --with-x=no --prefix=/opt/R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;编译-r&#34;&gt;编译  R&lt;/h3&gt;
+
+&lt;p&gt;配置成功后，执行如下命令进行编译：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;结果等半天后出现如下错误信息：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;configuring Java &amp;hellip;  *** Cannot find any Java interpreter *** Please make sure &amp;lsquo;java&amp;rsquo; is on your PATH or set JAVA_HOME correspondingly。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;晕，这难道不应该在配置阶段报错吗？反正我也不用什么JAVA(估计和我启用&lt;code&gt;--enable-R-shlib&lt;/code&gt;有关)，重新配置：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./configure  --enable-R-shlib  --with-x=no --disable-java --prefix=/opt/R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;再次编译，成功！然后执行安装命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;收尾&#34;&gt;收尾&lt;/h3&gt;
+
+&lt;p&gt;测试一下，启动 R：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/opt/R/bin/R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/DQmerGXgKU1Jg9ixVKa731Pqy6WFgw9GjY1nGj99REudTLJ/image.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;已经是最新版本喽。&lt;/p&gt;
+
+&lt;p&gt;创建软链接，方便访问&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd /usr/bin
+sudo ln -s /opt/R/bin/R R
+sudo ln -s /opt/R/bin/Rscript Rscript
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;补充说明&#34;&gt;补充说明&lt;/h3&gt;
+
+&lt;p&gt;R 的编译和运行需要 Fortran 编译器以及运行时库支持，我后来不小心卸载了，也运行不起来，也配置和编译不了了。&lt;/p&gt;
+
+&lt;p&gt;运行R提示：
+&amp;gt; /opt/R/lib/R/bin/exec/R: error while loading shared libraries: libgfortran.so.3: cannot open shared object file: No such file or directory&lt;/p&gt;
+
+&lt;p&gt;重新配置则提示：
+&amp;gt; configure: error: No F77 compiler found&lt;/p&gt;
+
+&lt;p&gt;重新安装Fortran编译器，解决问题&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install gfortran
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;总算把R搞到最新版本啦，否则拿明朝万历年间的 R 来学习，是有点落伍呢。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>dapeng：R 语言女子学习小组</title>
-      <link>https://pzhaonet.github.io/xuer/post/xuer-girls/</link>
+      <link>https://xuer.pzhao.org/post/xuer-girls/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/xuer-girls/</guid>
-      <description>文科女生 @dancingapple 买了《学 R》这本书，郑重宣告开始学习 R 语言。这个圈子里，据我所知，买了这书的还有：
-@tvb, @nostalgic1212, @veronicazhu, @hqy&amp;hellip;
-都是女生！
-感慨之余，我做了个文案：
- 长得好看、唱歌好听、文笔优美、脑瓜聪颖的文科女生都开始学编程了，我为适龄小伙子们感到深深的忧虑。
- 不忧虑能行吗？用 @windowglass 的话来说：
- 电脑问题被客服解决了……
-扛米扛油的问题被天猫超市解决了……
-打不开的瓶瓶盖盖被电吹风解决了……
-男人，哪里才是你发挥作用的地方？:P
- 现在，连 R 语言编程领域也沦陷了……
-不过，男同胞们不要担忧，光靠买本书自己啃，哪怕这本书写得像个段子集，她们仍然有半途而废的风险。
-除非，除非她们组成一支“女子学习小组”，互相帮忙互相敦促。
-想当初我学 R 语言，开始时就是翻了很多本书，死活入不了门，最后全靠身边的同学同事帮带才算迈过门槛。
-一旦迈过去，一切山重水复，全都柳暗花明。
- One wolf dies, but the pack survives.
-&amp;mdash; Game of Thrones
-独狼死，群狼活。
-&amp;mdash;权力的游戏
- 那么，为啥非要“女子小组”呢？“男女混合”不好吗？
-在编程语言这个事情上，我觉得不好。至于哪里不好，我不想说……
-若有意加入这个小组的，请联系 @dancingapple。我会为这个小组的 R 语言学习提供全方位的支持！
-虽然，我现在也不知道自己能做点啥。</description>
+      <guid>https://xuer.pzhao.org/post/xuer-girls/</guid>
+      <description>&lt;p&gt;文科女生 @dancingapple 买了《学 R》这本书，&lt;a href=&#34;http://xuer.dapengde.com/post/dancingapple/&#34; target=&#34;_blank&#34;&gt;郑重宣告&lt;/a&gt;开始学习 R 语言。这个圈子里，据我所知，买了这书的还有：&lt;/p&gt;
+
+&lt;p&gt;@tvb, @nostalgic1212, @veronicazhu, @hqy&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;都是女生！&lt;/p&gt;
+
+&lt;p&gt;感慨之余，我做了个文案：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;长得好看、唱歌好听、文笔优美、脑瓜聪颖的文科女生都开始学编程了，我为适龄小伙子们感到深深的忧虑。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不忧虑能行吗？用 @windowglass 的话来说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;电脑问题被客服解决了……&lt;/p&gt;
+
+&lt;p&gt;扛米扛油的问题被天猫超市解决了……&lt;/p&gt;
+
+&lt;p&gt;打不开的瓶瓶盖盖被电吹风解决了……&lt;/p&gt;
+
+&lt;p&gt;男人，哪里才是你发挥作用的地方？:P&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;现在，连 R 语言编程领域也沦陷了……&lt;/p&gt;
+
+&lt;p&gt;不过，男同胞们不要担忧，光靠买本书自己啃，哪怕这本书写得像个段子集，她们仍然有半途而废的风险。&lt;/p&gt;
+
+&lt;p&gt;除非，除非她们组成一支“女子学习小组”，互相帮忙互相敦促。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.pixabay.com/photo/2015/08/18/20/45/kids-894787_960_720.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;想当初我学 R 语言，开始时就是翻了很多本书，死活入不了门，最后全靠身边的同学同事帮带才算迈过门槛。&lt;/p&gt;
+
+&lt;p&gt;一旦迈过去，一切山重水复，全都柳暗花明。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;One wolf dies, but the pack survives.&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash; Game of Thrones&lt;/p&gt;
+
+&lt;p&gt;独狼死，群狼活。&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash;权力的游戏&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;那么，为啥非要“女子小组”呢？“男女混合”不好吗？&lt;/p&gt;
+
+&lt;p&gt;在编程语言这个事情上，我觉得不好。至于哪里不好，我不想说……&lt;/p&gt;
+
+&lt;p&gt;若有意加入这个小组的，请联系 @dancingapple。我会为这个小组的 R 语言学习提供全方位的支持！&lt;/p&gt;
+
+&lt;p&gt;虽然，我现在也不知道自己能做点啥。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>oflyhigh： 另一款在线 R 环境</title>
-      <link>https://pzhaonet.github.io/xuer/post/oflyhigh-2/</link>
+      <link>https://xuer.pzhao.org/post/oflyhigh-2/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/oflyhigh-2/</guid>
-      <description>本文经作者 @oflyhigh授权转载（原文链接），略有改动。
-原本想着试试而已，这一接触，发现 R 挺好玩呀，让人欲罢不能啊，我已经控制不住我自己了，那就继续学吧。
-@dapeng 在书里推荐了一个免安装的 R 环境： ideone。
-试了一下这个 ideone，支持好多编程语言，果然是个好东西。然而我测试 R 画图，却啥都没有给我生成。
-大鹏的书中还提到一个 Rweb，然而试了一下print(&amp;quot;Hello World!&amp;quot;)却给我一个大大的Internal Server Error，累觉不爱。
-Tutorialspoint 搜索 R 的学习资源时，发现一个非常好的教学网站 tutorialspoint，里边好多各种语言的教程啊，只有你不想学的，没有网站上没有的！
-R Tutorial &amp;amp; Execute R Online 当然 R 教程也毫无疑问的列在这个网站上，R Tutorial。除了这个 R Tutorial，最令人激动的是网站上提供了在线 R 环境 .
-随便拿了一段生成饼图的代码，效果如上，是不是很方便？不过这个在线 R 环境也不是无所不能，比如说不能自己安装库😳，不过这也很正常，随便搞的话，岂不是要坏了。
-Online R IDE 尽管在线 R 环境已经很强大了，但是如果管理更复杂的项目就麻烦一点了，这个网站还提供一个强大的 Online R IDE。
-其它语言在线环境 除了 R 环境，tutorialspoint 还提供了各种其它语言的在线编程环境，感兴趣的自己去玩吧。</description>
+      <guid>https://xuer.pzhao.org/post/oflyhigh-2/</guid>
+      <description>
+
+&lt;p&gt;本文经作者 @oflyhigh授权转载（&lt;a href=&#34;https://steemit.com/r/@oflyhigh/r-r&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;），略有改动。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原本想着试试而已，这一接触，发现 R 挺好玩呀，让人欲罢不能啊，我已经控制不住我自己了，那就继续学吧。&lt;/p&gt;
+
+&lt;p&gt;@dapeng 在书里推荐了一个免安装的 R 环境： &lt;a href=&#34;http://ideone.com/&#34; target=&#34;_blank&#34;&gt;ideone&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmaX87qvwhTaVURiFC8K22rKr14VYTtgcnzwLTQUUdnVSk/image.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;试了一下这个 &lt;a href=&#34;http://ideone.com/&#34; target=&#34;_blank&#34;&gt;ideone&lt;/a&gt;，支持好多编程语言，果然是个好东西。然而我测试 R 画图，却啥都没有给我生成。&lt;/p&gt;
+
+&lt;p&gt;大鹏的书中还提到一个 &lt;a href=&#34;http://pbil.univ-lyon1.fr/Rweb/&#34; target=&#34;_blank&#34;&gt;Rweb&lt;/a&gt;，然而试了一下&lt;code&gt;print(&amp;quot;Hello World!&amp;quot;)&lt;/code&gt;却给我一个大大的&lt;strong&gt;Internal Server Error&lt;/strong&gt;，累觉不爱。&lt;/p&gt;
+
+&lt;h3 id=&#34;tutorialspoint&#34;&gt;Tutorialspoint&lt;/h3&gt;
+
+&lt;p&gt;搜索 R 的学习资源时，发现一个非常好的教学网站 &lt;a href=&#34;https://www.tutorialspoint.com/index.htm&#34; target=&#34;_blank&#34;&gt;tutorialspoint&lt;/a&gt;，里边好多各种语言的教程啊，只有你不想学的，没有网站上没有的！&lt;/p&gt;
+
+&lt;h4 id=&#34;r-tutorial-execute-r-online&#34;&gt;R Tutorial &amp;amp; Execute R Online&lt;/h4&gt;
+
+&lt;p&gt;当然 R 教程也毫无疑问的列在这个网站上，&lt;a href=&#34;https://www.tutorialspoint.com/r/index.htm&#34; target=&#34;_blank&#34;&gt;R Tutorial&lt;/a&gt;。除了这个 &lt;a href=&#34;https://www.tutorialspoint.com/r/index.htm&#34; target=&#34;_blank&#34;&gt;R Tutorial&lt;/a&gt;，最令人激动的是网站上提供了&lt;a href=&#34;https://www.tutorialspoint.com/execute_r_online.php&#34; target=&#34;_blank&#34;&gt;在线 R 环境&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmULNEof836YCum6PtcjGH8DLRMXySbL31WY8ZPaGThPJG/image.png&#34; alt=&#34;img&#34; /&gt;  随便拿了一段生成饼图的代码，效果如上，是不是很方便？不过这个&lt;a href=&#34;https://www.tutorialspoint.com/execute_r_online.php&#34; target=&#34;_blank&#34;&gt;在线 R 环境&lt;/a&gt;也不是无所不能，比如说不能自己安装库😳，不过这也很正常，随便搞的话，岂不是要坏了。&lt;/p&gt;
+
+&lt;h4 id=&#34;online-r-ide&#34;&gt;Online R IDE&lt;/h4&gt;
+
+&lt;p&gt;尽管&lt;a href=&#34;https://www.tutorialspoint.com/execute_r_online.php&#34; target=&#34;_blank&#34;&gt;在线 R 环境&lt;/a&gt;已经很强大了，但是如果管理更复杂的项目就麻烦一点了，这个网站还提供一个强大的 &lt;a href=&#34;https://www.tutorialspoint.com/online_r_ide.php&#34; target=&#34;_blank&#34;&gt;Online R IDE&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmPYRgLVuDcPSoNgwEJpPjBzynFGWrGzP8Nq8h9dvuiTpD/image.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;其它语言在线环境&#34;&gt;其它语言在线环境&lt;/h4&gt;
+
+&lt;p&gt;除了 R 环境，&lt;a href=&#34;https://www.tutorialspoint.com/index.htm&#34; target=&#34;_blank&#34;&gt;tutorialspoint&lt;/a&gt; 还提供了各种&lt;a href=&#34;https://www.tutorialspoint.com/codingground.htm&#34; target=&#34;_blank&#34;&gt;其它语言的在线编程环境&lt;/a&gt;，感兴趣的自己去玩吧。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>dapeng：答《学 R》读者</title>
-      <link>https://pzhaonet.github.io/xuer/post/xuer-faq/</link>
+      <link>https://xuer.pzhao.org/post/xuer-faq/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/xuer-faq/</guid>
-      <description>我主笔的《学 R》一书正在热销。有些朋友问了一些问题，我在此一并作答。
-1. 《学 R》能在当当网买吗？ 能。目前已在天猫、当当、京东、微店四大平台的几十家书店上架。搜索书名就能找得到。
-2. 买到的书会不会是盗版？ 目前不会，因为刚开始卖，来不及盗。R 语言目前算是小众软件，估计盗版商应该盯不上吧。
-将来如果卖得特别好就不好说了。我也是头一回出书。欢迎大家交流这方面的经验。
-3. 能不能公布电子版？ 暂时不能。不是版权的问题。虽然印刷品的版权归出版社，而电子版的版权我随便，然而出版社为出书投入了大量的人力和物力，人家也是要吃饭过日子的，出书的目的之一是赚钱。要是公布电子版，导致书卖不出去赔了，人家以后就不跟我玩了。
-不过，书的雏形在我的博客上有，只需搜索“大鹏 R 菜鸟入门”就会找到我博客上的相关帖子，可以试读，觉得有用、想进一步学习的话再买。
-4. 能不能打折？ 书价是出版社定的，网上商城的折扣是书店定的。各个书店有不同的让利折扣。是目前折扣最大的 6.9 折。
-5. 你从写书里能赚多少钱？ 书定价 68 元，我拿的是版税，每卖出一本书，我得到大约 3 块钱人民币。
-版税是跟出版社协商决定的。有时候作者拿到的是稿酬。例如，我的下一本书是翻译的一本面向中小学生的科普小册子（已经完稿），拿的就是稿酬，比较少。
-上架初期，作者是拿不到收入的。一般要等书销售一段时间，出版社收回一些成本后，才开始支付给作者。这也是前面提到的为何不放出电子版的原因之一。
-6. 你是怎么出的书？我也想出，该怎么办？ 我博客的读者（同时也是现实生活里的朋友）认识出版社的朋友。出版社在选题的时候，读者向出版社推荐我的“R 菜鸟入门”系列，认为风格有特点，解决了普通人学习 R 语言的痛点，有市场。出版社就联系我，在原有框架上去粗取精，扩充内容，推敲语言，才有了此书。
-如果你也想出书，并且想赚点稿酬或版税的话，关键有两点：
- 你的书能盈利； 你的书有比较高的阅读价值和社会反响。  只满足 1 的话，书商会有意向；只满足 2 的话，可以自费出书；两者都满足的话，基本没问题。
-你可以先试发一些书稿，积攒一些口碑之后，再设法联系出版社来评估。
-期待你早日出书，到时候希望我能买得到。</description>
+      <guid>https://xuer.pzhao.org/post/xuer-faq/</guid>
+      <description>
+
+&lt;p&gt;我主笔的《&lt;a href=&#34;http://xuer.pzhao.net/&#34; target=&#34;_blank&#34;&gt;学 R&lt;/a&gt;》一书正在热销。有些朋友问了一些问题，我在此一并作答。&lt;/p&gt;
+
+&lt;h3 id=&#34;1-学-r-能在当当网买吗&#34;&gt;1. 《学 R》能在当当网买吗？&lt;/h3&gt;
+
+&lt;p&gt;能。目前已在天猫、当当、京东、微店四大平台的几十家书店上架。搜索书名就能找得到。&lt;/p&gt;
+
+&lt;h3 id=&#34;2-买到的书会不会是盗版&#34;&gt;2. 买到的书会不会是盗版？&lt;/h3&gt;
+
+&lt;p&gt;目前不会，因为刚开始卖，来不及盗。R 语言目前算是小众软件，估计盗版商应该盯不上吧。&lt;/p&gt;
+
+&lt;p&gt;将来如果卖得特别好就不好说了。我也是头一回出书。欢迎大家交流这方面的经验。&lt;/p&gt;
+
+&lt;h3 id=&#34;3-能不能公布电子版&#34;&gt;3. 能不能公布电子版？&lt;/h3&gt;
+
+&lt;p&gt;暂时不能。不是版权的问题。虽然印刷品的版权归出版社，而电子版的版权我随便，然而出版社为出书投入了大量的人力和物力，人家也是要吃饭过日子的，出书的目的之一是赚钱。要是公布电子版，导致书卖不出去赔了，人家以后就不跟我玩了。&lt;/p&gt;
+
+&lt;p&gt;不过，书的雏形在我的博客上有，只需搜索“大鹏 R 菜鸟入门”就会找到我博客上的相关帖子，可以试读，觉得有用、想进一步学习的话再买。&lt;/p&gt;
+
+&lt;h3 id=&#34;4-能不能打折&#34;&gt;4. 能不能打折？&lt;/h3&gt;
+
+&lt;p&gt;书价是出版社定的，网上商城的折扣是书店定的。各个书店有不同的让利折扣。是目前折扣最大的 6.9 折。&lt;/p&gt;
+
+&lt;h3 id=&#34;5-你从写书里能赚多少钱&#34;&gt;5. 你从写书里能赚多少钱？&lt;/h3&gt;
+
+&lt;p&gt;书定价 68 元，我拿的是版税，每卖出一本书，我得到大约 3 块钱人民币。&lt;/p&gt;
+
+&lt;p&gt;版税是跟出版社协商决定的。有时候作者拿到的是稿酬。例如，我的下一本书是翻译的一本面向中小学生的科普小册子（已经完稿），拿的就是稿酬，比较少。&lt;/p&gt;
+
+&lt;p&gt;上架初期，作者是拿不到收入的。一般要等书销售一段时间，出版社收回一些成本后，才开始支付给作者。这也是前面提到的为何不放出电子版的原因之一。&lt;/p&gt;
+
+&lt;h3 id=&#34;6-你是怎么出的书-我也想出-该怎么办&#34;&gt;6. 你是怎么出的书？我也想出，该怎么办？&lt;/h3&gt;
+
+&lt;p&gt;我博客的读者（同时也是现实生活里的朋友）认识出版社的朋友。出版社在选题的时候，读者向出版社推荐我的“R 菜鸟入门”系列，认为风格有特点，解决了普通人学习 R 语言的痛点，有市场。出版社就联系我，在原有框架上去粗取精，扩充内容，推敲语言，才有了此书。&lt;/p&gt;
+
+&lt;p&gt;如果你也想出书，并且想赚点稿酬或版税的话，关键有两点：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;你的书能盈利；&lt;/li&gt;
+&lt;li&gt;你的书有比较高的阅读价值和社会反响。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;只满足 1 的话，书商会有意向；只满足 2 的话，可以自费出书；两者都满足的话，基本没问题。&lt;/p&gt;
+
+&lt;p&gt;你可以先试发一些书稿，积攒一些口碑之后，再设法联系出版社来评估。&lt;/p&gt;
+
+&lt;p&gt;期待你早日出书，到时候希望我能买得到。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>oflyhigh： Linux 下安装 R 扩展包</title>
-      <link>https://pzhaonet.github.io/xuer/post/oflyhigh-1/</link>
+      <link>https://xuer.pzhao.org/post/oflyhigh-1/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/oflyhigh-1/</guid>
-      <description>本文经作者 @oflyhigh授权转载（原文链接），略有改动。
-运行脚本 昨天我摸索出来执行R脚本的命令为：
-R --slave -f hello.R  今天发现原来有一个专门的指令做这个工作：
-Rscript  比如对于上述命令，我们可以修改为：
-Rscript hello.R  除此之外，我们还可以用-e来直接执行一些语句，比如：
-Rscript -e &amp;quot;1+1&amp;quot; Rscript -e &#39;print(&amp;quot;Hello World&amp;quot;);&#39; Rscript -e &amp;quot;print(\&amp;quot;Hello World\&amp;quot;);&amp;quot; Rscript -e &amp;quot;print(\&amp;quot;Hello World\&amp;quot;);1+1;2+2&amp;quot;  安装软件包 在使用Python语言时，我们知道可以使用pip指令来安装所需的软件包，那么R语言环境下，我们如何安装呢？答案是在R环境的提示符下直接使用类似如下指令即可：
-install.packages(&amp;quot;example_package&amp;quot;)  比如我想安装一个caTools的东西（我也不知道是啥），这样做就可以鸟：
-install.packages(&amp;quot;caTools&amp;quot;)  注：我是在普通用户账户下执行的R，所以执行上述指令是会提示我：
- Would you like to use a personal library instead? (y/n) y
- 也就是说数据包被安装的本地，如果想安装到全局，估摸应该用sudo R来启动R环境（我瞎猜的，本地安装挺好，就不去测试了）
-加载安装好的软件包，使用类似如下指令即可：
-library(caTools)  见识一下 尽管&amp;rdquo;Hello World!&amp;ldquo;已经超级强大了，但是还是想见识一下更加强大的功能，在R语言的维基百科页面有一个曼德勃罗集合（Mandelbrot set）的例子，略作修改拿来运行一下，长长见识。
-#install.packages(&amp;quot;caTools&amp;quot;) # install external package library(caTools) # external package providing write.</description>
+      <guid>https://xuer.pzhao.org/post/oflyhigh-1/</guid>
+      <description>
+
+&lt;p&gt;本文经作者 @oflyhigh授权转载（&lt;a href=&#34;https://steemit.com/r/@oflyhigh/5m2s1h-r&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;），略有改动。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;运行脚本&#34;&gt;运行脚本&lt;/h3&gt;
+
+&lt;p&gt;昨天我摸索出来执行R脚本的命令为：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R --slave -f hello.R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;今天发现原来有一个专门的指令做这个工作：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rscript
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;比如对于上述命令，我们可以修改为：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rscript hello.R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;除此之外，我们还可以用&lt;code&gt;-e&lt;/code&gt;来直接执行一些语句，比如：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rscript -e &amp;quot;1+1&amp;quot;
+Rscript -e &#39;print(&amp;quot;Hello World&amp;quot;);&#39;
+Rscript -e &amp;quot;print(\&amp;quot;Hello World\&amp;quot;);&amp;quot;
+Rscript -e &amp;quot;print(\&amp;quot;Hello World\&amp;quot;);1+1;2+2&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;安装软件包&#34;&gt;安装软件包&lt;/h3&gt;
+
+&lt;p&gt;在使用Python语言时，我们知道可以使用&lt;code&gt;pip&lt;/code&gt;指令来安装所需的软件包，那么R语言环境下，我们如何安装呢？答案是在R环境的提示符下直接使用类似如下指令即可：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;example_package&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;比如我想安装一个caTools的东西（我也不知道是啥），这样做就可以鸟：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;caTools&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;注：我是在普通用户账户下执行的R，所以执行上述指令是会提示我：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Would you like to use a personal library instead? (y/n) y&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;也就是说数据包被安装的本地，如果想安装到全局，估摸应该用&lt;code&gt;sudo R&lt;/code&gt;来启动R环境（我瞎猜的，本地安装挺好，就不去测试了）&lt;/p&gt;
+
+&lt;p&gt;加载安装好的软件包，使用类似如下指令即可：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(caTools)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;见识一下&#34;&gt;见识一下&lt;/h3&gt;
+
+&lt;p&gt;尽管&amp;rdquo;Hello World!&amp;ldquo;已经超级强大了，但是还是想见识一下更加强大的功能，在R语言的维基百科页面有一个曼德勃罗集合（Mandelbrot set）的例子，略作修改拿来运行一下，长长见识。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#install.packages(&amp;quot;caTools&amp;quot;)  # install external package
+library(caTools)             # external package providing write.gif function
+jet.colors &amp;lt;- colorRampPalette(c(&amp;quot;#00007F&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;#007FFF&amp;quot;, &amp;quot;cyan&amp;quot;, &amp;quot;#7FFF7F&amp;quot;,
+                                 &amp;quot;yellow&amp;quot;, &amp;quot;#FF7F00&amp;quot;, &amp;quot;red&amp;quot;, &amp;quot;#7F0000&amp;quot;))
+dx &amp;lt;- 400                    # define width
+dy &amp;lt;- 400                    # define height
+C  &amp;lt;- complex(real = rep(seq(-2.2, 1.0, length.out = dx), each = dy),
+              imag = rep(seq(-1.2, 1.2, length.out = dy), dx))
+C &amp;lt;- matrix(C, dy, dx)       # reshape as square matrix of complex numbers
+Z &amp;lt;- 0                       # initialize Z to zero
+X &amp;lt;- array(0, c(dy, dx, 20)) # initialize output 3D array
+for (k in 1:20) {            # loop with 20 iterations
+  Z &amp;lt;- Z^2 + C               # the central difference equation
+  X[, , k] &amp;lt;- exp(-abs(Z))   # capture results
+}
+write.gif(X, &amp;quot;Mandelbrot.gif&amp;quot;, col = jet.colors, delay = 25)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmddxperCLjNdqCzAdgFTyhg6YNz5chzNZ65kL7sfvoZ7N/Mandelbrot.gif&#34; alt=&#34;Mandelbrot.gif&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;虽然不知道是什么鬼，但是很漂亮，不是吗？&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>oflyhigh： Linux 下安装和使用 R</title>
-      <link>https://pzhaonet.github.io/xuer/post/oflyhigh/</link>
+      <link>https://xuer.pzhao.org/post/oflyhigh/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/oflyhigh/</guid>
-      <description>本文经作者 @oflyhigh 授权转载（原文链接），略有改动。
-最近， @dapeng 巨著《学 R》上市销售，掀起了一股学 R 的热潮。比如美女 @dancingapple 也开始学 R，这不禁让人颇有些紧迫感，人长得美，还会 R，让别人咋办啊？不行，人丑更得多读书，我也要学 R。
-可是我舍不得买书啊，那么就看 @dapeng 免费教程好了，可是一看，竟然都是在 Windows 下操作，可恶，Windows 我是用来发帖子聊 QQ 的，怎么能用来学 R，于是研究一下在 Linux 下咋玩吧。
-安装 在Linux（ubuntu )下安装还是很方便的。
-首先更新一下系统
-sudo apt-get update sudo apt-get upgrade  然后执行
-sudo apt-get install r-base r-base-dev  就会安装R啦。当然了，这种方式安装的版本可能旧一点，不过我就是试试啦，不纠结这事，感兴趣的朋友可以试试其它安装方式。
-开发环境 上述安装命令中的r-base-dev就是R的开发环境啦。
-命令行中敲
-R  回车，就会启动开发环境
-然后我们就可以在里边瞎搞了。
-Hello World 每学习一门语言，我做的第一件事就是写一个&amp;rdquo;Hello World!&amp;ldquo;出来，如果&amp;rdquo;Hello World!&amp;ldquo;运行起来，我就可以放心地和别人吹嘘我又掌握了一门高深的编程语言。
-随便写两条打印语句试试
-print(&amp;quot;Hello World!&amp;quot;) print(&amp;quot;Hello World!&amp;quot;)  看来这些语言都差不多嘛。嗯，我可以放心的和别人吹嘘了我会R了。（在steemit上吹容易被识破，还是线下吹吧）
-执行 有时候我们可能不想这样交互式的运行R，那么能否直接执行R的脚本呢？看一下R的帮助，试试能不能找出咋弄？
-R --help  额，帮助信息有点长，不往这里贴了。不过还好找到一些貌似用来运行脚本的参数，来试试看。</description>
+      <guid>https://xuer.pzhao.org/post/oflyhigh/</guid>
+      <description>
+
+&lt;p&gt;本文经作者 @oflyhigh 授权转载（&lt;a href=&#34;https://steemit.com/r/@oflyhigh/r&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;），略有改动。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;最近， @dapeng 巨著《学 R》上市销售，掀起了一股学 R 的热潮。比如美女 @dancingapple 也开始学 R，这不禁让人颇有些紧迫感，人长得美，还会 R，让别人咋办啊？不行，人丑更得多读书，我也要学 R。&lt;/p&gt;
+
+&lt;p&gt;可是我舍不得买书啊，那么就看 @dapeng 免费教程好了，可是一看，竟然都是在 Windows 下操作，可恶，Windows 我是用来发帖子聊 QQ 的，怎么能用来学 R，于是研究一下在 Linux 下咋玩吧。&lt;/p&gt;
+
+&lt;h1 id=&#34;安装&#34;&gt;安装&lt;/h1&gt;
+
+&lt;p&gt;在Linux（ubuntu )下安装还是很方便的。&lt;/p&gt;
+
+&lt;p&gt;首先更新一下系统&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get upgrade
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;然后执行&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install r-base r-base-dev
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;就会安装R啦。当然了，这种方式安装的版本可能旧一点，不过我就是试试啦，不纠结这事，感兴趣的朋友可以试试其它安装方式。&lt;/p&gt;
+
+&lt;h1 id=&#34;开发环境&#34;&gt;开发环境&lt;/h1&gt;
+
+&lt;p&gt;上述安装命令中的&lt;code&gt;r-base-dev&lt;/code&gt;就是R的开发环境啦。&lt;/p&gt;
+
+&lt;p&gt;命令行中敲&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;回车，就会启动开发环境&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmeq8ZGnFiMMhid3AHhs67TJHEnGYuEnugyYpd1gngsPYm/image.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;然后我们就可以在里边瞎搞了。&lt;/p&gt;
+
+&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
+
+&lt;p&gt;每学习一门语言，我做的第一件事就是写一个&amp;rdquo;Hello World!&amp;ldquo;出来，如果&amp;rdquo;Hello World!&amp;ldquo;运行起来，我就可以放心地和别人吹嘘我又掌握了一门高深的编程语言。&lt;/p&gt;
+
+&lt;p&gt;随便写两条打印语句试试&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;print(&amp;quot;Hello World!&amp;quot;)
+print(&amp;quot;Hello World!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmTm5yxXV8kktBeT5Z4VrNRt9NmuaMiguUYfs6hrfBaywd/image.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看来这些语言都差不多嘛。嗯，我可以放心的和别人吹嘘了我会R了。（在steemit上吹容易被识破，还是线下吹吧）&lt;/p&gt;
+
+&lt;h1 id=&#34;执行&#34;&gt;执行&lt;/h1&gt;
+
+&lt;p&gt;有时候我们可能不想这样交互式的运行R，那么能否直接执行R的脚本呢？看一下R的帮助，试试能不能找出咋弄？&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R --help
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;额，帮助信息有点长，不往这里贴了。不过还好找到一些貌似用来运行脚本的参数，来试试看。&lt;/p&gt;
+
+&lt;p&gt;vi编辑一个文件，写上&lt;code&gt;print(&amp;quot;Hello World!&amp;quot;);&lt;/code&gt;保存为&lt;code&gt;hello.R&lt;/code&gt;，然后执行下列指令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;R --slave -f hello.R
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;输出如下：
+&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQme4XZvMfqMt9CGD5KGnmQ1vpDfGH3m6YyCTANw7tZ6xib/image.png&#34; alt=&#34;img&#34; /&gt;
+✌，就是这个味，哦不对，就是这个结果。&lt;/p&gt;
+
+&lt;h1 id=&#34;继续&#34;&gt;继续&lt;/h1&gt;
+
+&lt;p&gt;接下来该怎么办？&lt;/p&gt;
+
+&lt;p&gt;咳咳，我已经掌握了R，我不会告诉你我已经可以熟练使用神马诸如加减乘除乘方开方之类的运算操作，神马cat\paste字符串连接之类的我也可以信手拈来，甚至我还会用高深的sprintf用来格式化输出。&lt;/p&gt;
+
+&lt;p&gt;你问我还有啥不会的，这个问题还用问吗？&lt;del&gt;还有啥是我不会的&lt;/del&gt;我不会的我岂能告诉你。&lt;/p&gt;
+
+&lt;p&gt;不过讲真，想好好学R，还是看 @dapeng 的教程，或者买 @dapeng 《学R》这本书吧，只有专业的、系统的教程，才是适合拿来好好学习的。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>dancingapple： 写在学 R 前际</title>
-      <link>https://pzhaonet.github.io/xuer/post/dancingapple/</link>
+      <link>https://xuer.pzhao.org/post/dancingapple/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/dancingapple/</guid>
-      <description>本文经作者 @dancingapple 授权转载（原文链接）。
-我一直都自称数学很差，嗯，它曾是我心中最大的痛，彼时为了弥补它拖的后腿，其他学科我都拼了命去学。
-可是扪心自问，我是很不服的，因为理科差这个标签，是别人给我贴的，差，很大一部分是这方面的自信心被摧毁的后果。
-好歹我小学四年级的时候还是老师钦点的数学课代表。
-好歹我初中的时候，是物理老师的得意门生。
-好歹高一某次联考，我还拿过数学状元。
-凭什么我后来就只能是个文娱委员？到了高三的时候数学老师居然还用一副“你开心就好”的态度对待我！ 唉，不服，就是不服。
-后来，出来工作了，在那遥远的总公司有一个很是让我膜拜的男神，他的数据做起来那是相当的 666。当时不谙世事的我第一次瞥见了他做出来的 Excel，额，那感觉怎么形容呢？
-他把中国地图弄到 Excel 上了，然后大领导要看啥地方的数据就直接点那个地方，从宏观到微观，从纵向分析到横向分析，反正啥玩意都有。
-把庞大而复杂的东西收拾得干干净净，这大概是处女座的终极追求了吧。
-嗯，在没规律中寻找规律发现美感，这也是处女座的嗜好之一。
-翻开 @dapeng 的这本书，基本上都是很陌生的东西，但不能说是完全陌生，毕竟我第一份工作就是关于数据统计分析的，也“被迫”写过一些规则（完全零基础，赶鸭子上架）。
-在尘封的朋友圈里我想翻出点什么经验来分享一下，可是原来那段时间里，除了被虐，还是被虐……
-不敢说最近有多忙，毕竟大家都很忙。但是各种活动接踵而至，我就尽量在不熬夜的前提下保持战斗力吧。
-拖延了数天，终于在今天买了个U盘，把我这台专门写稿的小电脑收拾干净，准备迎接——R。
-书本第一章的课外活动为“表白”：你是为什么要学R呢？
-我大致归纳一下：
-1、反正书不贵；
-2、想验证一下我是不是真的没有智商学好理科；
-3、怀念一下捣鼓数据被虐的青葱岁月；
-4、这是一本有情怀的书；
-5、这是一本有趣的书。
-6、真的，没骗你，有些地方真的笑死人了，哈哈哈哈。</description>
+      <guid>https://xuer.pzhao.org/post/dancingapple/</guid>
+      <description>&lt;p&gt;本文经作者 @dancingapple 授权转载（&lt;a href=&#34;https://steemit.com/cn/@dancingapple/r&#34; target=&#34;_blank&#34;&gt;原文链接&lt;/a&gt;）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmYc4EbkR5BxwLApUgXBE8bmN7pvtr3uB7Tad1o5bGHQky/B42332E7-834E-48A8-BEAC-88B93B59A13A.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我一直都自称数学很差，嗯，它曾是我心中最大的痛，彼时为了弥补它拖的后腿，其他学科我都拼了命去学。&lt;/p&gt;
+
+&lt;p&gt;可是扪心自问，我是很不服的，因为理科差这个标签，是别人给我贴的，差，很大一部分是这方面的自信心被摧毁的后果。&lt;/p&gt;
+
+&lt;p&gt;好歹我小学四年级的时候还是老师钦点的数学课代表。&lt;/p&gt;
+
+&lt;p&gt;好歹我初中的时候，是物理老师的得意门生。&lt;/p&gt;
+
+&lt;p&gt;好歹高一某次联考，我还拿过数学状元。&lt;/p&gt;
+
+&lt;p&gt;凭什么我后来就只能是个文娱委员？到了高三的时候数学老师居然还用一副“你开心就好”的态度对待我！
+唉，不服，就是不服。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQme3Zu5fZCw2JDHr3bTQCNMJg9wafvPaJS5DTjWN3PRSma/52D75164-B295-47DB-A2BF-EC1E0E01613D.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;后来，出来工作了，在那遥远的总公司有一个很是让我膜拜的男神，他的数据做起来那是相当的 666。当时不谙世事的我第一次瞥见了他做出来的 Excel，额，那感觉怎么形容呢？&lt;/p&gt;
+
+&lt;p&gt;他把中国地图弄到 Excel 上了，然后大领导要看啥地方的数据就直接点那个地方，从宏观到微观，从纵向分析到横向分析，反正啥玩意都有。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmWAmo7H8NJwQPkqwGJd8h9ZEhAytEvJNoRkomMeV8oLi4/4063E4E9-B5D6-48C5-AF60-5AFB91DB4217.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;把庞大而复杂的东西收拾得干干净净&lt;/strong&gt;，这大概是处女座的终极追求了吧。&lt;/p&gt;
+
+&lt;p&gt;嗯，&lt;strong&gt;在没规律中寻找规律发现美感&lt;/strong&gt;，这也是处女座的嗜好之一。&lt;/p&gt;
+
+&lt;p&gt;翻开  @dapeng 的这本书，基本上都是很陌生的东西，但不能说是完全陌生，毕竟我第一份工作就是关于数据统计分析的，也“被迫”写过一些规则（完全零基础，赶鸭子上架）。&lt;/p&gt;
+
+&lt;p&gt;在尘封的朋友圈里我想翻出点什么经验来分享一下，可是原来那段时间里，除了被虐，还是被虐……&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmemQPz9NnQnn5kqoVgztQ1jh5MXy7ogGVpQmfUkfoyM2S/94E4619B-180F-4197-93D8-8149BF62AE10.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;不敢说最近有多忙，毕竟大家都很忙。但是各种活动接踵而至，我就尽量在不熬夜的前提下保持战斗力吧。&lt;/p&gt;
+
+&lt;p&gt;拖延了数天，终于在今天买了个U盘，把我这台专门写稿的小电脑收拾干净，准备迎接——R。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmZcvsTzXyJmtKqSuQMgyXm7qWjBsSNoyViKjHRFNcu5eK/3EC7DC40-4334-42A8-9824-EBF5CC42C999.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;书本第一章的课外活动为“表白”：你是为什么要学R呢？&lt;/p&gt;
+
+&lt;p&gt;我大致归纳一下：&lt;/p&gt;
+
+&lt;p&gt;1、反正书不贵；&lt;/p&gt;
+
+&lt;p&gt;2、想验证一下我是不是真的没有智商学好理科；&lt;/p&gt;
+
+&lt;p&gt;3、怀念一下捣鼓数据&lt;del&gt;被虐&lt;/del&gt;的青葱岁月；&lt;/p&gt;
+
+&lt;p&gt;4、这是一本有情怀的书；&lt;/p&gt;
+
+&lt;p&gt;5、这是一本有趣的书。&lt;/p&gt;
+
+&lt;p&gt;6、真的，没骗你，有些地方真的笑死人了，哈哈哈哈。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.steemitimages.com/0x0/https://cdn.steemitimages.com/DQmVXUBSoqkD9u7AEAaoHoKLELppF63UFoZjuxHzswhiM4i/E87C13EF-7676-46AF-A4E1-05EFB6B49E49.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>谢益辉：内心的小火苗（序）</title>
-      <link>https://pzhaonet.github.io/xuer/post/yihui/</link>
+      <link>https://xuer.pzhao.org/post/yihui/</link>
       <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/yihui/</guid>
-      <description>益辉1的大名在 R 语言领域如雷贯耳（希望未来他在厨艺界也有此声誉），我从最初学习 R 语言时就听说了，一直把益辉作为楷模来学习，未曾想有朝一日会有幸邀请益辉为书作序，不由感慨世界之奇妙如斯。感谢益辉！
-下面是益辉为本书写的序言。标题是我加的。
-每当人找我写序的时候我都恨得牙痒痒，因为我十年前就开始写一本关于 R 图形的中文书，但后来因为各种事情搁下了，现在的时间只够给人写序。不过这次我倒是很乐意为《学 R》写序，因为这本书实现了我的一个小小愿望：我希望技术书籍能变得有趣一些。我在另一本书《R 包开发》的序言里写道：
- “我也很期待国内能出现更多本土作者的中文 R 作品。讲真啊，我认为中文的表现力比英文不知道要高到哪里去了。”
- 我讲这句话的原因是我们翻译的外文 R 书籍太多了，而翻译的书真的是很难做到语言自然流畅。本书的作者语言功力很强，而且处处透露着幽默感，至少在文字方面我觉得几乎无可挑剔。
-我头一次注意到本书的作者之一大鹏是 2013 年他在统计之都论坛上的第一个帖子：https://d.cosx.org/d/109820。当时我就跟我们统计之都的人说，我们得把这厮拉进我们的队伍，因为他的文风很别致，也很有热情。聪明的人我见过不少，但内心有小火苗的人我真心觉得少见。那时候他都还没用过 Github，对 Pandoc 也不熟，举着一把 R Markdown 板斧、骑着一头 RStudio 小毛驴就杀将出来；在燕小六2一般哇呀呀坚持几年过后，终于开始横刀立马来检阅战果了。对《学 R》一书的出版，我感到非常欣慰。
-老实讲，我并没有通读书稿，只看了几个样章，但我经常看大鹏的博客，所以我觉得这几个样章应该很有代表性。这本书最大的亮点应该是作者真心倾注了热情在里面，从字里行间可以感受到他们总是在鼓励你试试这个、尝尝那个，仿佛一直在拿胳膊肘子捅你：喂，这里很好玩哟，这里是见证奇迹的时刻哟。我相信这样的书读起来一定会很吸引人。
-在内容涵盖范围方面，我感觉这本书尤其适合学术界以及那些对 R 语言有钻研爱好的读者，当然我也相信它对其他读者一定也会有很多帮助。它介绍了很多“经世致用”的技能，可能那些圣贤书上都不会讲但又很实用，可以以很快的速度学以致用，这一点在这个所谓的“数据科学”时代尤其重要。这本书涵盖的统计学主题相对少一些，但作为一本入门读物也无妨，因为当你玩上瘾之后，继续深挖其它主题就会势如破竹。
-这几年我一直忙着做开发工作，没多少时间在中文社区解释和宣传我的工作，所以我很感激本书作者帮我用中文形式介绍了 knitr、bookdown（“不可挡”真乃神翻译）和 blogdown 等包。希望它们对大家有用，也祝大家能在阅读本书的过程中感受到学习 R 的乐趣。
- &amp;mdash; 谢益辉，2017 年 8 月 23 日
-  谢益辉（https://yihui.name），中国人民大学统计学院经济学学士和硕士，美国爱荷华州立大学统计学博士，“统计之都”创办人，中国 R 语言会议发起人，rmarkdown、knitr、bookdown、blogdown、animation 等诸多 R 扩展包的作者，现为 RStudio 公司软件工程师。 ^ 燕小六：电视剧《武林外传》里的一名捕快。 ^   </description>
+      <guid>https://xuer.pzhao.org/post/yihui/</guid>
+      <description>&lt;p&gt;益辉&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:https-yihui-name&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:https-yihui-name&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;的大名在 R 语言领域如雷贯耳（希望未来他在厨艺界也有此声誉），我从最初学习 R 语言时就听说了，一直把益辉作为楷模来学习，未曾想有朝一日会有幸邀请益辉为书作序，不由感慨世界之奇妙如斯。感谢益辉！&lt;/p&gt;
+
+&lt;p&gt;下面是益辉为本书写的序言。标题是我加的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;每当人找我写序的时候我都恨得牙痒痒，因为我十年前就开始写一本关于 R 图形的中文书，但后来因为各种事情搁下了，现在的时间只够给人写序。不过这次我倒是很乐意为《学 R》写序，因为这本书实现了我的一个小小愿望：我希望技术书籍能变得有趣一些。我在另一本书《R 包开发》的序言里写道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“我也很期待国内能出现更多本土作者的中文 R 作品。讲真啊，我认为中文的表现力比英文不知道要高到哪里去了。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我讲这句话的原因是我们翻译的外文 R 书籍太多了，而翻译的书真的是很难做到语言自然流畅。本书的作者语言功力很强，而且处处透露着幽默感，至少在文字方面我觉得几乎无可挑剔。&lt;/p&gt;
+
+&lt;p&gt;我头一次注意到本书的作者之一大鹏是 2013 年他在统计之都论坛上的第一个帖子：&lt;a href=&#34;https://d.cosx.org/d/109820&#34; target=&#34;_blank&#34;&gt;https://d.cosx.org/d/109820&lt;/a&gt;。当时我就跟我们统计之都的人说，我们得把这厮拉进我们的队伍，因为他的文风很别致，也很有热情。聪明的人我见过不少，但内心有小火苗的人我真心觉得少见。那时候他都还没用过 Github，对 Pandoc 也不熟，举着一把 R Markdown 板斧、骑着一头 RStudio 小毛驴就杀将出来；在燕小六&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:-&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:-&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;一般哇呀呀坚持几年过后，终于开始横刀立马来检阅战果了。对《学 R》一书的出版，我感到非常欣慰。&lt;/p&gt;
+
+&lt;p&gt;老实讲，我并没有通读书稿，只看了几个样章，但我经常看大鹏的博客，所以我觉得这几个样章应该很有代表性。这本书最大的亮点应该是作者真心倾注了热情在里面，从字里行间可以感受到他们总是在鼓励你试试这个、尝尝那个，仿佛一直在拿胳膊肘子捅你：喂，这里很好玩哟，这里是见证奇迹的时刻哟。我相信这样的书读起来一定会很吸引人。&lt;/p&gt;
+
+&lt;p&gt;在内容涵盖范围方面，我感觉这本书尤其适合学术界以及那些对 R 语言有钻研爱好的读者，当然我也相信它对其他读者一定也会有很多帮助。它介绍了很多“经世致用”的技能，可能那些圣贤书上都不会讲但又很实用，可以以很快的速度学以致用，这一点在这个所谓的“数据科学”时代尤其重要。这本书涵盖的统计学主题相对少一些，但作为一本入门读物也无妨，因为当你玩上瘾之后，继续深挖其它主题就会势如破竹。&lt;/p&gt;
+
+&lt;p&gt;这几年我一直忙着做开发工作，没多少时间在中文社区解释和宣传我的工作，所以我很感激本书作者帮我用中文形式介绍了 knitr、bookdown（“不可挡”真乃神翻译）和 blogdown 等包。希望它们对大家有用，也祝大家能在阅读本书的过程中感受到学习 R 的乐趣。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;mdash; 谢益辉，2017 年 8 月 23 日&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:https-yihui-name&#34;&gt;谢益辉（&lt;a href=&#34;https://yihui.name&#34; target=&#34;_blank&#34;&gt;https://yihui.name&lt;/a&gt;），中国人民大学统计学院经济学学士和硕士，美国爱荷华州立大学统计学博士，“统计之都”创办人，中国 R 语言会议发起人，rmarkdown、knitr、bookdown、blogdown、animation 等诸多 R 扩展包的作者，现为 RStudio 公司软件工程师。 &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:https-yihui-name&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:-&#34;&gt;燕小六：电视剧《武林外传》里的一名捕快。 &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:-&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>朱彤：惶恐和高兴（序）</title>
-      <link>https://pzhaonet.github.io/xuer/post/zhutong/</link>
+      <link>https://xuer.pzhao.org/post/zhutong/</link>
       <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/zhutong/</guid>
-      <description>我读研究生时的导师是朱彤教授。在朱老师科研小组 ZTGroup 学习的三年如沐春风，我从中得到的收获受益终生。正值北京大学环境大楼落成不久，又逢毕业季，作为环境科学与工程学院的院长，朱老师在极其繁忙的工作中抽出时间来为本书欣然作序，实属不易，仅凭“感激”二字岂能表达我们的谢意？
-下面是朱老师为本书写的序言。标题是我加的。
- 受作者邀请为此书写序，感到惶恐和高兴。两名作者分别是我以前的硕士和博士生。多年来，我们小组很多同学都在学习和使用 R 语言，作为老师的我却从来没有用过，要为一本关于 R 语言的书写序，自然感到很惶恐。而当我打开这本书，没有看到晦涩难懂的概念、公式，在风趣易懂的语言、引人入胜的描述下，很快阅读完了前几章，不仅迅速跨越了零基础的障碍，更为两名作者为广大的数据统计分析和 R 语言学习人员提供这样一本独特、有趣的入门书而感到高兴。
-随着科技的高速发展，对大量数据的处理和分析已成为科研甚至日常生活的必需，掌握一门强大的数据分析工具非常必要。作为一种开源、免费且不断更新的语言，R 不仅拥有数据分析、统计、作图等强大功能，其应用范围还在不断扩大：赵鹏博士可以用它来撰写学术论文、做备忘录、制作幻灯片、整理读书笔记、整理照片、写书、记录吉他谱、写博客、做网站等。R 语言拥有越来越多的使用者和爱好者，也使得其功能越来越广泛、强大。
-与其它介绍 R 语言的书籍不同，这本书以两名作者自身学习的经验娓娓道来，没有多少枯燥的术语和公式，是一本非常适合自学 R 语言和统计学的入门书，尤其适合零基础和不懂统计学的读者。这本书可作为大学本科生和研究生自学用，也可作为高校教师教案。相信读者们不仅会发现这本书很有用，更会发现关于 R 语言和统计学的书可以写得很有趣。
-&amp;mdash; 朱彤，2017 年 6 月 13 日
- </description>
+      <guid>https://xuer.pzhao.org/post/zhutong/</guid>
+      <description>&lt;p&gt;我读研究生时的导师是朱彤教授。在朱老师科研小组 ZTGroup 学习的三年如沐春风，我从中得到的收获受益终生。正值北京大学环境大楼落成不久，又逢毕业季，作为环境科学与工程学院的院长，朱老师在极其繁忙的工作中抽出时间来为本书欣然作序，实属不易，仅凭“感激”二字岂能表达我们的谢意？&lt;/p&gt;
+
+&lt;p&gt;下面是朱老师为本书写的序言。标题是我加的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;受作者邀请为此书写序，感到惶恐和高兴。两名作者分别是我以前的硕士和博士生。多年来，我们小组很多同学都在学习和使用 R 语言，作为老师的我却从来没有用过，要为一本关于 R 语言的书写序，自然感到很惶恐。而当我打开这本书，没有看到晦涩难懂的概念、公式，在风趣易懂的语言、引人入胜的描述下，很快阅读完了前几章，不仅迅速跨越了零基础的障碍，更为两名作者为广大的数据统计分析和 R 语言学习人员提供这样一本独特、有趣的入门书而感到高兴。&lt;/p&gt;
+
+&lt;p&gt;随着科技的高速发展，对大量数据的处理和分析已成为科研甚至日常生活的必需，掌握一门强大的数据分析工具非常必要。作为一种开源、免费且不断更新的语言，R 不仅拥有数据分析、统计、作图等强大功能，其应用范围还在不断扩大：赵鹏博士可以用它来撰写学术论文、做备忘录、制作幻灯片、整理读书笔记、整理照片、写书、记录吉他谱、写博客、做网站等。R 语言拥有越来越多的使用者和爱好者，也使得其功能越来越广泛、强大。&lt;/p&gt;
+
+&lt;p&gt;与其它介绍 R 语言的书籍不同，这本书以两名作者自身学习的经验娓娓道来，没有多少枯燥的术语和公式，是一本非常适合自学 R 语言和统计学的入门书，尤其适合零基础和不懂统计学的读者。这本书可作为大学本科生和研究生自学用，也可作为高校教师教案。相信读者们不仅会发现这本书很有用，更会发现关于 R 语言和统计学的书可以写得很有趣。&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash; 朱彤，2017 年 6 月 13 日&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
       <title>dapeng：侠气</title>
-      <link>https://pzhaonet.github.io/xuer/post/2017-04-13_booktitles/</link>
+      <link>https://xuer.pzhao.org/post/2017-04-13_booktitles/</link>
       <pubDate>Sat, 15 Apr 2017 21:13:14 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/2017-04-13_booktitles/</guid>
-      <description>我的博客访问量最大的帖子就是《 R 菜鸟入门》。这是写给 R 语言新手的。四年前发布以来，浏览量累计大约 2 万。也就是说，如果每天的工作时间是 8 小时，那么在这工作时间里，平均每小时都有 2 个人在浏览这些帖子，如此连续了四年，连个节假日都没有，对于这样一个小站来说，我还是挺得意的。就算是在高校讲课，如果每个班 20 人，每个学期一个班，我得教 500 年，才能这么大规模地普及 R 语言。但是 500 年后 R 语言早就不存在了。
-网友们的反馈也很鼓励人。除了留言点赞的网友外，我甚至在真实世界里偶遇过网友跟我聊这帖子。好几次，有学生朋友来信索取习题答案，说他们老师拿我的博客当讲义，出的题目是我博客上现成的题目，但是他们不会做。我不知道是该喜该忧，于是答复说，如果看了我的博客你还没学会，这不是打我的脸么……
-最近，承蒙朋友推荐，这些帖子被一家出版社看上了，打算出一本书。我想，出书的话，博客上的文字显得太水了，把好端端的纸张弄湿了终归是浪费，于是就在原有的框架和风格上全部重写，并且加了很多干货。其中有一样，就是加入了一些侠气。
-上图是书的目录。你会发现，各章标题我都有意用了两个字。如果你是武侠迷，会迅速联想到，这个跟《笑傲江湖》的章节风格是一致的（歌迷也许会认为是跟张信哲的专辑名称一致）。这是因为，我书里潜伏了一条暗线，那就是金庸，书里前后引用过天龙八部，倚天屠龙记，射雕英雄传，是一脉贯通的，是暗藏的精气神。两个字，快刀乱麻，干净利索，十步杀一人，千里不留行。
-但是，你会发现，有两章标题是四个字。这是因为，此书是我跟我师姐合写的。这两章我不懂，写不了，但学习 R 语言又少不了，于是请我师姐写。她不同意改成两个字，认为这不重要，你个讲编程的书关金庸什么事，虽然她比我还金迷。于是，你会看到两个字的标题里突然冒出了四个字。
-我觉得，这硬生生破坏了全书的侠气。
-就好像益辉吐槽 ReporteRs 一样：
- 我早年的时候也有这个倾向，喜欢把包名里的 R 大写，如 formatR，后来基本上只用纯小写的名字了。一个包名开头要按一次 Shift 键，然后哗啦啦敲几个字母，正中间急停，再按一次 Shift 键，然后又是小写。就问你想不想掀桌。
- 嗯，我也有同感。
-大家觉得怎么样？觉得目前图上的这个状况能忍么？想劝我入院看病的请闭嘴，谢谢。</description>
+      <guid>https://xuer.pzhao.org/post/2017-04-13_booktitles/</guid>
+      <description>&lt;p&gt;我的博客访问量最大的帖子就是《 &lt;a href=&#34;http://dapengde.com/r4dummies&#34; target=&#34;_blank&#34;&gt;R 菜鸟入门&lt;/a&gt;》。这是写给 R 语言新手的。四年前发布以来，浏览量累计大约 2 万。也就是说，如果每天的工作时间是 8 小时，那么在这工作时间里，平均每小时都有 2 个人在浏览这些帖子，如此连续了四年，连个节假日都没有，对于这样一个小站来说，我还是挺得意的。就算是在高校讲课，如果每个班 20 人，每个学期一个班，我得教 500 年，才能这么大规模地普及 R 语言。但是 500 年后 R 语言早就不存在了。&lt;/p&gt;
+
+&lt;p&gt;网友们的反馈也很鼓励人。除了留言点赞的网友外，我甚至&lt;a href=&#34;http://dapengde.com/archives/18994&#34; target=&#34;_blank&#34;&gt;在真实世界里偶遇过网友&lt;/a&gt;跟我聊这帖子。好几次，有学生朋友来信索取习题答案，说他们老师拿我的博客当讲义，出的题目是我博客上现成的题目，但是他们不会做。我不知道是该喜该忧，于是答复说，如果看了我的博客你还没学会，这不是打我的脸么……&lt;/p&gt;
+
+&lt;p&gt;最近，承蒙朋友推荐，这些帖子被一家出版社看上了，打算出一本书。我想，出书的话，博客上的文字显得太水了，把好端端的纸张弄湿了终归是浪费，于是就在原有的框架和风格上全部重写，并且加了很多干货。其中有一样，就是加入了一些侠气。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://dapengde.com/wp-content/uploads/2017/04/xajh.jpg&#34; alt=&#34;enter image description here&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;上图是书的目录。你会发现，各章标题我都有意用了两个字。如果你是武侠迷，会迅速联想到，这个跟《笑傲江湖》的章节风格是一致的（歌迷也许会认为是跟张信哲的专辑名称一致）。这是因为，我书里潜伏了一条暗线，那就是金庸，书里前后引用过天龙八部，倚天屠龙记，射雕英雄传，是一脉贯通的，是暗藏的精气神。两个字，快刀乱麻，干净利索，十步杀一人，千里不留行。&lt;/p&gt;
+
+&lt;p&gt;但是，你会发现，有两章标题是四个字。这是因为，此书是我跟我师姐合写的。这两章我不懂，写不了，但学习 R 语言又少不了，于是请我师姐写。她不同意改成两个字，认为这不重要，你个讲编程的书关金庸什么事，虽然她比我还金迷。于是，你会看到两个字的标题里突然冒出了四个字。&lt;/p&gt;
+
+&lt;p&gt;我觉得，这硬生生破坏了全书的侠气。&lt;/p&gt;
+
+&lt;p&gt;就好像&lt;a href=&#34;https://yihui.name/cn/2017/04/r-markdown-office/&#34; target=&#34;_blank&#34;&gt;益辉吐槽 ReporteRs&lt;/a&gt; 一样：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;我早年的时候也有这个倾向，喜欢把包名里的 R 大写，如 formatR，后来基本上只用纯小写的名字了。一个包名开头要按一次 Shift 键，然后哗啦啦敲几个字母，正中间急停，再按一次 Shift 键，然后又是小写。就问你想不想掀桌。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;嗯，我也有同感。&lt;/p&gt;
+
+&lt;p&gt;大家觉得怎么样？觉得目前图上的这个状况能忍么？想劝我入院看病的请闭嘴，谢谢。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>《学 R 》主页正式建立</title>
-      <link>https://pzhaonet.github.io/xuer/post/2017-04-14_start/</link>
+      <link>https://xuer.pzhao.org/post/2017-04-14_start/</link>
       <pubDate>Fri, 14 Apr 2017 21:13:14 +0000</pubDate>
       
-      <guid>https://pzhaonet.github.io/xuer/post/2017-04-14_start/</guid>
-      <description>《学 R 》主页今天正式建立。本站是用 R 语言的 blogdown 扩展包搭建的。</description>
+      <guid>https://xuer.pzhao.org/post/2017-04-14_start/</guid>
+      <description>&lt;p&gt;《学 R 》主页今天正式建立。本站是用 R 语言的 blogdown 扩展包搭建的。&lt;/p&gt;
+</description>
     </item>
     
   </channel>
