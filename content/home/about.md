@@ -13,7 +13,7 @@ weight = 1
 
 # 简介
 
-点击[这里](http://xuer.dapengde.com/pdf/xuer-sample.pdf)下载试读（2.8 M）。
+点击[这里](/pdf/xuer-sample.pdf)下载试读（2.8 M）。
 
 点击或扫描下面的二维码，可进入官方微店购买。
 
