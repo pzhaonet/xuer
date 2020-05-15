@@ -28,8 +28,8 @@ caption = "My caption :smile:"
 
 这是本书的索引页，展示了 R 常用指令在书中出现的页码，方便读者从书中找到示例和详细说明。
 
-![](https://github.com/pzhaonet/keller/raw/master/figdapeng/xuer-index-1.jpg)
+![](https://pzhao.org/img/keller-figdapeng/xuer-index-1.jpg)
 
-![](https://github.com/pzhaonet/keller/raw/master/figdapeng/xuer-index-2.jpg)
+![](https://pzhao.org/img/keller-figdapeng/xuer-index-2.jpg)
 
-![](https://github.com/pzhaonet/keller/raw/master/figdapeng/xuer-index-3.jpg)
+![](https://pzhao.org/img/keller-figdapeng/xuer-index-3.jpg)

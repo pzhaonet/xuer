@@ -6,7 +6,7 @@ date = "2016-04-27"
 title = "赵鹏"
 
 # Project summary to display on homepage.
-summary = "赵鹏，北京大学化学与分子工程学院学士，北京大学环境学院硕士，德国拜罗伊特大学地理生态学博士。R语言爱好者，目前在因斯布鲁克大学从事博士后研究工作。"
+summary = "赵鹏，北京大学化学学士，北京大学环境科学硕士，德国拜罗伊特大学地理生态学博士。R语言爱好者，目前供职于西交利物浦大学。"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "zhao.jpg"

@@ -29,4 +29,4 @@ caption = "My caption :smile:"
 
 下图为本书目录的思维导图，用 R mindr 扩展包生成。
 
-![](https://raw.githubusercontent.com/pzhaonet/mindr/master/showcase/mindr_xuer.jpg)
+![](![](https://pzhao.org/img/mindr_xuer.jpg)
