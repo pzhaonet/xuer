@@ -27,10 +27,11 @@ caption = "My caption :smile:"
 +++
 
 
-书里的错误给读者带来了不便，我们为此非常抱歉。欢迎将书中的错误反馈给我们（邮箱：<xuer@pzhao.net>），以便在新版里改进。谢谢。
+书里的错误给读者带来了不便，我们为此非常抱歉。欢迎将书中的错误反馈给我们（邮箱：<xuer@pzhao.net>），以便在新版（不大可能有）里改进。谢谢。
 
 | 页码 |   错误   |   订正   | 贡献者 |
 | --- | ------ | ------ | ---- |
+| 前言 6 | 本书主页：http://xuer.pzhao.net | 本书主页：https://xuer.pzhao.org | zhao shujian  |
 |  12  |  哈姆雷  | 哈姆雷特 | [drunkevil](https://steemit.com/cn-reader/@drunkevil/reading-of-learning-r) |
 | 29   |  Environment 标签下列出的里那些东西   |  Environment 标签下列出的那些东西  | kelffon  |
 | 37   |  `mydata2 <- read.table`   |  `read.table`  | wky |
@@ -49,6 +50,6 @@ caption = "My caption :smile:"
 | 197  | 第一种是用一个循环条指令   |  第一种是用一条循环指令  | kelffon  |
 | 198  |  bookdownlus  | bookdownplus | Heaven |
 | 225  |  带了障碍  |  带来了障碍  | kelffon  |
-
+| 318  | `365-floor(365/7)` | `365-floor(365/7)＊7` | 吕海超 |
 
 感谢以上读者的细心订正！
