@@ -32,6 +32,7 @@ caption = "My caption :smile:"
 | 页码 |   错误   |   订正   | 贡献者 |
 | --- | ------ | ------ | ---- |
 | 前言 6 | 本书主页：http://xuer.pzhao.net | 本书主页：https://xuer.pzhao.org | zhao shujian  |
+| 前言 7 | 联系邮箱：xuer@pzhao.net | 联系邮箱：pengzhao20@outlook.com | dapeng  |
 |  12  |  哈姆雷  | 哈姆雷特 | [drunkevil](https://steemit.com/cn-reader/@drunkevil/reading-of-learning-r) |
 | 29   |  Environment 标签下列出的里那些东西   |  Environment 标签下列出的那些东西  | kelffon  |
 | 37   |  `mydata2 <- read.table`   |  `read.table`  | wky |
