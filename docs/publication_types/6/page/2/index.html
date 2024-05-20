@@ -1,281 +1,0 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.72.0" />
-  <meta name="author" content="学 R：零基础学习 R 语言">
-  <meta name="description" content="赵鹏 李怡 著">
-
-  
-  
-  
-    
-  
-  
-    
-    
-    <link rel="stylesheet" href="../../../../css/highlight.min.css">
-    
-  
-  <link rel="stylesheet" href="../../../../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../../../../css/font-awesome.min.css">
-  <link rel="stylesheet" href="../../../../css/academicons.min.css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
-  <link rel="stylesheet" href="../../../../css/hugo-academic.css">
-  
-
-  <link rel="alternate" href="../../../../publication_types/6/index.xml" type="application/rss+xml" title="学 R ">
-  <link rel="feed" href="../../../../publication_types/6/index.xml" type="application/rss+xml" title="学 R ">
-
-  <link rel="icon" type="image/png" href="../../../../img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="../../../../img/apple-touch-icon.png">
-
-  <link rel="canonical" href="../../../../publication_types/6/">
-
-  
-
-  <title>6 | 学 R </title>
-
-</head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
-
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
-  <div class="container">
-
-    
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">切换导航</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="../../../../">学 R </a>
-    </div>
-
-    
-    <div class="collapse navbar-collapse">
-
-      
-      <ul class="nav navbar-nav navbar-right">
-        
-
-        
-
-        <li class="nav-item">
-          <a href="../../../../#about">
-            
-            <span>简介</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        <li class="nav-item">
-          <a href="../../../../#posts">
-            
-            <span>书友之窗</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        <li class="nav-item">
-          <a href="../../../../#help">
-            
-            <span>辅助资料</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        <li class="nav-item">
-          <a href="../../../../#authors">
-            
-            <span>作者简介</span>
-          </a>
-        </li>
-
-        
-        
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-
-
-
-<div class="universal-wrapper">
-
-  <h1>6</h1>
-
-  
-
-  
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch09/">示例代码（第九章 函数）</a></h2>
-    <div class="article-style">
-      
-      第九章 函数 y &lt;- sd(x = 1:5) # sd 是函数名, x 是自变量。ysdassign(&quot;x&quot;, 1:5)newscore &lt;- function(x) {y &lt;- sqrt(x) * 10return(y)}newscore(x = 40)x &lt;- 36y &lt;- 81newscore(x = y) # 函数内部的 x 把 81 的值接过来，而不是36。x # 函数外部的x仍然是36。news &lt;- function(x, n) {sqrt(x) * 10 + n}news(x = 36, n = 10)news(36, 10)news(n = 10, x = 36)newscore()newscore &lt;- function(x = 36) # 将x默认值设为36。{sqrt(x) * 10}newscore()exponentialGrowth &lt;- function(N0, r = 0.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch10/">示例代码（第十章 字符）</a></h2>
-    <div class="article-style">
-      
-      第十章 字符 x &lt;- &lsquo;The quick brown fox jumps over the lazy dog&rsquo;xlower &lt;- tolower(x)class(xlower)length(x)nchar(x)myfile2 &lt;- &quot;c:/r4r/co2.csv&quot;xsingle &lt;- strsplit(xlower, &lsquo;')[[1]]nchar(xsingle)length(xsingle)grep(xsingle[1], xsingle)for(i in 1:length(xsingle)) print(grep(xsingle[i], xsingle))for(i in 1:length(xsingle))print(paste(xsingle[i], grep(xsingle[i], xsingle)))sapply(xsingle, function(x) grep(x, xsingle))table(xsingle)duplicated(xsingle)xsingle[!duplicated(xsingle)]unique(xsingle)length(unique(xsingle))download.file(url =&quot;http://dapengde.com/r4rookies/qianziwen.txt&quot;,destfile = &quot;c:/r4r/qianziwen.txt&quot;)qzw &lt;- readLines(&lsquo;c:/r4r/qianziwen.txt&rsquo;, encoding = &lsquo;UTF-8&rsquo;)class(qzw)length(qzw) #向量长度nchar(qzw) #向量里每个元素包含的字符数qzwmerged &lt;- paste(qzw, collapse = &lsquo;')qzwmerged &lt;- gsub(&rsquo; &lsquo;, &lsquo;&rsquo;, qzwmerged)nchar(qzwmerged)qzwsingle &lt;- strsplit(qzwmerged, &lsquo;')[[1]]chardup &lt;- qzwsingle[duplicated(qzwsingle)]for(i in chardup) print(paste(i, grep(i, qzw, value = TRUE)))download.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch11/">示例代码（第十一章 地图）</a></h2>
-    <div class="article-style">
-      
-      第十一章 地图 download.file(url = &quot;http://dapengde.com/r4rookies/us.csv&quot;,destfile = &quot;c:/r4r/us.csv&quot;)us &lt;- read.csv(&quot;c:/r4r/us.csv&quot;)summary(us)nlevels(us$state)plot(us$lon, us$lat)plot(us$lon, us$lat)points(us$lon[us$state == &quot;Texas&quot;],us$lat[us$state == &quot;Texas&quot;], col=&quot;blue&quot;)cols &lt;- rainbow(nlevels(us$state))plot(us$lon, us$lat, col = cols[us$state], pch = 20)lon.median &lt;- tapply(us$lon, us$state, median)lat.median &lt;- tapply(us$lat, us$state, median)text(labels = levels(us$state), x = lon.median, y = lat.median, cex = 0.5, col = &lsquo;White&rsquo;)points(-74.02, 40.73, pch = 17, cex = 2)download.file(url = &quot;http://dapengde.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch12/">示例代码（第十二章 时间）</a></h2>
-    <div class="article-style">
-      
-      第十二章 时间 bd &lt;- &lsquo;1994-09-22 20:30:00&rsquo;bdtime &lt;- strptime(x = bd, format = &lsquo;%Y-%m-%d %H:%M:%S&rsquo;, tz = &quot;Asia/Shanghai&quot;)bdtimeclass(bd)class(bdtime)t1 &lt;- Sys.time() # 返回当前时刻t2 &lt;- date() # 返回当前时刻t3 &lt;- Sys.Date() # 返回当前日期t1t2t3class(t1)class(t2)class(t3)bdtime$wdayunlist(unclass(bdtime))format(bdtime, format = &lsquo;%d.%m.%Y&rsquo;)bdtime + 1bdtime + 60bdtime + 3600t3 &lt;- bdtime + 86400t3bdtime2 &lt;- strptime(&lsquo;1995-09-01 7:30&rsquo;, format = &lsquo;%Y-%m-%d %H:%M&rsquo;, tz = &lsquo;Asia/Shanghai&rsquo;)bdtime2 - bdtimedifftime(time1 = bdtime2, time2 = bdtime, units = &lsquo;secs&rsquo;)mean(c(bdtime, bdtime2))(a &lt;- strptime(&quot;2018-03-25 03:00:00&quot;, format = &quot;%Y-%m-%d %H:%M:%S&quot;, tz = &quot;CET&quot;))a - 1(a &lt;- as.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch13/">示例代码（第十三章 批量处理文件）</a></h2>
-    <div class="article-style">
-      
-      第十三章 批量处理文件 download.file(url= &quot;http://dapengde.com/r4rookies/figren.zip&quot;,destfile = &quot;c:/r4r/figren.zip&quot;)unzip(zipfile = &quot;c:/r4r/figren.zip&quot;, exdir = &quot;c:/r4r&quot;)fotodir &lt;- &lsquo;c:/r4r/figren&rsquo;fotofilefull &lt;- dir(fotodir, full.names = TRUE)fotofile &lt;- dir(fotodir)fotoinfo &lt;- file.info(fotofilefull)fotoinfofototime &lt;- format(fotoinfo$mtime, &lsquo;%Y-%m-%d-%H%M%S&rsquo;)newname &lt;- paste(fotodir, &lsquo;/&rsquo;, fototime, &lsquo;_&rsquo;, fotofile, sep = &lsquo;')file.rename(fotofilefull, newname)urlink &lt;- &lsquo;<a href="http://www.biomet.co.at/pictures/'">http://www.biomet.co.at/pictures/'</a>aa &lt;- readLines(urlink, encoding = &lsquo;UTF-8&rsquo;) # 读取网页linkformat &lt;-&lsquo;src=&quot;http://www.biomet.co.at/wp/wp-content/gallery&rsquo;bb &lt;- aa[grep(linkformat, aa)]for(i in 1:length(bb))bb[i] &lt;- substring(bb[i],regexpr(&quot;http&quot;, bb[i])[1],regexpr(&quot;.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch14/">示例代码（第十四章 论文书稿写作）</a></h2>
-    <div class="article-style">
-      
-      第十四章 论文书稿写作 install.packages(&quot;bookdownplus&quot;)require(bookdownplus)for(i in template()[1:19])bookdownplus(template = i,more_output = more_output()[1:3])for(mf in mail_font()) {for(ms in mail_style()) {for(mt in mail_theme()) {outputname &lt;- paste(&lsquo;mail&rsquo;, ms, mf, mt, sep = &lsquo;_')bookdownplus(template = &lsquo;mail&rsquo;,mail_style = ms,mail_font = mf,mail_theme = mt,output_name = outputname)}}}bookdownplus(template = &lsquo;article&rsquo;)bookdownplus(template = template()[1])template()bookdownplus(template = &lsquo;article&rsquo;,author = &lsquo;John Smith&rsquo;,title = &lsquo;My article&rsquo;)more_output()bookdownplus(template = &lsquo;article&rsquo;,more_output = more_output())bookdown::publish_book()bookdownplus(template = &lsquo;thesis_ubt&rsquo;)bookdownplus(template = &lsquo;thesis_mypku&rsquo;)install.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch15/">示例代码（第十五章 搭建小型网站）</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch16/">示例代码（第十六章 在工作中应用）</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch17/">示例代码（第十七章 用 R 进行基础统计（一）：概率分布检验）</a></h2>
-    <div class="article-style">
-      
-      第十七章 用 R 进行基础统计（一）：概率分布检验 binom.test(x = 27, n = 60, p = 0.5, alternative = &quot;less&quot;)binom.test(x = 203, n = 558, p = 0.4, alternative = &quot;less&quot;)binom.test(x = 203, n = 558, p = 0.4, alternative =&quot;greater&quot;)poisson.test(13,15) poisson.test(13,24,alternative=&quot;less&quot;)qpois(0.95,lambda =24)qpois(0.05,lambda =24)x &lt;- 0:6y &lt;- c(7, 10, 12, 8, 3, 2, 0)mean &lt;- mean(rep(x, y))q &lt;- ppois(x, mean)n &lt;- length(y)p &lt;- qp[1] &lt;- q[1]p[n] &lt;- 1 - q[n - 1]for(i in 2:(n - 1))p[i] &lt;- 1 - q[i - 1]chisq.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="../../../../publication/codes_ch18/">示例代码（第十八章 用 R 进行基础统计（二）：均值比较和方差分析）</a></h2>
-    <div class="article-style">
-      
-      第十八章 用 R 进行基础统计（二）：均值比较和方差分析 myco2&lt;-co2[1:12]myco2t.test(myco2,mu=316.45)myco2.t1 &lt;- co2[1:12] # 1959年的观测数据myco2.t2 &lt;- co2[13:24] # 1960年的观测数据t.test(myco2.t1,myco2.t2)myco2.t1 &lt;- co2[1:12] # 1959年的观测数据myco2.t3 &lt;- co2[97:108] # 1965年的观测数据t.test(myco2.t1,myco2.t3)require(graphics) # 学生的睡眠数据with(sleep, t.test(extra[group == 1], extra[group == 2]))sleep t.test(extra ~ group, data = sleep) require(graphics)##学生的睡眠数据with(sleep, t.test(extra[group == 1], extra[group == 2]))t.test(extra ~ group, data = sleep,paired=TRUE)attach(airquality)Month &lt;- factor(Month, labels = month.abb[5:9])pairwise.t.test(Ozone, Month)pairwise.t.test(Ozone, Month, p.
-      
-    </div>
-  </div>
-  
-
-  
-<nav>
-  <ul class="pager">
-    
-    <li><a href="//publication_types/6/">&laquo; Previous</a></li>
-    
-    
-  </ul>
-</nav>
-
-
-
-</div>
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
-
-      © 赵鹏 李怡 &middot; 
-
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
-
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
-
-    </p>
-  </div>
-</footer>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-    <script src="../../../../js/jquery-1.12.3.min.js"></script>
-    <script src="../../../../js/bootstrap.min.js"></script>
-    <script src="../../../../js/isotope.pkgd.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
-    <script src="../../../../js/hugo-academic.js"></script>
-    
-
-    
-
-    
-    
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-
-  </body>
-</html>
-
