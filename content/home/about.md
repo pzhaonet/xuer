@@ -13,21 +13,17 @@ weight = 1
 
 # 简介
 
-点击[这里](/pdf/xuer-sample.pdf)下载试读（2.8 M）。
+- 全文免费下载：[PDF](/pdf/ZHAOLI2017.pdf)（8.5 M）。
 
-点击或扫描下面的二维码，可进入官方微店购买。
+- 网页版在线阅读：[点击这里](https://https://bookxuer.pzhao.org/)。
 
-<a href="https://weidian.com/item.html?itemID=2981858681"><img src="https://openr.pzhao.org/img/xuer_weidian.png"  width="100%" /></a>
+- 纸质版购买：天猫、当当、京东等各大电商平台均有销售。请在这些平台直接搜索“学 R 零基础学习 R 语言”即可。
 
-此外，天猫、当当、京东等各大电商平台均有销售。请在这些平台直接搜索“学 R 零基础学习 R 语言”即可。
+- 联系方式：请前往“统计之都”的 [R 语言论坛](https://d.cosx.org/t/r)，直接发帖子提问或吐槽。
 
-欢迎跟我们联系，为本书纠错、吐槽、写读后感、学习笔记……我们会发布在本站的“[书友之窗](/#posts)”栏目，再版时有可能收进正文、封底、腰封……
+- 配套视频：基于本书的在线课程已上架[艾思云课堂](https://v.ais.cn/courseDetail/1087)，欢迎选购。
 
-联系方式：
-
-1. 公开话题请前往“统计之都”的 [R 语言论坛](https://d.cosx.org/t/r)，直接发帖子就可以。一般情况下，本书作者会在 24 小时内回应。
-
-2. 私密话题请发邮件至<xuer@pzhao.net>。一般情况下，回复会比较迟。
+- 源码：本书使用 R bookdown 包写成，书稿源码[见这里](https://github.com/pzhaonet/bookxuer)。
 
 ---
 
